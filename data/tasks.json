@@ -17,7 +17,7 @@
     "owner": null,
     "branch": null,
     "evidence": null,
-    "note": "Depende de FF-001, upload ao GitHub e ativação de Pages por Actions."
+    "note": "Workflow enviado ao GitHub. Consulta Pages/API bloqueada por HTTP 403; ativação em Settings > Pages > GitHub Actions ainda não verificada. A demo depende de FF-001."
   },
   {
     "id": "FF-003",
@@ -56,7 +56,7 @@
     "priority": "P0",
     "owner": "codex-a",
     "branch": null,
-    "evidence": "python -m unittest discover -s tests -v: 4/4 PASS; node --check public/app.js: PASS; build local: PASS",
-    "note": "Estrutura implementada e validada localmente. Publicação no GitHub e demo jogável ainda são etapas separadas."
+    "evidence": "Base bcbbeca enviada e confirmada em origin/main; 4/4 testes PASS; build e sintaxe PASS; Chromium desktop/mobile: render, filtros, estado vazio e ausência de erros JS PASS.",
+    "note": "Portal e fluxo implementados. Publicação do site via Pages e importação da demo continuam bloqueadas, registradas em FF-001/002."
   }
 ]
