@@ -1,0 +1,62 @@
+[
+  {
+    "id": "FF-001",
+    "title": "Importar a base atual e reconciliar o lote 46",
+    "status": "blocked",
+    "priority": "P0",
+    "owner": null,
+    "branch": null,
+    "evidence": null,
+    "note": "Acesso ao pacote original bloqueado. O relatório informa v45 pública e alterações locais v46; ainda não verificadas nesta conta."
+  },
+  {
+    "id": "FF-002",
+    "title": "Publicar e testar a primeira demo no GitHub Pages",
+    "status": "blocked",
+    "priority": "P0",
+    "owner": null,
+    "branch": null,
+    "evidence": null,
+    "note": "Depende de FF-001, upload ao GitHub e ativação de Pages por Actions."
+  },
+  {
+    "id": "FF-003",
+    "title": "Conferir as atualizações de cânone e a conversa da outra conta",
+    "status": "todo",
+    "priority": "P1",
+    "owner": null,
+    "branch": null,
+    "evidence": null,
+    "note": "PDF recebido: nome v0.7, conteúdo identifica v0.6. Não publicar spoilers nem tratar propostas como decisões."
+  },
+  {
+    "id": "FF-004",
+    "title": "Revisar alternância dos passos das arquivistas em escala nativa",
+    "status": "todo",
+    "priority": "P1",
+    "owner": null,
+    "branch": null,
+    "evidence": null,
+    "note": "Segundo o handoff: walks não ativados. Conferir os arquivos atuais antes de trabalhar; QA automática não substitui revisão visual."
+  },
+  {
+    "id": "FF-005",
+    "title": "Redesenhar lenha, pesca e manta com prova no cenário",
+    "status": "todo",
+    "priority": "P2",
+    "owner": null,
+    "branch": null,
+    "evidence": null,
+    "note": "Prioridade herdada do handoff, sujeita à confirmação da base e às orientações mais recentes."
+  },
+  {
+    "id": "FF-006",
+    "title": "Preparar o portal e o fluxo das duas contas",
+    "status": "done",
+    "priority": "P0",
+    "owner": "codex-a",
+    "branch": null,
+    "evidence": "python -m unittest discover -s tests -v: 4/4 PASS; node --check public/app.js: PASS; build local: PASS",
+    "note": "Estrutura implementada e validada localmente. Publicação no GitHub e demo jogável ainda são etapas separadas."
+  }
+]

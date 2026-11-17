@@ -1,0 +1,16 @@
+name: Tarefa de desenvolvimento
+description: Propor uma tarefa para a fila versionada do portal
+title: "[Proposta] "
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Resultado desejado
+      description: Descreva o problema e como verificar a entrega.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto, referências e dependências
+      description: Sem spoilers internos. A proposta só entra na fila após receber ID em data/tasks.json.
