@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "version": "v-demo-arquivos-r7",
+    "entry": "demos/v-demo-arquivos-r7/index.html",
+    "commit": "32bad344980fafff1c22f287732b6af9acea1e89",
+    "summary": "Revisão visual dos Arquivos aprovada pelo autor; módulo central alinhado, mesa tratada e uma única plataforma invisível.",
+    "checks": "Sintaxe JS; 8 saltos reais, 8 saves e 12 tentativas sem Percepção PASS. Revisão visual por capturas. Sem run completa; deploy público ainda não verificado."
+  }
+]
