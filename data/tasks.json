@@ -98,5 +98,15 @@
     "branch": null,
     "evidence": null,
     "note": "Faltam variações visuais do boneco e estados de segurar, brincar, parar, virar e conversar. A pista de tinta nas mãos fica no diálogo."
+  },
+  {
+    "id": "FF-011",
+    "title": "Concluir coerência visual e publicar a correção P1",
+    "status": "blocked",
+    "priority": "P1",
+    "owner": "codex-a",
+    "branch": null,
+    "evidence": null,
+    "note": "Entrega parcial 59e6fd2 na branch entrega-visual-p1: casas/forja visíveis, fundos ga/gd separados, arquivista anterior e 13 sheets reexportados. Sete mapas sem erros; sem run completa. Faltam masters da galeria para retrabalho, revisão artística final e ferramenta para substituir o site original."
   }
 ]
