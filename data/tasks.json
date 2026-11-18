@@ -58,5 +58,15 @@
     "branch": null,
     "evidence": "Base bcbbeca enviada e confirmada em origin/main; 4/4 testes PASS; build e sintaxe PASS; Chromium desktop/mobile: render, filtros, estado vazio e ausência de erros JS PASS.",
     "note": "Portal e fluxo implementados. Publicação do site via Pages e importação da demo continuam bloqueadas, registradas em FF-001/002."
+  },
+  {
+    "id": "FF-008",
+    "title": "Melhorar o portal e destacar downloads",
+    "status": "doing",
+    "priority": "P1",
+    "owner": "codex-a",
+    "branch": "codex-a/ff-008-downloads-ui",
+    "evidence": null,
+    "note": "Pedido direto do autor: disponibilizar os ZIPs na página e melhorar UI/UX. Arquivos enviados à branch entrega-assets."
   }
 ]
