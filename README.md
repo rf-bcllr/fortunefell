@@ -37,3 +37,9 @@ Pull requests executam os testes e disponibilizam o portal como artifact para do
 - docs/CONTEXTO.md: referências recebidas e incertezas.
 
 O site é uma visão de leitura dos registros do commit publicado. Alterações feitas numa conta só chegam à outra após commit/push e integração. Nenhum token é incluído no navegador e nenhum backend adicional é necessário.
+
+## Downloads de assets
+
+[Baixar pacote completo](https://github.com/rf-bcllr/fortunefell/raw/refs/heads/entrega-assets/entregas/fortune-fell-todos-assets-e-documentacao.zip) · [Pacote leve](https://github.com/rf-bcllr/fortunefell/raw/refs/heads/entrega-assets/entregas/fortune-fell-assets-e-instrucoes.zip)
+
+O portal destaca os downloads, as fontes separadas e o progresso. Os assets ainda precisam ser integrados à demo; Llewlás, Llúpin e estados adicionais do boneco continuam na fila.

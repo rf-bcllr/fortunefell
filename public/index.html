@@ -1,10 +1,53 @@
 <!doctype html>
-<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fortune Fell — Diário de desenvolvimento</title><link rel="stylesheet" href="style.css">
-<body><header><a class="brand" href="./">FORTUNE FELL <span>ILHAS DA FORTUNA</span></a><nav aria-label="Principal"><a href="#demo">Demo</a><a href="#tarefas">Tarefas</a><a href="#versoes">Versões</a><a href="https://github.com/rf-bcllr/fortunefell">GitHub ↗</a></nav></header>
-<main><section class="intro"><p class="eyebrow">DIÁRIO ABERTO DE DESENVOLVIMENTO</p><h1>Um mundo em construção.<br>Um rumo compartilhado.</h1><p>Acompanhe a demo, as prioridades e as entregas das duas frentes do Codex.</p><p class="stamp">Registro do portal: {{COMMIT}}</p></section>
-<section id="demo"><h2>Explorar a demo</h2>{{DEMO}}<p class="muted">As versões abaixo só aparecem quando seus arquivos estão presentes nesta publicação. O portal não confirma playtest automaticamente.</p></section>
-<section id="tarefas"><div class="section-heading"><h2>O próximo passo</h2><label>Mostrar <select id="status"><option value="all">Todas as tarefas</option><option value="blocked">Bloqueadas</option><option value="todo">Priorizadas</option><option value="doing">Em andamento</option><option value="review">Em revisão</option><option value="done">Concluídas</option></select></label></div><p>Codex A e Codex B usam o mesmo usuário GitHub. O responsável registrado identifica a sessão de trabalho.</p><div id="task-list">{{TASKS}}</div><p id="empty" hidden>Nenhuma tarefa nesse estado.</p></section>
-<section id="versoes"><h2>Versões disponíveis</h2>{{RELEASES}}</section>
-<section class="process"><h2>Duas frentes, uma base</h2><ol><li>Reservar uma tarefa com ID, conta e branch.</li><li>Entregar código e resultado dos testes por pull request.</li><li>Revisar antes de integrar em main e publicar.</li></ol><p>O painel é uma fotografia do commit publicado. As atualizações entram por pull request nos registros do repositório.</p><a href="https://github.com/rf-bcllr/fortunefell/blob/main/docs/COLABORACAO.md">Como trabalhar nas duas contas ↗</a></section></main>
-<footer>Fortune Fell · Sem spoilers de lore neste painel · <a href="https://github.com/rf-bcllr/fortunefell/actions">Ver publicações e verificações</a></footer><script src="app.js" defer></script></body></html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Baixe os assets de Fortune Fell, acompanhe as prioridades e continue o desenvolvimento das Ilhas da Fortuna.">
+  <meta name="theme-color" content="#160f20">
+  <title>Fortune Fell — Assets e desenvolvimento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header">
+  <a class="brand" href="./" aria-label="Fortune Fell, início"><span class="brand-mark" aria-hidden="true">✦</span><span>FORTUNE FELL<small>ILHAS DA FORTUNA</small></span></a>
+  <nav aria-label="Principal"><a href="#downloads">Downloads</a><a href="#tarefas">Progresso</a><a href="#demo">Demo</a><a class="nav-github" href="https://github.com/rf-bcllr/fortunefell">GitHub <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="conteudo" tabindex="-1">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> CENTRAL DE DESENVOLVIMENTO</p>
+      <h1 id="hero-title">As Ilhas da Fortuna<br><em>ganham forma.</em></h1>
+      <p class="hero-description">Baixe as artes, leve a documentação para a outra conta e acompanhe o que vem a seguir.</p>
+      <div class="hero-actions"><a class="button button-primary" href="{{COMPLETE_URL}}">Baixar tudo <span aria-hidden="true">↓</span><small>{{COMPLETE_SIZE}}</small></a><a class="text-link" href="#downloads">Prefere um pacote menor? <span aria-hidden="true">↘</span></a></div>
+      <ul class="art-stats" aria-label="Conteúdo dos pacotes"><li><strong>7</strong> personagens</li><li><strong>21</strong> portraits</li><li><strong>4</strong> lotes reunidos</li></ul>
+    </div>
+    <figure class="art-showcase"><span class="art-corner" aria-hidden="true">✦</span><div class="art-stage"><img src="art/witch-hut.png" alt="Asset da cabana da Bruxa das Charnecas, com telhado violeta, pedra envelhecida e janela iluminada." width="176" height="144"></div><figcaption><span>DO ATELIÊ</span>Cabana das Charnecas <small>Arte do lote 03 · escala nativa preservada</small></figcaption></figure>
+  </section>
+
+  <section id="downloads" class="section" aria-labelledby="downloads-title">
+    <div class="section-heading"><div><p class="eyebrow">ARQUIVOS PARA CONTINUAR</p><h2 id="downloads-title">Escolha seu download.</h2></div><span class="section-index" aria-hidden="true">01 /</span></div>
+    <p class="section-intro">Links diretos do GitHub. Escolha o completo ou comece pelo leve; não precisa baixar os dois.</p>
+    <div class="download-grid">{{DOWNLOADS}}</div>
+    <details class="source-files"><summary><span>Precisa das imagens-fonte separadas?</span><span class="summary-hint">3 partes menores <span aria-hidden="true">+</span></span></summary><div class="source-content"><p>Para reprocessar a arte a partir do pacote leve, baixe as três partes abaixo e extraia na mesma pasta. O pacote completo já contém todas elas.</p><ul class="source-list">{{SOURCES}}</ul></div></details>
+    <div class="handoff-tip"><span class="tip-mark" aria-hidden="true">↳</span><p><strong>Vai continuar no outro Codex?</strong> Extraia o ZIP e envie a pasta ou o pacote à outra conversa. Comece por <code>LEIA_PRIMEIRO.md</code> e <code>PASSAGEM_OUTRO_CODEX.md</code>. Os candidatos e as pendências estão sinalizados nesses arquivos.</p></div>
+    <p class="fine-print">Prefere abrir a pasta de arquivos? <a href="https://github.com/rf-bcllr/fortunefell/tree/entrega-assets/entregas">Ver entregas no GitHub ↗</a> <span aria-hidden="true">·</span> <a href="https://github.com/rf-bcllr/fortunefell/blob/entrega-assets/entregas/SHA256.json">Conferir hashes</a></p>
+  </section>
+
+  <section id="tarefas" class="section" aria-labelledby="tasks-title">
+    <div class="section-heading"><div><p class="eyebrow">UM RUMO COMPARTILHADO</p><h2 id="tasks-title">O que vem a seguir.</h2></div><span class="section-index" aria-hidden="true">02 /</span></div>
+    <div class="progress-summary"><span><strong>{{TASK_DONE}}</strong> concluídas</span><span><strong>{{TASK_OPEN}}</strong> na fila ou bloqueadas</span><span class="snapshot-note">Estado do commit publicado</span></div>
+    <div class="task-toolbar"><label class="search-label" for="task-search"><span>Buscar tarefa</span><input id="task-search" type="search" placeholder="Personagem, entrega ou ID…" autocomplete="off"></label><label for="status"><span>Estado</span><select id="status"><option value="all">Todos os estados</option><option value="blocked">Bloqueadas</option><option value="todo">Priorizadas</option><option value="doing">Em andamento</option><option value="review">Em revisão</option><option value="done">Concluídas</option></select></label></div>
+    <p id="task-result-count" class="result-count" role="status" aria-live="polite"></p>
+    <div id="task-list" class="task-list">{{TASKS}}</div>
+    <div id="empty" class="empty-state" hidden><strong>Nenhuma tarefa encontrada.</strong><p>Tente outro termo ou estado.</p><button type="button" id="clear-filters" class="button button-secondary">Limpar filtros</button></div>
+    <details class="collaboration"><summary>Como as duas contas trabalham juntas</summary><p>Codex A e Codex B usam o mesmo usuário GitHub. Cada tarefa tem uma conta responsável, uma branch e evidências da entrega. As mudanças chegam ao painel depois de integradas e publicadas.</p><a href="https://github.com/rf-bcllr/fortunefell/blob/main/docs/COLABORACAO.md">Ler o fluxo de colaboração ↗</a></details>
+  </section>
+
+  <section id="demo" class="section demo-section" aria-labelledby="demo-title"><div class="section-heading"><div><p class="eyebrow">EXPLORE AS ILHAS</p><h2 id="demo-title">A demo.</h2></div><span class="section-index" aria-hidden="true">03 /</span></div>{{DEMO}}<details class="versions" id="versoes"><summary>Versões importadas neste portal</summary>{{RELEASES}}</details></section>
+</main>
+<footer class="site-footer"><a class="footer-brand" href="./">FORTUNE FELL <span aria-hidden="true">✦</span></a><p>Artes, decisões e próximos passos.<br><a href="https://github.com/rf-bcllr/fortunefell/actions">Publicações e verificações ↗</a></p><small>Portal <code>{{COMMIT}}</code></small></footer>
+<script src="app.js" defer></script>
+</body>
+</html>

@@ -52,16 +52,27 @@ def validate(root):
 def build(root=ROOT, output=None, commit='local'):
     output = output or root / 'site'
     tasks, releases = validate(root)
+    downloads = json.loads((root / 'data/downloads.json').read_text())
+    for item in downloads['packages'] + downloads['sources']:
+        assert item['url'].startswith('https://github.com/rf-bcllr/fortunefell/raw/refs/heads/entrega-assets/entregas/') and item['url'].endswith('.zip'), 'URL de download inválida'
+        assert re.fullmatch(r'[a-f0-9]{64}', item['sha256']) and item['bytes'] > 0
+    complete = next(p for p in downloads['packages'] if p['kind'] == 'complete')
+    download_cards = []
+    for item in downloads['packages']:
+        primary = item['kind'] == 'complete'
+        download_cards.append(f'<article class="download-card {esc(item["kind"])}"><span class="package-tag">{"Tudo em um arquivo" if primary else "Download menor"}</span><h3>{esc(item["name"])}</h3><p class="package-size">{esc(item["size"])}</p><p class="package-description">{esc(item["description"])}</p><a class="button button-{"primary" if primary else "secondary"}" href="{esc(item["url"])}">Baixar pacote ↓</a></article>')
+    sources = ''.join(f'<li><a href="{esc(i["url"])}"><span>{esc(i["name"])} ↓</span><small>{esc(i["size"])}</small></a></li>' for i in downloads['sources'])
     template = (root / 'public/index.html').read_text()
     cards = []
     for t in sorted(tasks, key=lambda t: (t['priority'], t['id'])):
-        cards.append(f'<article class="task" data-status="{esc(t["status"])}"><p class="task-meta">{esc(t["id"])} · {esc(t["priority"])} · {STATES[t["status"]]}</p><h3>{esc(t["title"])}</h3><p>Responsável: {esc(t["owner"] or "a reservar")}</p><p class="task-note">{esc(t["note"])}</p>' + (f'<p>Evidência: <code>{esc(t["evidence"])}</code></p>' if t['evidence'] else '') + '</article>')
+        cards.append(f'<article class="task" data-status="{esc(t["status"])}"><div class="task-meta"><span class="task-id">{esc(t["id"])}</span><span class="priority">{esc(t["priority"])}</span><span class="task-state">{STATES[t["status"]]}</span></div><h3>{esc(t["title"])}</h3><p class="task-note">{esc(t["note"])}</p><p class="task-owner">Responsável: {esc(t["owner"] or "a reservar")}</p>' + (f'<details class="task-details"><summary>Evidência da entrega</summary><p>{esc(t["evidence"])}</p></details>' if t['evidence'] else '') + '</article>')
     version_cards = []
     for r in releases:
         version_cards.append(f'<article class="release"><h3>{esc(r["version"])}</h3><p>{esc(r["summary"])}</p><p>Origem: <code>{esc(r["commit"])}</code></p><p>Verificações: {esc(r["checks"])}</p><a href="{esc(r["entry"])}">Testar {esc(r["version"])}</a></article>')
-    demo = f'<a class="button" href="{esc(releases[-1]["entry"])}">Jogar {esc(releases[-1]["version"])}</a>' if releases else '<div class="notice"><strong>Demo aguardando importação</strong><p>A base original ainda não está neste repositório. Nenhuma versão jogável foi publicada aqui.</p></div>'
+    demo = f'<a class="button" href="{esc(releases[-1]["entry"])}">Jogar {esc(releases[-1]["version"])}</a>' if releases else '<div class="notice"><strong>Demo aguardando importação</strong><p>Os assets deste pacote ainda precisam ser integrados à demo. A versão externa continua no endereço original.</p><a class="button button-secondary" href="https://fortune-fell-recuperado.fragrantgear2.chatgpt.site/">Abrir demo original ↗</a></div>'
     replacements = {'COMMIT': esc(commit), 'TASKS': ''.join(cards), 'DEMO': demo, 'RELEASES': ''.join(version_cards) or '<p>Nenhuma versão importada neste portal.</p>'}
-    page = re.sub(r'\{\{(COMMIT|TASKS|DEMO|RELEASES)\}\}', lambda m: replacements[m[1]], template)
+    replacements.update(COMPLETE_URL=esc(complete['url']), COMPLETE_SIZE=esc(complete['size']), DOWNLOADS=''.join(download_cards), SOURCES=sources, TASK_DONE=str(sum(t['status'] == 'done' for t in tasks)), TASK_OPEN=str(sum(t['status'] != 'done' for t in tasks)))
+    page = re.sub(r'\{\{([A-Z_]+)\}\}', lambda m: replacements[m[1]], template)
     output.mkdir(parents=True, exist_ok=True)
     shutil.copytree(root / 'public', output, dirs_exist_ok=True)
     (output / 'index.html').write_text(page)

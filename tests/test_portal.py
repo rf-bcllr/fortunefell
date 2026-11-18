@@ -28,9 +28,9 @@ class PortalTest(unittest.TestCase):
         self.write('tasks.json', tasks)
         page = portal.build(self.root)
         self.assertIn('Demo aguardando importação', page)
-        self.assertNotIn('class="button"', page)
+        self.assertNotIn('href="demos/', page)
         self.assertIn('&lt;img', page)
-        self.assertNotIn('<img', page)
+        self.assertNotIn('<img src=x onerror=', page)
         self.assertNotIn('{{', page)
 
     def test_task_reservation_and_done_evidence(self):

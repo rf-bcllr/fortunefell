@@ -7,7 +7,7 @@
     "owner": null,
     "branch": null,
     "evidence": null,
-    "note": "Acesso ao pacote original bloqueado. O relatório informa v45 pública e alterações locais v46; ainda não verificadas nesta conta."
+    "note": "HTML recebido; pacote completo do projeto e reconciliação com a versão da outra conta ainda pendentes. Assets novos não integrados à demo."
   },
   {
     "id": "FF-002",
@@ -62,11 +62,41 @@
   {
     "id": "FF-008",
     "title": "Melhorar o portal e destacar downloads",
-    "status": "doing",
+    "status": "done",
     "priority": "P1",
     "owner": "codex-a",
     "branch": "codex-a/ff-008-downloads-ui",
+    "evidence": "4 testes Python, sintaxe JS e build PASS. Chromium: downloads, busca, limpar filtros, ausência de erros JS e layout 1280/390/320 PASS. Publicação pelo workflow Pages; deploy remoto ainda não confirmado.",
+    "note": "Downloads completos e leves em destaque; interface responsiva com busca, filtros e pendências reais."
+  },
+  {
+    "id": "FF-007",
+    "title": "Entregar assets e documentação para a outra conta",
+    "status": "done",
+    "priority": "P1",
+    "owner": "codex-a",
+    "branch": null,
+    "evidence": "ZIPs públicos na branch entrega-assets, commit 4bd2db13d3cbc512839c841b32b845d7678828c5; download parcial confirmado por HTTP 206.",
+    "note": "Pacote completo e leve, três partes de imagens-fonte e instruções de continuidade. Candidatos de animação ainda exigem integração e revisão."
+  },
+  {
+    "id": "FF-009",
+    "title": "Produzir sprites e portraits de Llewlás e Llúpin",
+    "status": "todo",
+    "priority": "P1",
+    "owner": null,
+    "branch": null,
     "evidence": null,
-    "note": "Pedido direto do autor: disponibilizar os ZIPs na página e melhorar UI/UX. Arquivos enviados à branch entrega-assets."
+    "note": "Personagens adicionados à fila; preservar referências e diretrizes no handoff."
+  },
+  {
+    "id": "FF-010",
+    "title": "Concluir estados do boneco de pano e interações de Ínys",
+    "status": "todo",
+    "priority": "P1",
+    "owner": null,
+    "branch": null,
+    "evidence": null,
+    "note": "Faltam variações visuais do boneco e estados de segurar, brincar, parar, virar e conversar. A pista de tinta nas mãos fica no diálogo."
   }
 ]
