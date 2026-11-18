@@ -1,0 +1,22 @@
+{
+  "fortune-fell-assets-e-instrucoes.zip": {
+    "bytes": 3529573,
+    "sha256": "29933fd9b777c59b896d70b003db2ba76e185e03619be07a3e89b9d8b4281d3d"
+  },
+  "fortune-fell-fontes-01.zip": {
+    "bytes": 9530668,
+    "sha256": "a0c83f08c6cefa4006d0275d628381d221f1a87bbf09969c539d27d7247e402e"
+  },
+  "fortune-fell-fontes-02.zip": {
+    "bytes": 9628551,
+    "sha256": "6cd2eb9a7ada4ca35805653c1d8fe5cb2f727ddc3640744554c64d20c7858b7f"
+  },
+  "fortune-fell-fontes-03.zip": {
+    "bytes": 9684636,
+    "sha256": "0b3fc2c95e7691e3422b85175000e3e5bc09ed3bb02799509447c876824aac3f"
+  },
+  "fortune-fell-todos-assets-e-documentacao.zip": {
+    "bytes": 32373002,
+    "sha256": "e1da5335160a6e7ef3b045d371f9542c63c3c66de143d324692e1849fcd6b6f4"
+  }
+}
