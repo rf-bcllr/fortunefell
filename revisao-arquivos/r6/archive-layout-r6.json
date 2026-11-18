@@ -1,0 +1,493 @@
+{
+  "version": "r6",
+  "scope": "ga only; replaces r2 layout, not cities/witchclearing",
+  "map": {
+    "width_tiles": 58,
+    "height_tiles": 24,
+    "floor_row": 22,
+    "envelope": "stone sidewalls x0/57, ceiling y0/1, uniform solid floor rows22/23"
+  },
+  "whole_modules": [
+    {
+      "id": "A1",
+      "key": "archive_gallery_mid_a",
+      "position": [
+        192,
+        194
+      ],
+      "native_size": [
+        240,
+        158
+      ],
+      "role": "first horizontal gallery reached by stairs",
+      "surfaces": [
+        {
+          "rect": [
+            212,
+            234,
+            200,
+            5
+          ],
+          "role": "walkable roof"
+        },
+        {
+          "rect": [
+            196,
+            304,
+            232,
+            5
+          ],
+          "role": "lower gallery balcony"
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "key": "archive_gallery_mid_b",
+      "position": [
+        432,
+        120
+      ],
+      "native_size": [
+        128,
+        192
+      ],
+      "role": "ONLY vertical gallery, in front of statue",
+      "surfaces": [
+        {
+          "rect": [
+            450,
+            129,
+            92,
+            5
+          ],
+          "role": "NPC+first chest roof"
+        },
+        {
+          "rect": [
+            450,
+            205,
+            92,
+            5
+          ],
+          "role": "middle crossbar"
+        },
+        {
+          "rect": [
+            450,
+            270,
+            92,
+            5
+          ],
+          "role": "lower crossbar"
+        }
+      ],
+      "render_note": "Original x unchanged; y raised48px versusR5 to align lower arch with statue symbol arch."
+    },
+    {
+      "id": "A2",
+      "key": "archive_gallery_mid_a",
+      "position": [
+        672,
+        56
+      ],
+      "native_size": [
+        240,
+        158
+      ],
+      "role": "second horizontal upper-right gallery; visible all the time, access requires invisible platforms",
+      "surfaces": [
+        {
+          "rect": [
+            692,
+            96,
+            200,
+            5
+          ],
+          "role": "second chest roof"
+        },
+        {
+          "rect": [
+            676,
+            166,
+            232,
+            5
+          ],
+          "role": "lower balcony, inaccessible from central gallery without invisible platforms"
+        }
+      ]
+    }
+  ],
+  "stairs": [
+    {
+      "id": "stairs1",
+      "key": "archive_stair",
+      "position": [
+        96,
+        292
+      ],
+      "native_size": [
+        96,
+        64
+      ]
+    },
+    {
+      "id": "stairs2",
+      "key": "archive_stair",
+      "position": [
+        328,
+        170
+      ],
+      "native_size": [
+        96,
+        64
+      ]
+    }
+  ],
+  "stair_source_treads": [
+    {
+      "x": 14,
+      "y": 54,
+      "w": 8
+    },
+    {
+      "x": 22,
+      "y": 46,
+      "w": 8
+    },
+    {
+      "x": 30,
+      "y": 38,
+      "w": 8
+    },
+    {
+      "x": 38,
+      "y": 30,
+      "w": 8
+    },
+    {
+      "x": 46,
+      "y": 22,
+      "w": 8
+    },
+    {
+      "x": 54,
+      "y": 22,
+      "w": 38
+    }
+  ],
+  "stair_note": "Second whole stair sits ON A1 roof234 (canvasbottom234), landing192; B1roof177 requires only15px hop. Firststair remains96,292/landing314. One visible whole32x8 hplat at224,276 connects firstlanding to A1 roof. No auto-step/global physics changes.",
+  "perception_platforms": [
+    {
+      "id": "ga_reveal_pad1",
+      "type": "hplat",
+      "pixel_position": [
+        560,
+        144
+      ],
+      "width_pixels": 48,
+      "tx": 35,
+      "ty": 9,
+      "w": 3
+    },
+    {
+      "id": "ga_reveal_pad2",
+      "type": "hplat",
+      "pixel_position": [
+        592,
+        112
+      ],
+      "width_pixels": 48,
+      "tx": 37,
+      "ty": 7,
+      "w": 3
+    }
+  ],
+  "invisible_platform_note": "Retain existing Perception on()/drawHidden behavior; these are invisible access platforms explicitly requested by author, not additional gallery artwork. No gating/hiding A2 image itself. Do not give A2 hidden/static bridge alternative.",
+  "statue": {
+    "key": "archive_three_graces",
+    "center": [
+      496,
+      352
+    ],
+    "native_size": [
+      175,
+      320
+    ],
+    "role": "approved statue behind B1; face remains above gallery, do not replace art"
+  },
+  "false_shelf": {
+    "key": "archive_false_shelf",
+    "position": [
+      760,
+      224
+    ],
+    "native_size": [
+      96,
+      128
+    ],
+    "entity_center": [
+      808,
+      352
+    ],
+    "role": "ONE whole old bookshelf alone in lower east wing beneath A2; preserve secret flag and destination, no34x78 crop"
+  },
+  "entities": {
+    "door_to_gh": [
+      56,
+      352
+    ],
+    "archivist": [
+      656,
+      352
+    ],
+    "apprentice": [
+      400,
+      177
+    ],
+    "ga_stash": [
+      444,
+      177
+    ],
+    "ga_stash2": [
+      792,
+      96
+    ],
+    "gilead_secret": [
+      808,
+      352
+    ],
+    "catalog_station": [
+      688,
+      352
+    ]
+  },
+  "spawns": {
+    "door": [
+      5,
+      22
+    ],
+    "secret": [
+      50,
+      22
+    ]
+  },
+  "route": [
+    {
+      "from_surface": "first-stair",
+      "to_surface": "first-stair",
+      "start": [
+        120,
+        352
+      ],
+      "target": [
+        160,
+        314
+      ],
+      "perception": false
+    },
+    {
+      "from_surface": "visible-step",
+      "to_surface": "visible-step",
+      "start": [
+        180,
+        314
+      ],
+      "target": [
+        230,
+        276
+      ],
+      "perception": false
+    },
+    {
+      "from_surface": "first-horizontal-roof",
+      "to_surface": "first-horizontal-roof",
+      "start": [
+        240,
+        276
+      ],
+      "target": [
+        240,
+        234
+      ],
+      "perception": false
+    },
+    {
+      "from_surface": "stair-on-roof-mid",
+      "to_surface": "second-stair-landing",
+      "start": [
+        340,
+        234
+      ],
+      "target": [
+        374,
+        192
+      ],
+      "perception": false
+    },
+    {
+      "from_surface": "second-stair-landing",
+      "to_surface": "new-visible-step",
+      "start": [
+        414,
+        192
+      ],
+      "target": [
+        438,
+        160
+      ],
+      "perception": false
+    },
+    {
+      "from_surface": "new-visible-step",
+      "to_surface": "central-vertical",
+      "start": [
+        442,
+        160
+      ],
+      "target": [
+        472,
+        129
+      ],
+      "perception": false
+    },
+    {
+      "from_surface": "central-vertical",
+      "to_surface": "invisible1",
+      "start": [
+        534,
+        129
+      ],
+      "target": [
+        572,
+        144
+      ],
+      "perception": true
+    },
+    {
+      "from_surface": "invisible2",
+      "to_surface": "invisible2",
+      "start": [
+        592,
+        144
+      ],
+      "target": [
+        600,
+        112
+      ],
+      "perception": true
+    },
+    {
+      "from_surface": "upper-right-roof",
+      "to_surface": "upper-right-roof",
+      "start": [
+        632,
+        112
+      ],
+      "target": [
+        700,
+        96
+      ],
+      "perception": true
+    }
+  ],
+  "bypass_audit": {
+    "reason": "After raising B1, moved A2 right32px to maintain Perception-only access",
+    "central_to_A2_lower_gap": 134,
+    "verification": "12 actual negative jump samples PASS"
+  },
+  "supersedes": [
+    "archive-map-r3.js",
+    "all prior archive crop/mosaic patches"
+  ],
+  "quality_status": "R6 awaiting author screenshot approval",
+  "verified_native_route": "route-and-save-r4-verification.json:9 actual jumps PASS",
+  "negative_access_verification": "perception-r4-verification.json: 12 attempts failed without Perception",
+  "ground_archivist": [
+    656,
+    352
+  ],
+  "catalog_tile": [
+    43,
+    22
+  ],
+  "html_sha256": "005784b0423456b39b9428fa7f61ca9aa86de9c8ff6aa627e18eed4cf4a5dbbf",
+  "foreground": "Legacy foreground disabled only for ga to avoid black arch cutouts over the modules",
+  "visible_platforms": [
+    {
+      "key": "hplat",
+      "native_size": [
+        32,
+        8
+      ],
+      "pixel_position": [
+        224,
+        276
+      ],
+      "collider": [
+        224,
+        276,
+        32,
+        5
+      ],
+      "tint": "existing FA_tinted purple archive effect; whole asset, no stretching"
+    },
+    {
+      "key": "hplat",
+      "native_size": [
+        32,
+        8
+      ],
+      "pixel_position": [
+        424,
+        160
+      ],
+      "collider": [
+        424,
+        160,
+        32,
+        5
+      ]
+    }
+  ],
+  "panorama": {
+    "result": "PASS",
+    "camera_samples": 689,
+    "native_panorama": [
+      560,
+      315
+    ],
+    "source": "Complete1672x941master, uniformly downsampled",
+    "source_not_sliced_or_tiled": true,
+    "viewport_always_covered": true,
+    "max_parallax_step_per_camera_pixel": 1,
+    "javascript_errors": [],
+    "asset_failures": [],
+    "prints": "Four actual400x225camera views; not a stitched multi-camera panorama"
+  },
+  "upper_npc": [
+    472,
+    129
+  ],
+  "first_chest": [
+    516,
+    129
+  ],
+  "alignment": {
+    "module_x_unchanged": 432,
+    "module_y": 120,
+    "lower_arch_top_world_y": 284,
+    "statue_emblem_arch_top_world_y": 284
+  },
+  "floor": {
+    "theme": "gileadD",
+    "map_width": 58,
+    "map_height": 24,
+    "floor_y": 352,
+    "all_floor_tiles_solid": true
+  },
+  "second_chest": [
+    824,
+    96
+  ]
+}

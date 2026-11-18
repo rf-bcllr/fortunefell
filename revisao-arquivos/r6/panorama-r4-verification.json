@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "camera_samples": 689,
+  "native_panorama": [
+    560,
+    315
+  ],
+  "source": "Complete1672x941master, uniformly downsampled",
+  "source_not_sliced_or_tiled": true,
+  "viewport_always_covered": true,
+  "max_parallax_step_per_camera_pixel": 1,
+  "javascript_errors": [],
+  "asset_failures": [],
+  "prints": "Four actual400x225camera views; not a stitched multi-camera panorama"
+}
