@@ -1,0 +1,1173 @@
+{
+  "exp_portrait_artificer_neutral": {
+    "target_key": "exp_portrait_artificer_neutral",
+    "runtime_key_exists": true,
+    "source": "sources/lote04_portraits_source.png",
+    "source_sha256": "a8aae5b9cb05c7ae1be3c97c77987127aa6c5b5c166da66ea921709c7ad11a77",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "source_region": [
+      13,
+      6,
+      500,
+      480
+    ],
+    "source_visible_dimensions": [
+      487,
+      474
+    ],
+    "shared_character_scale": 0.2546201232032854,
+    "character": "artificer",
+    "expression": "neutral",
+    "pivot": [
+      64,
+      127
+    ],
+    "palette": "one256-color source palette shared across expressions",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "primary_requested": true,
+    "width": 128,
+    "height": 128,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "portrait",
+    "art_source": "existing",
+    "sha256": "3befe3017b6a88a47773b4465d5de83e31fa51097bc790530178e41ca2194dbb",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/lote04_portraits_source.png",
+    "output": "assets/exp_portrait_artificer_neutral.png",
+    "before": "before/exp_portrait_artificer_neutral.png",
+    "render_review": "preserve_active_portrait",
+    "apply_automatically": false,
+    "review_reason": "Original active128x128 portrait already clean; BOX256 candidate keeps identity but is not a clear visual improvement. Preserve current active portrait.",
+    "decision": "preserve R7; candidate export has no clear gain"
+  },
+  "exp_portrait_artificer_listening": {
+    "target_key": "exp_portrait_artificer_listening",
+    "runtime_key_exists": true,
+    "source": "sources/lote04_portraits_source.png",
+    "source_sha256": "a8aae5b9cb05c7ae1be3c97c77987127aa6c5b5c166da66ea921709c7ad11a77",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "source_region": [
+      525,
+      6,
+      1012,
+      480
+    ],
+    "source_visible_dimensions": [
+      487,
+      474
+    ],
+    "shared_character_scale": 0.2546201232032854,
+    "character": "artificer",
+    "expression": "listening",
+    "pivot": [
+      64,
+      127
+    ],
+    "palette": "one256-color source palette shared across expressions",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "primary_requested": true,
+    "width": 128,
+    "height": 128,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "portrait",
+    "art_source": "existing",
+    "sha256": "ae9e859f41a09d9d08961314b84fc215dc9e6bf90e0e16047030ed095dec4330",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/lote04_portraits_source.png",
+    "output": "assets/exp_portrait_artificer_listening.png",
+    "before": "before/exp_portrait_artificer_listening.png",
+    "render_review": "preserve_active_portrait",
+    "apply_automatically": false,
+    "review_reason": "Original active128x128 portrait already clean; BOX256 candidate keeps identity but is not a clear visual improvement. Preserve current active portrait.",
+    "decision": "preserve R7; candidate export has no clear gain"
+  },
+  "exp_portrait_artificer_reaction": {
+    "target_key": "exp_portrait_artificer_reaction",
+    "runtime_key_exists": true,
+    "source": "sources/lote04_portraits_source.png",
+    "source_sha256": "a8aae5b9cb05c7ae1be3c97c77987127aa6c5b5c166da66ea921709c7ad11a77",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "source_region": [
+      1037,
+      6,
+      1524,
+      480
+    ],
+    "source_visible_dimensions": [
+      487,
+      474
+    ],
+    "shared_character_scale": 0.2546201232032854,
+    "character": "artificer",
+    "expression": "reaction",
+    "pivot": [
+      64,
+      127
+    ],
+    "palette": "one256-color source palette shared across expressions",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "primary_requested": true,
+    "width": 128,
+    "height": 128,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "portrait",
+    "art_source": "existing",
+    "sha256": "60b96a8d2464070813111eb15cd8ec14861d32fc9c33f157707312eb39939f12",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/lote04_portraits_source.png",
+    "output": "assets/exp_portrait_artificer_reaction.png",
+    "before": "before/exp_portrait_artificer_reaction.png",
+    "render_review": "preserve_active_portrait",
+    "apply_automatically": false,
+    "review_reason": "Original active128x128 portrait already clean; BOX256 candidate keeps identity but is not a clear visual improvement. Preserve current active portrait.",
+    "decision": "preserve R7; candidate export has no clear gain"
+  },
+  "exp_portrait_inys_neutral": {
+    "target_key": "exp_portrait_inys_neutral",
+    "runtime_key_exists": true,
+    "source": "sources/portrait_expressions_source.png",
+    "source_sha256": "348065504c2242e0758453ee4cdb060ccf7029d179d33a4fe086d31ddd3f0a54",
+    "source_dimensions": [
+      971,
+      1619
+    ],
+    "source_region": [
+      19,
+      943,
+      285,
+      1240
+    ],
+    "source_visible_dimensions": [
+      266,
+      297
+    ],
+    "shared_character_scale": 0.4175084175084175,
+    "character": "inys",
+    "expression": "neutral",
+    "pivot": [
+      64,
+      127
+    ],
+    "palette": "one256-color source palette shared across expressions",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "primary_requested": true,
+    "width": 128,
+    "height": 128,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "portrait",
+    "art_source": "existing",
+    "sha256": "64ed9fb2f419eeb6109e33c7f9ce12998ddb146f3fd0eed8f85c4bd2a138ca7b",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/portrait_expressions_source.png",
+    "output": "assets/exp_portrait_inys_neutral.png",
+    "before": "before/exp_portrait_inys_neutral.png",
+    "render_review": "preserve_active_portrait",
+    "apply_automatically": false,
+    "review_reason": "Original active128x128 portrait already clean; BOX256 candidate keeps identity but is not a clear visual improvement. Preserve current active portrait.",
+    "decision": "preserve R7; candidate export has no clear gain"
+  },
+  "exp_portrait_inys_listening": {
+    "target_key": "exp_portrait_inys_listening",
+    "runtime_key_exists": true,
+    "source": "sources/portrait_expressions_source.png",
+    "source_sha256": "348065504c2242e0758453ee4cdb060ccf7029d179d33a4fe086d31ddd3f0a54",
+    "source_dimensions": [
+      971,
+      1619
+    ],
+    "source_region": [
+      340,
+      943,
+      606,
+      1240
+    ],
+    "source_visible_dimensions": [
+      266,
+      297
+    ],
+    "shared_character_scale": 0.4175084175084175,
+    "character": "inys",
+    "expression": "listening",
+    "pivot": [
+      64,
+      127
+    ],
+    "palette": "one256-color source palette shared across expressions",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "primary_requested": true,
+    "width": 128,
+    "height": 128,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "portrait",
+    "art_source": "existing",
+    "sha256": "dc7dc8ff8e14fb62d4659c29a33f6992ba12c53acec3a37b42f4287c9d1dfb53",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/portrait_expressions_source.png",
+    "output": "assets/exp_portrait_inys_listening.png",
+    "before": "before/exp_portrait_inys_listening.png",
+    "render_review": "preserve_active_portrait",
+    "apply_automatically": false,
+    "review_reason": "Original active128x128 portrait already clean; BOX256 candidate keeps identity but is not a clear visual improvement. Preserve current active portrait.",
+    "decision": "preserve R7; candidate export has no clear gain"
+  },
+  "exp_portrait_inys_reaction": {
+    "target_key": "exp_portrait_inys_reaction",
+    "runtime_key_exists": true,
+    "source": "sources/portrait_expressions_source.png",
+    "source_sha256": "348065504c2242e0758453ee4cdb060ccf7029d179d33a4fe086d31ddd3f0a54",
+    "source_dimensions": [
+      971,
+      1619
+    ],
+    "source_region": [
+      661,
+      948,
+      926,
+      1240
+    ],
+    "source_visible_dimensions": [
+      265,
+      292
+    ],
+    "shared_character_scale": 0.4175084175084175,
+    "character": "inys",
+    "expression": "reaction",
+    "pivot": [
+      64,
+      127
+    ],
+    "palette": "one256-color source palette shared across expressions",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "primary_requested": true,
+    "width": 128,
+    "height": 128,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "portrait",
+    "art_source": "existing",
+    "sha256": "c7d61c39e164929b356756ca0a7ef6f9d352b7f4d3ca518b5e5af0f58ec729d4",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/portrait_expressions_source.png",
+    "output": "assets/exp_portrait_inys_reaction.png",
+    "before": "before/exp_portrait_inys_reaction.png",
+    "render_review": "preserve_active_portrait",
+    "apply_automatically": false,
+    "review_reason": "Original active128x128 portrait already clean; BOX256 candidate keeps identity but is not a clear visual improvement. Preserve current active portrait.",
+    "decision": "preserve R7; candidate export has no clear gain"
+  },
+  "candidate_king_walk": {
+    "target_key": "exp_king_walk",
+    "runtime_key_exists": false,
+    "source": "sources/four_adults_walk_source.png",
+    "source_sha256": "675b1385a38bba0a2c0f359a475b50f3ab1de8dafe25105637b70917d2403905",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "source_regions": [
+      [
+        53,
+        8,
+        205,
+        245
+      ],
+      [
+        315,
+        8,
+        449,
+        245
+      ],
+      [
+        579,
+        8,
+        705,
+        244
+      ],
+      [
+        843,
+        8,
+        971,
+        244
+      ],
+      [
+        1096,
+        9,
+        1219,
+        243
+      ],
+      [
+        1349,
+        9,
+        1477,
+        244
+      ]
+    ],
+    "source_visible_dimensions": [
+      [
+        152,
+        237
+      ],
+      [
+        134,
+        237
+      ],
+      [
+        126,
+        236
+      ],
+      [
+        128,
+        236
+      ],
+      [
+        123,
+        234
+      ],
+      [
+        128,
+        235
+      ]
+    ],
+    "shared_scale": 0.16455696202531644,
+    "cell": [
+      40,
+      48
+    ],
+    "frames": 6,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pivot": [
+      20,
+      47
+    ],
+    "visible_height_reference": 39,
+    "duration_ms": 140,
+    "palette": "one64-color source palette shared across six frames; current idle palette reviewed as an alternate and rejected because it flattened fur/hair and skin",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "anchor_note": "Feet aligned to active R7 idle last pixel row47; legacy walk used bottom boundary47 leaving last row blank. No per-frame scale adjustment.",
+    "pending_checks": [
+      "Near/far leg alternation",
+      "Contact-foot sliding",
+      "Loop seam",
+      "Prop hand attachment",
+      "Body/head consistency with active idle"
+    ],
+    "width": 240,
+    "height": 48,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "sprite",
+    "art_source": "existing",
+    "sha256": "8b835fbc045dd725ee4e251f84be564d11db30bd3a0860f759cb00b0d21fe3b4",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/four_adults_walk_source.png",
+    "output": "assets/candidate_king_walk.png",
+    "before": "before/candidate_king_walk.png",
+    "render_review": "motion_candidate_only",
+    "apply_automatically": false,
+    "review_reason": "Reexport from genuine larger source; palette/anchor kept common across frames. Not a playtest approval. Validate gait, feet and runtime transitions before activation.",
+    "decision": "candidate only; not activated in R7"
+  },
+  "candidate_hag_walk": {
+    "target_key": "exp_hag_walk",
+    "runtime_key_exists": false,
+    "source": "sources/four_adults_walk_source.png",
+    "source_sha256": "675b1385a38bba0a2c0f359a475b50f3ab1de8dafe25105637b70917d2403905",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "source_regions": [
+      [
+        53,
+        260,
+        224,
+        495
+      ],
+      [
+        304,
+        260,
+        481,
+        495
+      ],
+      [
+        562,
+        259,
+        732,
+        495
+      ],
+      [
+        815,
+        260,
+        996,
+        494
+      ],
+      [
+        1069,
+        260,
+        1247,
+        495
+      ],
+      [
+        1327,
+        260,
+        1497,
+        495
+      ]
+    ],
+    "source_visible_dimensions": [
+      [
+        171,
+        235
+      ],
+      [
+        177,
+        235
+      ],
+      [
+        170,
+        236
+      ],
+      [
+        181,
+        234
+      ],
+      [
+        178,
+        235
+      ],
+      [
+        170,
+        235
+      ]
+    ],
+    "shared_scale": 0.16595744680851063,
+    "cell": [
+      40,
+      48
+    ],
+    "frames": 6,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pivot": [
+      20,
+      47
+    ],
+    "visible_height_reference": 39,
+    "duration_ms": 140,
+    "palette": "one64-color source palette shared across six frames; current idle palette reviewed as an alternate and rejected because it flattened fur/hair and skin",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "anchor_note": "Feet aligned to active R7 idle last pixel row47; legacy walk used bottom boundary47 leaving last row blank. No per-frame scale adjustment.",
+    "pending_checks": [
+      "Near/far leg alternation",
+      "Contact-foot sliding",
+      "Loop seam",
+      "Prop hand attachment",
+      "Body/head consistency with active idle"
+    ],
+    "width": 240,
+    "height": 48,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "sprite",
+    "art_source": "existing",
+    "sha256": "b06c43bb9231630076e8adac0057a93210f4b1a067d6f1503bdcfd765b71c5e7",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/four_adults_walk_source.png",
+    "output": "assets/candidate_hag_walk.png",
+    "before": "before/candidate_hag_walk.png",
+    "render_review": "motion_candidate_only",
+    "apply_automatically": false,
+    "review_reason": "Reexport from genuine larger source; palette/anchor kept common across frames. Not a playtest approval. Validate gait, feet and runtime transitions before activation.",
+    "decision": "candidate only; not activated in R7"
+  },
+  "candidate_governor_walk": {
+    "target_key": "exp_governor_walk",
+    "runtime_key_exists": false,
+    "source": "sources/four_adults_walk_source.png",
+    "source_sha256": "675b1385a38bba0a2c0f359a475b50f3ab1de8dafe25105637b70917d2403905",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "source_regions": [
+      [
+        47,
+        514,
+        211,
+        755
+      ],
+      [
+        314,
+        514,
+        453,
+        755
+      ],
+      [
+        579,
+        516,
+        712,
+        755
+      ],
+      [
+        831,
+        516,
+        981,
+        755
+      ],
+      [
+        1090,
+        516,
+        1225,
+        755
+      ],
+      [
+        1352,
+        516,
+        1482,
+        755
+      ]
+    ],
+    "source_visible_dimensions": [
+      [
+        164,
+        241
+      ],
+      [
+        139,
+        241
+      ],
+      [
+        133,
+        239
+      ],
+      [
+        150,
+        239
+      ],
+      [
+        135,
+        239
+      ],
+      [
+        130,
+        239
+      ]
+    ],
+    "shared_scale": 0.16182572614107885,
+    "cell": [
+      40,
+      48
+    ],
+    "frames": 6,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pivot": [
+      20,
+      47
+    ],
+    "visible_height_reference": 39,
+    "duration_ms": 140,
+    "palette": "one64-color source palette shared across six frames; current idle palette reviewed as an alternate and rejected because it flattened fur/hair and skin",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "anchor_note": "Feet aligned to active R7 idle last pixel row47; legacy walk used bottom boundary47 leaving last row blank. No per-frame scale adjustment.",
+    "pending_checks": [
+      "Near/far leg alternation",
+      "Contact-foot sliding",
+      "Loop seam",
+      "Prop hand attachment",
+      "Body/head consistency with active idle"
+    ],
+    "width": 240,
+    "height": 48,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "sprite",
+    "art_source": "existing",
+    "sha256": "15c01e0faff2a895e9318bda29b0362d03e7ede5d16448f08207bc74fa368bc4",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/four_adults_walk_source.png",
+    "output": "assets/candidate_governor_walk.png",
+    "before": "before/candidate_governor_walk.png",
+    "render_review": "motion_candidate_only",
+    "apply_automatically": false,
+    "review_reason": "Reexport from genuine larger source; palette/anchor kept common across frames. Not a playtest approval. Validate gait, feet and runtime transitions before activation.",
+    "decision": "candidate only; not activated in R7"
+  },
+  "candidate_queen_walk": {
+    "target_key": "exp_queen_walk",
+    "runtime_key_exists": false,
+    "source": "sources/four_adults_walk_source.png",
+    "source_sha256": "675b1385a38bba0a2c0f359a475b50f3ab1de8dafe25105637b70917d2403905",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "source_regions": [
+      [
+        41,
+        776,
+        222,
+        1014
+      ],
+      [
+        298,
+        775,
+        459,
+        1014
+      ],
+      [
+        568,
+        776,
+        711,
+        1014
+      ],
+      [
+        811,
+        776,
+        979,
+        1014
+      ],
+      [
+        1070,
+        776,
+        1235,
+        1014
+      ],
+      [
+        1342,
+        776,
+        1487,
+        1014
+      ]
+    ],
+    "source_visible_dimensions": [
+      [
+        181,
+        238
+      ],
+      [
+        161,
+        239
+      ],
+      [
+        143,
+        238
+      ],
+      [
+        168,
+        238
+      ],
+      [
+        165,
+        238
+      ],
+      [
+        145,
+        238
+      ]
+    ],
+    "shared_scale": 0.1638655462184874,
+    "cell": [
+      40,
+      48
+    ],
+    "frames": 6,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pivot": [
+      20,
+      47
+    ],
+    "visible_height_reference": 39,
+    "duration_ms": 140,
+    "palette": "one64-color source palette shared across six frames; current idle palette reviewed as an alternate and rejected because it flattened fur/hair and skin",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "anchor_note": "Feet aligned to active R7 idle last pixel row47; legacy walk used bottom boundary47 leaving last row blank. No per-frame scale adjustment.",
+    "pending_checks": [
+      "Near/far leg alternation",
+      "Contact-foot sliding",
+      "Loop seam",
+      "Prop hand attachment",
+      "Body/head consistency with active idle"
+    ],
+    "width": 240,
+    "height": 48,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "sprite",
+    "art_source": "existing",
+    "sha256": "4d053c9718ff92c7d2aca2400172d0db76ed980866121265271b8e6811a0d890",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/four_adults_walk_source.png",
+    "output": "assets/candidate_queen_walk.png",
+    "before": "before/candidate_queen_walk.png",
+    "render_review": "motion_candidate_only",
+    "apply_automatically": false,
+    "review_reason": "Reexport from genuine larger source; palette/anchor kept common across frames. Not a playtest approval. Validate gait, feet and runtime transitions before activation.",
+    "decision": "candidate only; not activated in R7"
+  },
+  "candidate_artificer_walk": {
+    "target_key": "exp_artificer_walk",
+    "runtime_key_exists": false,
+    "source": "sources/lote04_walks_source.png",
+    "source_sha256": "42d8f6dd3b93440fe7d9d7ad412fd2094c5604185ffcb2522249212d21aba610",
+    "source_dimensions": [
+      2172,
+      724
+    ],
+    "source_regions": [
+      [
+        93,
+        12,
+        297,
+        302
+      ],
+      [
+        455,
+        12,
+        660,
+        302
+      ],
+      [
+        816,
+        12,
+        1015,
+        302
+      ],
+      [
+        1181,
+        12,
+        1371,
+        302
+      ],
+      [
+        1544,
+        13,
+        1748,
+        302
+      ],
+      [
+        1906,
+        13,
+        2105,
+        302
+      ]
+    ],
+    "source_visible_dimensions": [
+      [
+        204,
+        290
+      ],
+      [
+        205,
+        290
+      ],
+      [
+        199,
+        290
+      ],
+      [
+        190,
+        290
+      ],
+      [
+        204,
+        289
+      ],
+      [
+        199,
+        289
+      ]
+    ],
+    "shared_scale": 0.10344827586206896,
+    "cell": [
+      40,
+      48
+    ],
+    "frames": 6,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pivot": [
+      20,
+      47
+    ],
+    "visible_height_reference": 30,
+    "duration_ms": 140,
+    "palette": "one64-color source palette shared across six frames; current idle palette reviewed as an alternate and rejected because it flattened fur/hair and skin",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "anchor_note": "Feet aligned to active R7 idle last pixel row47; legacy walk used bottom boundary47 leaving last row blank. No per-frame scale adjustment.",
+    "pending_checks": [
+      "Near/far leg alternation",
+      "Contact-foot sliding",
+      "Loop seam",
+      "Prop hand attachment",
+      "Body/head consistency with active idle"
+    ],
+    "width": 240,
+    "height": 48,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "sprite",
+    "art_source": "existing",
+    "sha256": "344d65bb1d9ac8858820ae4ef9622a03de96312b2f1bb622dde93816883c74d3",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/lote04_walks_source.png",
+    "output": "assets/candidate_artificer_walk.png",
+    "before": "before/candidate_artificer_walk.png",
+    "render_review": "motion_candidate_only",
+    "apply_automatically": false,
+    "review_reason": "Reexport from genuine larger source; palette/anchor kept common across frames. Not a playtest approval. Validate gait, feet and runtime transitions before activation.",
+    "decision": "candidate only; not activated in R7"
+  },
+  "candidate_oracle_walk": {
+    "target_key": "exp_oracle_walk",
+    "runtime_key_exists": false,
+    "source": "sources/lote04_walks_source.png",
+    "source_sha256": "42d8f6dd3b93440fe7d9d7ad412fd2094c5604185ffcb2522249212d21aba610",
+    "source_dimensions": [
+      2172,
+      724
+    ],
+    "source_regions": [
+      [
+        77,
+        347,
+        284,
+        702
+      ],
+      [
+        450,
+        347,
+        627,
+        702
+      ],
+      [
+        819,
+        347,
+        984,
+        703
+      ],
+      [
+        1165,
+        347,
+        1374,
+        702
+      ],
+      [
+        1527,
+        349,
+        1724,
+        703
+      ],
+      [
+        1907,
+        349,
+        2068,
+        703
+      ]
+    ],
+    "source_visible_dimensions": [
+      [
+        207,
+        355
+      ],
+      [
+        177,
+        355
+      ],
+      [
+        165,
+        356
+      ],
+      [
+        209,
+        355
+      ],
+      [
+        197,
+        354
+      ],
+      [
+        161,
+        354
+      ]
+    ],
+    "shared_scale": 0.10985915492957747,
+    "cell": [
+      40,
+      48
+    ],
+    "frames": 6,
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pivot": [
+      20,
+      47
+    ],
+    "visible_height_reference": 39,
+    "duration_ms": 140,
+    "palette": "one64-color source palette shared across six frames; current idle palette reviewed as an alternate and rejected because it flattened fur/hair and skin",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "anchor_note": "Feet aligned to active R7 idle last pixel row47; legacy walk used bottom boundary47 leaving last row blank. No per-frame scale adjustment.",
+    "pending_checks": [
+      "Near/far leg alternation",
+      "Contact-foot sliding",
+      "Loop seam",
+      "Prop hand attachment",
+      "Body/head consistency with active idle"
+    ],
+    "width": 240,
+    "height": 48,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "sprite",
+    "art_source": "existing",
+    "sha256": "3e298460263a24f89e46cddc0f6df16b5a103bc01d760794a026d3f3eb5bca9b",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/lote04_walks_source.png",
+    "output": "assets/candidate_oracle_walk.png",
+    "before": "before/candidate_oracle_walk.png",
+    "render_review": "motion_candidate_only",
+    "apply_automatically": false,
+    "review_reason": "Reexport from genuine larger source; palette/anchor kept common across frames. Not a playtest approval. Validate gait, feet and runtime transitions before activation.",
+    "decision": "candidate only; not activated in R7"
+  },
+  "candidate_inys_pull": {
+    "target_key": "exp_inys_pull",
+    "runtime_key_exists": false,
+    "source": "sources/lote04_inys_pull_guide_source.png",
+    "source_sha256": "cd18718ea8a45da382d23257cc515a9aeeac5a7332ad517ae538e1a0e905e07d",
+    "source_dimensions": [
+      1774,
+      887
+    ],
+    "source_regions": [
+      [
+        378,
+        100,
+        590,
+        420
+      ],
+      [
+        969,
+        100,
+        1181,
+        420
+      ],
+      [
+        1561,
+        100,
+        1773,
+        420
+      ],
+      [
+        378,
+        544,
+        590,
+        864
+      ],
+      [
+        969,
+        544,
+        1181,
+        864
+      ],
+      [
+        1561,
+        544,
+        1773,
+        864
+      ]
+    ],
+    "source_crop_each_cell": [
+      378,
+      100,
+      590,
+      420
+    ],
+    "source_anchor": [
+      480,
+      373
+    ],
+    "shared_scale": 0.10980392156862745,
+    "cell": [
+      40,
+      48
+    ],
+    "frames": 6,
+    "pivot": [
+      20,
+      47
+    ],
+    "duration_ms": 150,
+    "visible_height_reference": 28,
+    "legacy_visible_height_reference": 25,
+    "scale_note": "Display scale updated from pending25px to active R7 idle28px; cell/pivot unchanged. Candidate only.",
+    "palette": "one64-color source palette shared across six pulling poses; keep green/gold and white hair from approved source",
+    "resampler": "premultiplied BOX/no dither/binary alpha",
+    "cord_join_anchor_candidate": [
+      9,
+      38
+    ],
+    "carriage_and_doll": "Separate runtime props; not baked into this body strip. Approved composite source remains reference only.",
+    "identity_locks": [
+      "No paint on hands",
+      "No added markings",
+      "Same dress/hair/bow",
+      "Short original cord/tassel remains attached to hand"
+    ],
+    "pending_checks": [
+      "Cord-to-hand/hitch seam",
+      "Support feet and loop",
+      "Carriage wheel synchronization",
+      "Held/play/stop/turn/talk states still absent"
+    ],
+    "width": 240,
+    "height": 48,
+    "alpha": true,
+    "required": false,
+    "nativePixels": true,
+    "category": "sprite",
+    "art_source": "existing",
+    "sha256": "904a169ef2322817f5cb1b93802d84df470040d34febde5beeab63918b5eb257",
+    "baseline_html_sha256": "9e5768e126a8aed1a5c1efe93caef491c9779be34081c9127d74587c5f93350c",
+    "status": "candidate not integrated; review required",
+    "no_new_art": true,
+    "source_original": "/workspace/fortune-expansion/assets/generated_sources/lote04_inys_pull_guide_source.png",
+    "output": "assets/candidate_inys_pull.png",
+    "before": "before/candidate_inys_pull.png",
+    "render_review": "motion_candidate_only",
+    "apply_automatically": false,
+    "review_reason": "Reexport from genuine larger source; palette/anchor kept common across frames. Not a playtest approval. Validate gait, feet and runtime transitions before activation.",
+    "decision": "candidate only; not activated in R7"
+  },
+  "exp_portrait_oracle_neutral": {
+    "width": 128,
+    "height": 128,
+    "alpha": true,
+    "nativePixels": true,
+    "category": "portrait",
+    "changed_pixels": 1534,
+    "reference": "Same royal_gilead palette and 55% luminance-matched blend used by R7 oracle sprite",
+    "scope": "Selective saturated cloth only; face/lips, gold, ivory hair and alpha preserved",
+    "source": "R7 embedded portrait, unchanged geometry/expressions",
+    "sha256": "3f8cbbd66e02ede316b7ca92a0588893be5eb8d51d56b3327cbb5940a67bb5a7",
+    "status": "candidate; not integrated into R7",
+    "decision": "requested selective recolor; apply only these3with helper"
+  },
+  "exp_portrait_oracle_listening": {
+    "width": 128,
+    "height": 128,
+    "alpha": true,
+    "nativePixels": true,
+    "category": "portrait",
+    "changed_pixels": 1403,
+    "reference": "Same royal_gilead palette and 55% luminance-matched blend used by R7 oracle sprite",
+    "scope": "Selective saturated cloth only; face/lips, gold, ivory hair and alpha preserved",
+    "source": "R7 embedded portrait, unchanged geometry/expressions",
+    "sha256": "2edae1014c6b5cc6c7dd09baf9d0eeaf6c1b2795b75639eea828051a3ad99075",
+    "status": "candidate; not integrated into R7",
+    "decision": "requested selective recolor; apply only these3with helper"
+  },
+  "exp_portrait_oracle_reaction": {
+    "width": 128,
+    "height": 128,
+    "alpha": true,
+    "nativePixels": true,
+    "category": "portrait",
+    "changed_pixels": 1591,
+    "reference": "Same royal_gilead palette and 55% luminance-matched blend used by R7 oracle sprite",
+    "scope": "Selective saturated cloth only; face/lips, gold, ivory hair and alpha preserved",
+    "source": "R7 embedded portrait, unchanged geometry/expressions",
+    "sha256": "a01473590aaba791341b48e57e584fac4e250614e042e25dee63b5eb70b8cfe9",
+    "status": "candidate; not integrated into R7",
+    "decision": "requested selective recolor; apply only these3with helper"
+  }
+}
