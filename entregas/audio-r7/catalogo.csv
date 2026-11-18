@@ -1,0 +1,46 @@
+﻿Categoria,ID,Nome,Segundos,BPM,Modo,Mapas,Arquivo
+music,title,Abertura — Ilhas da Fortuna,40.84,56,aeolian,,music/title.mp3
+music,myriadd,Myriadd — tema do reino,37.52,62,dorian,,music/myriadd.mp3
+music,gilead,Gileád — tema do reino,42.11,54,aeolian,"gh, gc, ga",music/gilead.mp3
+music,iomadh,Iomadh — tema do reino,34.79,68,dorian,"ih, ic",music/iomadh.mp3
+music,ehrein,Éhrein — tema do reino,40.84,56,aeolian,"eh, ec",music/ehrein.mp3
+music,court,Audiência na corte,22.55,60,dorian,,music/court.mp3
+music,history,História e prólogo,43.47,52,aeolian,,music/history.mp3
+music,tension,Tensão,21.1,66,harm,,music/tension.mp3
+music,shadow,Sombra,46.55,48,phrygian,,music/shadow.mp3
+music,boss,Guardião — tema genérico,25.01,104,harm,,music/boss.mp3
+music,ring,Aquisição de anel,23.1,58,dorian,,music/ring.mp3
+music,bridge,Ponte — sequência narrativa,19.18,76,mixo,,music/bridge.mp3
+music,fall,Queda de um reino,44.95,50,aeolian,,music/fall.mp3
+music,myriadd_palace,Myriadd — palácio e jardins,39.65,58,ionian,"castle, vault, workshop, garden",music/myriadd_palace.mp3
+music,myriadd_out,Myriadd — exterior e terraços,33.22,72,mixo,"out, mir, terr",music/myriadd_out.mp3
+music,myriadd_wild,Myriadd — região selvagem,40.84,56,aeolian,,music/myriadd_wild.mp3
+music,myriadd_shrine,Myriadd — santuário,34.79,68,phrygian,,music/myriadd_shrine.mp3
+music,boss_myriadd,Myriadd — Guardião,20.46,138,harm,,music/boss_myriadd.mp3
+music,gilead_wild,Gileád — região selvagem,45.73,49,aeolian,gm,music/gilead_wild.mp3
+music,gilead_shrine,Gileád — santuário,38.55,60,phrygian,gd,music/gilead_shrine.mp3
+music,boss_gilead,Gileád — Guardião,20.46,138,harm,,music/boss_gilead.mp3
+music,iomadh_wild,Iomadh — região selvagem,38.03,61,aeolian,im,music/iomadh_wild.mp3
+music,iomadh_shrine,Iomadh — santuário,32.5,74,dorian,id,music/iomadh_shrine.mp3
+music,boss_iomadh,Iomadh — Guardião,20.46,138,harm,,music/boss_iomadh.mp3
+music,ehrein_wild,Éhrein — região selvagem,44.95,50,aeolian,"em, witchclearing",music/ehrein_wild.mp3
+music,ehrein_shrine,Éhrein — santuário,37.52,62,phrygian,ed,music/ehrein_shrine.mp3
+music,boss_ehrein,Éhrein — Guardião,20.46,138,harm,,music/boss_ehrein.mp3
+sfx,jump,Salto,0.14,,,,sfx/jump.mp3
+sfx,shoot,Disparo,0.12,,,,sfx/shoot.mp3
+sfx,gild,Dourar,0.23,,,,sfx/gild.mp3
+sfx,gilded,Dourado completo,0.33,,,,sfx/gilded.mp3
+sfx,melee,Ataque corpo a corpo,0.09,,,,sfx/melee.mp3
+sfx,shatter,Estilhaçar,0.2,,,,sfx/shatter.mp3
+sfx,coin,Moeda,0.09,,,,sfx/coin.mp3
+sfx,hurt,Dano,0.26,,,,sfx/hurt.mp3
+sfx,tink,Toque metálico,0.08,,,,sfx/tink.mp3
+sfx,tempo,Poder do Tempo,0.44,,,,sfx/tempo.mp3
+sfx,perc,Poder da Percepção,0.39,,,,sfx/perc.mp3
+sfx,swap,Troca/seleção,0.1,,,,sfx/swap.mp3
+sfx,slam,Impacto,0.39,,,,sfx/slam.mp3
+sfx,check,Confirmação/checkpoint,0.36,,,,sfx/check.mp3
+sfx,text,Texto de diálogo,0.06,,,,sfx/text.mp3
+sfx,door,Porta,0.24,,,,sfx/door.mp3
+sfx,ring,Anel,1.02,,,,sfx/ring.mp3
+sfx,boom,Explosão,1.24,,,,sfx/boom.mp3
