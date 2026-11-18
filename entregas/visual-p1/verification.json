@@ -1,0 +1,17 @@
+{
+  "asset_failures": 0,
+  "javascript_errors": [],
+  "background_order": "ga→gd→ga→gd passed; archive texture absent in gd",
+  "maps_rendered": [
+    "gh",
+    "eh",
+    "workshop",
+    "ga",
+    "gd",
+    "gc",
+    "garden"
+  ],
+  "delivered_html_sha256": "d4993d89dad7d6053167ae5271e8a8e95a2ec190810f768fc50090b345e5e9f4",
+  "source_html_sha256": "f5f6b063d6b4ee08cf0d595e59047e0335765dcb2870cc634ed32efd893196f5",
+  "scope": "Correções de integração e reexportação; sem run completa ou aprovação artística definitiva."
+}
