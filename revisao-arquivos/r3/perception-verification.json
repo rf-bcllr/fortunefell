@@ -1,0 +1,82 @@
+{
+  "result": "PASS",
+  "scope": "Native updatePlayer, full held jumps at maximum right input; includes conservative launches beyond edge to cover coyote extension",
+  "hiddenPadsWithoutPerception": [
+    null,
+    null
+  ],
+  "attempts": [
+    {
+      "startX": 528,
+      "startVx": 0,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 571.5400000000009
+    },
+    {
+      "startX": 528,
+      "startVx": 1.7,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 577.3000000000013
+    },
+    {
+      "startX": 534,
+      "startVx": 0,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 577.5400000000009
+    },
+    {
+      "startX": 534,
+      "startVx": 1.7,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 583.3000000000013
+    },
+    {
+      "startX": 540,
+      "startVx": 0,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 583.5400000000009
+    },
+    {
+      "startX": 540,
+      "startVx": 1.7,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 589.3000000000013
+    },
+    {
+      "startX": 546,
+      "startVx": 0,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 589.5400000000009
+    },
+    {
+      "startX": 546,
+      "startVx": 1.7,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 595.3000000000013
+    },
+    {
+      "startX": 552,
+      "startVx": 0,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 595.5400000000009
+    },
+    {
+      "startX": 552,
+      "startVx": 1.7,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 601.3000000000013
+    },
+    {
+      "startX": 557,
+      "startVx": 0,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 600.5400000000009
+    },
+    {
+      "startX": 557,
+      "startVx": 1.7,
+      "reachedHighModule": false,
+      "maxXAtHighModuleHeight": 606.3000000000013
+    }
+  ]
+}
