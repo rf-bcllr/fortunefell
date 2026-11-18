@@ -1,0 +1,41 @@
+{
+  "archive_catalog_station": {
+    "source_asset": "archive_catalog_station",
+    "width": 64,
+    "height": 32,
+    "alpha": true,
+    "required": true,
+    "nativePixels": true,
+    "category": "decoration",
+    "changed_pixels": 775,
+    "sha256": "d30a4a515d8a7dfe956d47edd565ffddc05c93620c7ecefeb81566d0923323dc",
+    "decision": "sharp45 selected by integration after side-by-side review",
+    "notes": "Only native64x32 source available. Moderate unsharp radius0.6/45pct/threshold5 on opaque interior3x3; alpha, native geometry and boundary colors unchanged. No upscale or recovered detail claimed."
+  },
+  "archive_stair": {
+    "source_asset": "shelf_stair",
+    "width": 96,
+    "height": 64,
+    "alpha": true,
+    "required": true,
+    "nativePixels": true,
+    "category": "decoration",
+    "changed_pixels": 0,
+    "sha256": "42193cb9bbde104dac44ab4524253ed852409f779621d9e5c770a48ff7b18d1b",
+    "decision": "preserve current R4 export; final integration choice",
+    "notes": "Native source only; sharpen candidate evaluated but gain not clear enough. Current R4 palette, alpha and geometry preserved; no upscale."
+  },
+  "archive_false_shelf": {
+    "source_asset": "shelfwall",
+    "width": 96,
+    "height": 128,
+    "alpha": true,
+    "required": true,
+    "nativePixels": true,
+    "category": "decoration",
+    "changed_pixels": 0,
+    "sha256": "cdc835db4440c9054fda00788be7948fcfc20bd9f9c9cede7540086c9f5a8e02",
+    "decision": "preserve current R4 export; final integration choice",
+    "notes": "Native source only; sharpen candidate evaluated but gain not clear enough. Current R4 palette, alpha and geometry preserved; no upscale."
+  }
+}
