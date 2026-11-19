@@ -1,0 +1,28 @@
+﻿ID técnico,Título oficial,Uso verificado,Estado,BPM atual,Modo atual
+title,Fortune Fell,Tela inicial,active in R7,56,aeolian
+myriadd,,,reserve/no activation found in R7,62,dorian
+gilead,The Once and Future Queens (Capital),"Capital, corte e Arquivo Real de Gileád",active in R7,54,aeolian
+iomadh,Eyes of Iomadh (Plaza),Praça/cidade e corte de Iomadh,active in R7,68,dorian
+ehrein,Amidst Rain and Ruin (Town),Cidade e corte de Éhrein,active in R7,56,aeolian
+court,In the Court of the White King,Audiência inicial de Idhrí,active in R7,60,dorian
+history,Myrdhórin,Prólogo narrado; retomada no encerramento da demo,active in R7,52,aeolian
+tension,Shadow Over the Rainbow,Notícia da ponte destruída; descoberta no Mirante,active in R7,66,harm
+shadow,Shadow Over the Rainbow,Aparição da sombra e destruição da ponte,active in R7,48,phrygian
+boss,,,reserve/no activation found in R7,104,harm
+ring,,Ressonância dos anéis de Tempo e Percepção,active in R7,58,dorian
+bridge,,Travessias narrativas pelas Pontes de Arco-Íris,active in R7,76,mixo
+fall,Shadow Over the Rainbow,Queda de Éhrein,active in R7,50,aeolian
+myriadd_palace,In the Court of the White King,"Palácio, jardins, cofre e oficina de Myriadd",active in R7,58,ionian
+myriadd_out,Through the Cloud Terraces,"Exterior de Myriadd, Mirante e Cloud Terraces",active in R7,72,mixo
+myriadd_wild,,,reserve/no activation found in R7,56,aeolian
+myriadd_shrine,,,reserve/no activation found in R7,68,phrygian
+boss_myriadd,,,reserve/no activation found in R7,138,harm
+gilead_wild,The Once and Future Queens (Fields),Campos/caminho exterior de Gileád,active in R7,49,aeolian
+gilead_shrine,The Once and Future Queens (Shrine),Santuário de Gileád,active in R7,60,phrygian
+boss_gilead,The Once and Future Queens (Battle),Guardião de Gileád,active in R7,138,harm
+iomadh_wild,Eyes of Iomadh (Wilds),Mata de Iomadh,active in R7,61,aeolian
+iomadh_shrine,Eyes of Iomadh (Shrine),Santuário de Iomadh,active in R7,74,dorian
+boss_iomadh,Eyes of Iomadh (Battle),Guardião de Iomadh,active in R7,138,harm
+ehrein_wild,Amidst Rain and Ruin (Moors),Charnecas e clareira da Bruxa,active in R7,50,aeolian
+ehrein_shrine,Amidst Rain and Ruin (Shrine),Santuário de Éhrein,active in R7,62,phrygian
+boss_ehrein,Amidst Rain and Ruin (Battle),Guardião de Éhrein,active in R7,138,harm
