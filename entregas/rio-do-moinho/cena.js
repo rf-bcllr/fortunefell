@@ -48,8 +48,8 @@
     water(c,26*TS,deck+14,6*TS,35,t);
     water(c,41*TS,deck+18,9*TS,38,t);
     stamp(c,'moinho',31*TS-32,deck-128);
-    const wheel=Art.get('river_wheel');
-    if(wheel){
+    const wheel=art.roda;
+    if(wheel.complete&&wheel.naturalWidth){
       c.save();c.translate(31*TS-23,deck-5);c.rotate((G.tick%480)*Math.PI/240);
       c.drawImage(wheel,-27,-27,54,54);c.restore();
       for(let i=0;i<12;i++){
