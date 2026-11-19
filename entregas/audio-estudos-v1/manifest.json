@@ -1,0 +1,156 @@
+{
+  "ehrein": {
+    "title": "Amidst Rain and Ruin",
+    "status": "sampled GM arrangement study, not final orchestra",
+    "sample_bank": "TimGM6mb.sf2 installed; bank not bundled",
+    "sample_rate": 44100,
+    "pcm_bits": 24,
+    "duration": 115.60364145658264,
+    "sections": [
+      {
+        "context": "Town",
+        "start_seconds": 0.5,
+        "end_seconds": 28.735,
+        "bpm": 68,
+        "mode": "aeolian",
+        "bars": 8,
+        "start_tick": 0
+      },
+      {
+        "context": "Moors",
+        "start_seconds": 28.735,
+        "end_seconds": 60.735,
+        "bpm": 60,
+        "mode": "aeolian",
+        "bars": 8,
+        "start_tick": 15360
+      },
+      {
+        "context": "Shrine",
+        "start_seconds": 60.735,
+        "end_seconds": 87.402,
+        "bpm": 72,
+        "mode": "phrygian",
+        "bars": 8,
+        "start_tick": 30720
+      },
+      {
+        "context": "Battle",
+        "start_seconds": 87.402,
+        "end_seconds": 104.545,
+        "bpm": 112,
+        "mode": "harm",
+        "bars": 8,
+        "start_tick": 46080
+      },
+      {
+        "context": "Coda",
+        "start_seconds": 104.545,
+        "end_seconds": 111.604,
+        "bpm": 68,
+        "mode": "aeolian",
+        "bars": 2,
+        "start_tick": 61440
+      }
+    ],
+    "programs": {
+      "cordas": 48,
+      "violoncelo": 42,
+      "flauta": 73,
+      "harpa": 46,
+      "acordeao": 21,
+      "gaita": 109,
+      "trompa": 60,
+      "timpanos": 47,
+      "coro": 52
+    },
+    "master_gain": 6.0,
+    "peak_before_master": 0.10434301197528839,
+    "peak_after_master": 0.6260580718517303,
+    "source": "Original R7 regional melody/chord material; new voicing, phrasing, instrumental roles, tempo map and coda",
+    "whispers": "not applicable",
+    "audio_preroll_seconds": 0.5,
+    "measured_loudness": {
+      "input_i": "-21.43",
+      "input_tp": "-4.06",
+      "input_lra": "10.00"
+    }
+  },
+  "iomadh": {
+    "title": "Eyes of Iomadh",
+    "status": "sampled GM arrangement study, not final orchestra",
+    "sample_bank": "TimGM6mb.sf2 installed; bank not bundled",
+    "sample_rate": 44100,
+    "pcm_bits": 24,
+    "duration": 109.72241432458151,
+    "sections": [
+      {
+        "context": "Plaza",
+        "start_seconds": 0.5,
+        "end_seconds": 25.763,
+        "bpm": 76,
+        "mode": "dorian",
+        "bars": 8,
+        "start_tick": 0
+      },
+      {
+        "context": "Wilds",
+        "start_seconds": 25.763,
+        "end_seconds": 54.854,
+        "bpm": 66,
+        "mode": "dorian",
+        "bars": 8,
+        "start_tick": 15360
+      },
+      {
+        "context": "Shrine",
+        "start_seconds": 54.854,
+        "end_seconds": 81.521,
+        "bpm": 72,
+        "mode": "dorian",
+        "bars": 8,
+        "start_tick": 30720
+      },
+      {
+        "context": "Battle",
+        "start_seconds": 81.521,
+        "end_seconds": 98.664,
+        "bpm": 112,
+        "mode": "harm",
+        "bars": 8,
+        "start_tick": 46080
+      },
+      {
+        "context": "Coda",
+        "start_seconds": 98.664,
+        "end_seconds": 105.722,
+        "bpm": 68,
+        "mode": "dorian",
+        "bars": 2,
+        "start_tick": 61440
+      }
+    ],
+    "programs": {
+      "cordas": 48,
+      "violoncelo": 42,
+      "flauta": 73,
+      "harpa": 46,
+      "acordeao": 21,
+      "gaita": 109,
+      "trompa": 60,
+      "timpanos": 47,
+      "coro": 52
+    },
+    "master_gain": 6.0,
+    "peak_before_master": 0.09383253008127213,
+    "peak_after_master": 0.5629951804876328,
+    "source": "Original R7 regional melody/chord material; new voicing, phrasing, instrumental roles, tempo map and coda",
+    "whispers": "not included; human whispered voices pending content and recording/generation source",
+    "audio_preroll_seconds": 0.5,
+    "measured_loudness": {
+      "input_i": "-19.67",
+      "input_tp": "-4.99",
+      "input_lra": "9.60"
+    }
+  }
+}
