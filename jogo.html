@@ -2997,7 +2997,7 @@ function shatter(x, y, n, sprite) {
 ENT.enemy = e => {
   const d = ENEMY_DEF[e.kind], art = enemySprite(e.kind);
   const s = Object.assign(e, {
-    w: d.w, h: d.h, vx: 0, vy: 0, dir: -1, stage: 0, hits: 0, hitT: 0, crack: 0, flash: 0, state: 'idle', t: 0, baseY: e.y - (d.ai === 'fly' ? d.h : 0), baseX: e.x, phase: e.tx * .7,
+    w: d.w, h: d.h, vx: 0, vy: 0, dir: e.patrolDir || -1, stage: 0, hits: 0, hitT: 0, crack: 0, flash: 0, state: 'idle', t: 0, baseY: e.y - (d.ai === 'fly' ? d.h : 0), baseX: e.x, phase: e.tx * .7,
     box() { return boxOf(this); },
     hitBox() { // flechas e golpes acertam o que se vê: caixa tirada da área opaca do sprite, com 2 px de folga
       const img = (this.stage === 2 ? art[0].gold : art[0].n)[this.dir > 0 ? 0 : 1], b = opaqueBounds(img);
@@ -10032,7 +10032,11 @@ ENT.npc = function (entity) {
       this.y=line===null?20*TS:line-2*Math.abs(Math.sin(this.x*.16));
       if(line!==null&&Math.floor(this.x/4)%4===0)
         puffFx(this.x+3,line,6,['#cce5db','#91bec3'],1.6,16,.17);
-      if(this.x===target)this.walkTo=null;
+      if(this.x===target){
+        this.walkTo=null;this.silent=true;this.dead=true;
+        if(G.near===this)G.near=null;
+        setFlag('podhraic_returned');chanceryData();saveGame();
+      }
       return;
     }
     previousUpdate.call(this);
@@ -10129,7 +10133,7 @@ Talk.podhraic = () => (function* () {
       Snd.fx('swap');
       yield () => chancellor.walkTo == null;
     }
-    setFlag('podhraic_returned'); chanceryData(); saveGame();
+    if(!chancellor){setFlag('podhraic_returned');chanceryData();saveGame();}
     return;
   }
   const data = chanceryData();
@@ -10261,8 +10265,12 @@ ENT.moorCompanion = e => Object.assign(e,{
     const boss=joined && G.ents.find(o=>o.type==='boss' && o.active && !o.done);
     const plate=boss && boss.plates?.[boss.cur];
     const priorX=this.x;
-    const goal=reachable && !foe && Math.abs(p.vx)<.3 ? this.x : foe ? foe.x-Math.sign(foe.x-this.x)*21 : joined ? p.x+(this.x<=p.x?-24:24) : 47*TS+8;
-    const dx=goal-this.x, speed=joined ? Math.min(2.35,Math.abs(dx)*.09) : .39;
+    if(!joined&&!foe){
+      if(!this.patrolGoal||Math.abs(this.x-this.patrolGoal)<6)
+        this.patrolGoal=this.patrolGoal===50*TS?46*TS:50*TS;
+    }
+    const goal=joined && reachable && !foe && Math.abs(p.vx)<.3 ? this.x : foe ? foe.x-Math.sign(foe.x-this.x)*21 : joined ? p.x+(this.x<=p.x?-24:24) : this.patrolGoal;
+    const dx=goal-this.x, speed=joined ? Math.min(2.35,Math.abs(dx)*.09) : foe ? 1.18 : .65;
     const moving=Math.abs(dx)>4 && !this.stun;
     if (moving) {
       this.face=Math.sign(dx);
@@ -10481,7 +10489,7 @@ ENT.moorCompanion = e => Object.assign(e,{
     water(c,16*TS,deck+8,5*TS,40,t);
     water(c,41*TS,deck+8,13*TS,40,t);
     const tree=Art.get('tree');
-    if(tree)c.drawImage(tree,Math.round(63*TS-tree.width/2),19*TS-tree.height-3);
+    if(tree)c.drawImage(tree,Math.round(63*TS-tree.width/2),19*TS-tree.height+2);
     const house=art.moinho;
     if(house.complete&&house.naturalWidth)c.drawImage(house,21*TS+3,deck-249,292,251);
     const mx=21*TS+3,my=deck-249,gear=art.engrenagem;
@@ -10611,7 +10619,7 @@ ENT.stash=e=>{
 };
 
 const moorHound=LEVELS.em.ents.find(e=>e.kind==='dog');moorHound.tx=51;moorHound.ty=17;moorHound.moorHuntPrey=true;
-ent(LEVELS.em,'enemy',53,17,{kind:'dog',moorHuntPrey:true});
+ent(LEVELS.em,'enemy',53,17,{kind:'dog',moorHuntPrey:true,patrolDir:1});
 setT(LEVELS.em,42,10,54,10,T_ONEWAY);
 
 })();</script>
