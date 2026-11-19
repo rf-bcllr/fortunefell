@@ -10378,8 +10378,8 @@ ENT.moorCompanion = e => Object.assign(e,{
   setT(river,50,23,53,25,T_SOLID);
   river.ents.find(e=>e.podhraicAt==='river').tx=45;
   river.ents.find(e=>e.type==='checkpoint').tx=57;
-  for(const d of river.deco)if(d.kind==='tree'&&d.x===54)d.x=62;
-  const bridgeLeft=41*TS-18,bridgeTop=deck-144,bridgeW=246,bridgeH=180;
+  river.deco=river.deco.filter(d=>!(d.kind==='tree'&&d.x===54));
+  const bridgeLeft=41*TS-18,bridgeTop=deck-154,bridgeW=246,bridgeH=180;
   const stash=river.ents.find(e=>e.type==='stash');
   stash.tx=88;stash.ty=23;
   const plant=river.ents.find(e=>e.kind==='plant');plant.tx=97;
@@ -10439,7 +10439,7 @@ ENT.moorCompanion = e => Object.assign(e,{
     c.restore();
   }
 
-  const axleX=19*TS, axleY=deck-7, radius=58, paddleCount=8;
+  const axleX=19*TS, axleY=deck-7, radius=58, paddleCount=12;
   function paddleAt(i,clock){
     const angle=i*2*Math.PI/paddleCount+clock*Math.PI/270;
     return {x:axleX+radius*Math.cos(angle),y:axleY+radius*Math.sin(angle)};
@@ -10480,16 +10480,28 @@ ENT.moorCompanion = e => Object.assign(e,{
     const t=G.tick>>1;
     water(c,16*TS,deck+8,5*TS,40,t);
     water(c,41*TS,deck+8,13*TS,40,t);
+    const tree=Art.get('tree');
+    if(tree)c.drawImage(tree,Math.round(63*TS-tree.width/2),19*TS-tree.height-3);
     const house=art.moinho;
     if(house.complete&&house.naturalWidth)c.drawImage(house,21*TS+3,deck-249,292,251);
     const mx=21*TS+3,my=deck-249,gear=art.engrenagem;
     if(gear.complete&&gear.naturalWidth){
       c.drawImage(gear,mx+47,my+184);
-      const phase=(G.map.millClock||0)*.082;
+      const travel=(G.map.millClock||0)*.26;
+
+      c.save();
+      for(let y=3;y<=9;y++){
+        for(let x=2;x<38;x++){
+          const sx=5+((x+Math.floor(travel))%5);
+          c.globalAlpha=Math.min(1,(x-1)/4,(38-x)/4,(y-2)/2,(10-y)/2);
+          c.drawImage(gear,sx,y,1,1,mx+47+x,my+184+y,1,1);
+        }
+      }
+      c.restore();
       // Cylindrical teeth retain the painted rim and fade naturally into its shadow.
       c.save();
       for(let x=2;x<38;x++){
-        const angle=Math.asin((x-19.5)/18.5),relief=Math.cos(19*angle-phase);
+        const angle=Math.asin((x-19.5)/18.5),relief=Math.cos((x+travel)*2*Math.PI/5);
         for(let y=3;y<=9;y++){
           c.globalAlpha=Math.abs(relief)*Math.cos(angle)*Math.sin(Math.PI*(y-2)/9)*.47;
           c.fillStyle=relief>0?'#ffc568':'#47251e';c.fillRect(mx+47+x,my+184+y,1,1);
@@ -10503,7 +10515,7 @@ ENT.moorCompanion = e => Object.assign(e,{
       c.drawImage(wheel,-62,-62,124,124);c.restore();
       for(let i=0;i<paddleCount;i++){
         const p=paddleAt(i,G.map.millClock||0),x=Math.round(p.x)-7,y=Math.round(p.y);
-        c.drawImage(wheel,54,9,16,6,x,y-1,15,5);
+        // The painted rim already contains the load-bearing wooden blades.
         if(p.y>deck-4&&p.y<deck+11){
           const f=((G.map.millClock||0)+i*17)%21/21;
           c.fillStyle='#b8d9ce';c.fillRect(x+13+Math.round(f*6),deck+7-Math.round(20*f*(1-f)),2,1);
