@@ -1,0 +1,1 @@
+Abra jogo.html no navegador. O HTML é independente e contém a arte e a música desta versão. As imagens de produção acompanham a demo.
