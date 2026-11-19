@@ -5458,7 +5458,7 @@ function update() {
 function riverSurface(x){
   if(G.map?.id!=='highwoods_river')return null;
   const tile=x/TS;
-  if((tile>=14&&tile<21)||(tile>=41&&tile<54))return 20*TS+8;
+  if((tile>=17&&tile<21)||(tile>=41&&tile<54))return 20*TS+8;
   if(tile>=83&&tile<97)return 20*TS+9;
   return null;
 }
@@ -5558,6 +5558,7 @@ function drawWorld(x) {
   x.filter = G.theme?.interior
     ? 'saturate(95%) contrast(102%) brightness(96%)'
     : 'saturate(101%) contrast(103%) brightness(101%)';
+  if(G.map.drawBehindTerrain)G.map.drawBehindTerrain(x);
   x.drawImage(G.mapC, c.x, c.y, W, H, 0, 0, W, H);
   x.restore();
   // Fundo do Guardião e objetos em camadas
@@ -10370,8 +10371,9 @@ ENT.moorCompanion = e => Object.assign(e,{
 {
   const river=LEVELS.highwoods_river, deck=20*TS, caveX=88*TS+8, caveFloor=22*TS;
   river.deco=river.deco.filter(d=>d.kind!=='pond_bridge');
-  carve(river,14,20,20,23);
-  setT(river,14,24,20,25,T_SOLID);setT(river,21,20,40,25,T_SOLID);
+  setT(river,14,20,16,25,T_SOLID);
+  carve(river,17,20,20,22);
+  setT(river,17,22,20,25,T_SOLID);setT(river,21,20,40,25,T_SOLID);
   carve(river,79,13,98,23);
   setT(river,79,20,82,25,T_SOLID);
   setT(river,83,21,84,25,T_SOLID);
@@ -10484,9 +10486,16 @@ ENT.moorCompanion = e => Object.assign(e,{
       c.fillStyle='#a5d9d4';c.fillRect(x+1,y+1,Math.ceil(23*(1-p.wetTicks/240)),2);
     }
   });
+  river.drawBehindTerrain=c=>context(c,()=>{
+    const wheel=art.roda;
+    if(wheel.complete&&wheel.naturalWidth){
+      c.save();c.translate(axleX,axleY);c.rotate((G.map.millClock||0)*Math.PI/270);
+      c.drawImage(wheel,-62,-62,124,124);c.restore();
+    }
+  });
   ENT.riverMill=e=>Object.assign(e,{layer:0,draw(c){context(c,()=>{
     const t=G.tick>>1;
-    water(c,14*TS,deck+8,7*TS,56,t);
+    water(c,17*TS,deck+8,4*TS,24,t);
     water(c,41*TS,deck+8,13*TS,40,t);
     const tree=Art.get('tree');
     if(tree)c.drawImage(tree,Math.round(63*TS-tree.width/2),19*TS-tree.height+2);
@@ -10519,8 +10528,7 @@ ENT.moorCompanion = e => Object.assign(e,{
     }
     const wheel=art.roda;
     if(wheel.complete&&wheel.naturalWidth){
-      c.save();c.translate(axleX,axleY);c.rotate((G.map.millClock||0)*Math.PI/270);
-      c.drawImage(wheel,-62,-62,124,124);c.restore();
+
       for(let i=0;i<paddleCount;i++){
         const p=paddleAt(i,G.map.millClock||0),x=Math.round(p.x)-7,y=Math.round(p.y);
         // The painted rim already contains the load-bearing wooden blades.
@@ -10529,9 +10537,7 @@ ENT.moorCompanion = e => Object.assign(e,{
           c.fillStyle='#b8d9ce';c.fillRect(x+13+Math.round(f*6),deck+7-Math.round(20*f*(1-f)),2,1);
         }
       }
-      // Repaint the actual bank silhouette in front of the moving paddles.
-      const bx=21*TS-7, by=deck-7;
-      c.drawImage(G.mapC,bx,by,78,55,bx,by,78,55);
+
     }
     
   });}});
@@ -10576,7 +10582,7 @@ ENT.moorCompanion = e => Object.assign(e,{
   ENT.riverVeil=e=>Object.assign(e,{layer:3,draw(c){context(c,()=>{
     const bridge=art.ponte;if(bridge.complete&&bridge.naturalWidth)c.drawImage(bridge,bridgeLeft,bridgeTop,bridgeW,bridgeH);
     const t=G.tick>>1, proximity=Math.min(1,Math.abs(G.player.x-caveX)/60);
-    waterVeil(c,14*TS,deck+8,7*TS,56,t);
+    waterVeil(c,17*TS,deck+8,4*TS,24,t);
     waterVeil(c,41*TS,deck+8,13*TS,40,t);
     cavePool(c,t,waterVeil);
     const fall=Art.get('highwoods_waterfall');
