@@ -1,0 +1,616 @@
+{
+  "label": "ANTES; pinned read, not the subsequently integrated sheets",
+  "method": "D=sum(weight*(1-score/2)); editorial rubric calibrated to explicit author priorities; not image similarity/probability/progress",
+  "high_cutoff": 55,
+  "medium_cutoff": 25,
+  "rows_in_requested_order": [
+    {
+      "name": "Sacerdote",
+      "divergence_editorial_pct": 37.5,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Auréola dourada distinta de coroa",
+          "weight_pct": 40,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Tranças brancas, não só massa clara",
+          "weight_pct": 35,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Veste ritual creme/ouro",
+          "weight_pct": 15,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Perfil adulto do modelo",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Auréola vira arco/coroa de poucos pixels e as tranças não se separam. Não precisa substituir roupa inteira."
+    },
+    {
+      "name": "Llúpin",
+      "divergence_editorial_pct": 35.0,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Broche crescente lunar legível",
+          "weight_pct": 40,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Óculos restritos a leitura",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Traje anil/azul e arminho",
+          "weight_pct": 20,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Cabelo castanho ondulado",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Broche pouco legível. Idle sem óculos está correto; estado de leitura com óculos não foi demonstrado, por isso o requisito temporal fica parcial."
+    },
+    {
+      "name": "Llewlás",
+      "divergence_editorial_pct": 32.5,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Ombreira identificável como leão",
+          "weight_pct": 25,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Peitoral parcialmente exposto",
+          "weight_pct": 20,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Corno de caça separado de arma/cinto",
+          "weight_pct": 20,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cabelo/rosto do modelo",
+          "weight_pct": 15,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Azul/ouro e capa",
+          "weight_pct": 20,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência média: identidade geral preservada, mas os três marcadores se fundem. Não normalizar o tamanho do corpo para o tamanho da lança."
+    },
+    {
+      "name": "Pódhraic",
+      "divergence_editorial_pct": 50.0,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Estrela na face",
+          "weight_pct": 35,
+          "score_0_2": 0
+        },
+        {
+          "criterion": "Gola teatral aberta",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cabelo branco",
+          "weight_pct": 20,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Violeta/ouro do figurino",
+          "weight_pct": 15,
+          "score_0_2": 2
+        }
+      ],
+      "note": "A estrela não é reconhecível no sprite isolado; a gola virou faixa compacta. O portrait não pode substituir a identificação no sprite."
+    },
+    {
+      "name": "Bruxa",
+      "divergence_editorial_pct": 65.0,
+      "band": "alta",
+      "criteria": [
+        {
+          "criterion": "Postura claramente curvada",
+          "weight_pct": 50,
+          "score_0_2": 0
+        },
+        {
+          "criterion": "Volume e cachos do cabelo branco",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Paleta oliva/magenta",
+          "weight_pct": 10,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Cajado e acessórios",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência alta: corpo ereto demais e cabeleira reduzida em relação ao modelo. Este é um problema de silhueta e pose, não apenas cor ou resolução."
+    },
+    {
+      "name": "Lúgham",
+      "divergence_editorial_pct": 70.0,
+      "band": "alta",
+      "criteria": [
+        {
+          "criterion": "Balança reconhecível sustentada na mão",
+          "weight_pct": 70,
+          "score_0_2": 0
+        },
+        {
+          "criterion": "Coroa",
+          "weight_pct": 10,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Gola/capa de pele clara",
+          "weight_pct": 10,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Traje azul/ouro",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência alta: há pontos dourados junto à mão, mas a forma de braço e dois pratos não é identificável. A presença de ouro não conta como balança legível."
+    },
+    {
+      "name": "A’Maídhe",
+      "divergence_editorial_pct": 17.5,
+      "band": "baixa",
+      "criteria": [
+        {
+          "criterion": "Focinho comprido canino",
+          "weight_pct": 45,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Monóculo",
+          "weight_pct": 35,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cabeleira escura longa",
+          "weight_pct": 10,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Manto laranja/verde e ouro",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência baixa: a silhueta e o focinho comunicam o personagem. Melhorar monóculo localmente sem refazer o corpo aprovado."
+    },
+    {
+      "name": "Seyrín",
+      "divergence_editorial_pct": 15.0,
+      "band": "baixa",
+      "criteria": [
+        {
+          "criterion": "Capuz púrpura e olhos velados",
+          "weight_pct": 55,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Drapeados distinguíveis",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cabelos claros e ouro",
+          "weight_pct": 15,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência baixa: capuz e identidade corretos. Drapeados podem ganhar massas mais claras; preservar rosto oculto e harmonia de Gileád."
+    },
+    {
+      "name": "Niobhán",
+      "divergence_editorial_pct": 40.0,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Tranças distinguíveis",
+          "weight_pct": 35,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cetro com ampulheta legível",
+          "weight_pct": 45,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Pele, violeta/creme e ouro",
+          "weight_pct": 20,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Cetro e tranças existem como linhas/massas, mas seus desenhos específicos se perdem. Priorizar silhueta do cetro."
+    },
+    {
+      "name": "Halberd",
+      "divergence_editorial_pct": 27.5,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Porte curto e largo dvern",
+          "weight_pct": 25,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Barba trançada",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Óculos de trabalho",
+          "weight_pct": 25,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Martelo/traje do artífice",
+          "weight_pct": 20,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Porte e ação corretos; distinguir tranças e dois aros dos óculos. Na oficina, avaliar idle e golpe juntos para não voltar ao salto de escala."
+    },
+    {
+      "name": "Ínys",
+      "divergence_editorial_pct": 15.0,
+      "band": "baixa",
+      "criteria": [
+        {
+          "criterion": "Silhueta infantil",
+          "weight_pct": 30,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Laço verde",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Carruagem e boneco acompanhantes",
+          "weight_pct": 30,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Cabelo claro/traje verde",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência visual baixa: criança, cores e conjunto existem. O laço está comprimido. O crédito do conjunto é de presença visual, não aprovação de puxar/rodas/corda em movimento."
+    }
+  ],
+  "priority_descending": [
+    {
+      "name": "Lúgham",
+      "divergence_editorial_pct": 70.0,
+      "band": "alta",
+      "criteria": [
+        {
+          "criterion": "Balança reconhecível sustentada na mão",
+          "weight_pct": 70,
+          "score_0_2": 0
+        },
+        {
+          "criterion": "Coroa",
+          "weight_pct": 10,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Gola/capa de pele clara",
+          "weight_pct": 10,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Traje azul/ouro",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência alta: há pontos dourados junto à mão, mas a forma de braço e dois pratos não é identificável. A presença de ouro não conta como balança legível."
+    },
+    {
+      "name": "Bruxa",
+      "divergence_editorial_pct": 65.0,
+      "band": "alta",
+      "criteria": [
+        {
+          "criterion": "Postura claramente curvada",
+          "weight_pct": 50,
+          "score_0_2": 0
+        },
+        {
+          "criterion": "Volume e cachos do cabelo branco",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Paleta oliva/magenta",
+          "weight_pct": 10,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Cajado e acessórios",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência alta: corpo ereto demais e cabeleira reduzida em relação ao modelo. Este é um problema de silhueta e pose, não apenas cor ou resolução."
+    },
+    {
+      "name": "Pódhraic",
+      "divergence_editorial_pct": 50.0,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Estrela na face",
+          "weight_pct": 35,
+          "score_0_2": 0
+        },
+        {
+          "criterion": "Gola teatral aberta",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cabelo branco",
+          "weight_pct": 20,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Violeta/ouro do figurino",
+          "weight_pct": 15,
+          "score_0_2": 2
+        }
+      ],
+      "note": "A estrela não é reconhecível no sprite isolado; a gola virou faixa compacta. O portrait não pode substituir a identificação no sprite."
+    },
+    {
+      "name": "Niobhán",
+      "divergence_editorial_pct": 40.0,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Tranças distinguíveis",
+          "weight_pct": 35,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cetro com ampulheta legível",
+          "weight_pct": 45,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Pele, violeta/creme e ouro",
+          "weight_pct": 20,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Cetro e tranças existem como linhas/massas, mas seus desenhos específicos se perdem. Priorizar silhueta do cetro."
+    },
+    {
+      "name": "Sacerdote",
+      "divergence_editorial_pct": 37.5,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Auréola dourada distinta de coroa",
+          "weight_pct": 40,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Tranças brancas, não só massa clara",
+          "weight_pct": 35,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Veste ritual creme/ouro",
+          "weight_pct": 15,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Perfil adulto do modelo",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Auréola vira arco/coroa de poucos pixels e as tranças não se separam. Não precisa substituir roupa inteira."
+    },
+    {
+      "name": "Llúpin",
+      "divergence_editorial_pct": 35.0,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Broche crescente lunar legível",
+          "weight_pct": 40,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Óculos restritos a leitura",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Traje anil/azul e arminho",
+          "weight_pct": 20,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Cabelo castanho ondulado",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Broche pouco legível. Idle sem óculos está correto; estado de leitura com óculos não foi demonstrado, por isso o requisito temporal fica parcial."
+    },
+    {
+      "name": "Llewlás",
+      "divergence_editorial_pct": 32.5,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Ombreira identificável como leão",
+          "weight_pct": 25,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Peitoral parcialmente exposto",
+          "weight_pct": 20,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Corno de caça separado de arma/cinto",
+          "weight_pct": 20,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cabelo/rosto do modelo",
+          "weight_pct": 15,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Azul/ouro e capa",
+          "weight_pct": 20,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência média: identidade geral preservada, mas os três marcadores se fundem. Não normalizar o tamanho do corpo para o tamanho da lança."
+    },
+    {
+      "name": "Halberd",
+      "divergence_editorial_pct": 27.5,
+      "band": "média",
+      "criteria": [
+        {
+          "criterion": "Porte curto e largo dvern",
+          "weight_pct": 25,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Barba trançada",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Óculos de trabalho",
+          "weight_pct": 25,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Martelo/traje do artífice",
+          "weight_pct": 20,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Porte e ação corretos; distinguir tranças e dois aros dos óculos. Na oficina, avaliar idle e golpe juntos para não voltar ao salto de escala."
+    },
+    {
+      "name": "A’Maídhe",
+      "divergence_editorial_pct": 17.5,
+      "band": "baixa",
+      "criteria": [
+        {
+          "criterion": "Focinho comprido canino",
+          "weight_pct": 45,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Monóculo",
+          "weight_pct": 35,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cabeleira escura longa",
+          "weight_pct": 10,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Manto laranja/verde e ouro",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência baixa: a silhueta e o focinho comunicam o personagem. Melhorar monóculo localmente sem refazer o corpo aprovado."
+    },
+    {
+      "name": "Seyrín",
+      "divergence_editorial_pct": 15.0,
+      "band": "baixa",
+      "criteria": [
+        {
+          "criterion": "Capuz púrpura e olhos velados",
+          "weight_pct": 55,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Drapeados distinguíveis",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Cabelos claros e ouro",
+          "weight_pct": 15,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência baixa: capuz e identidade corretos. Drapeados podem ganhar massas mais claras; preservar rosto oculto e harmonia de Gileád."
+    },
+    {
+      "name": "Ínys",
+      "divergence_editorial_pct": 15.0,
+      "band": "baixa",
+      "criteria": [
+        {
+          "criterion": "Silhueta infantil",
+          "weight_pct": 30,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Laço verde",
+          "weight_pct": 30,
+          "score_0_2": 1
+        },
+        {
+          "criterion": "Carruagem e boneco acompanhantes",
+          "weight_pct": 30,
+          "score_0_2": 2
+        },
+        {
+          "criterion": "Cabelo claro/traje verde",
+          "weight_pct": 10,
+          "score_0_2": 2
+        }
+      ],
+      "note": "Divergência visual baixa: criança, cores e conjunto existem. O laço está comprimido. O crédito do conjunto é de presença visual, não aprovação de puxar/rodas/corda em movimento."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "expected_count": 11,
+  "preserved_original_count": 0,
+  "ordering_source": "Explicit order supplied by parent agent from current user attachments",
+  "characters": [
+    {
+      "order": 1,
+      "id": "sacerdote",
+      "name": "Sacerdote",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 2,
+      "id": "llupin",
+      "name": "Llúpin",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 3,
+      "id": "llewlas",
+      "name": "Llewlás",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 4,
+      "id": "podhraic",
+      "name": "Pódhraic",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 5,
+      "id": "bruxa",
+      "name": "Bruxa",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 6,
+      "id": "lugham",
+      "name": "Lúgham",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 7,
+      "id": "amaidhe",
+      "name": "A'Maídhe",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 8,
+      "id": "seyrin",
+      "name": "Seyrín",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 9,
+      "id": "niobhan",
+      "name": "Niobhán",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 10,
+      "id": "halberd",
+      "name": "Halberd",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    },
+    {
+      "order": 11,
+      "id": "inys",
+      "name": "Ínys",
+      "source": "Latest eleven visual character sheets attached inline by author",
+      "original_file": null,
+      "sha256": null,
+      "status": "awaiting_accessible_original_file",
+      "do_not_substitute": true
+    }
+  ]
+}
