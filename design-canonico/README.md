@@ -2,7 +2,20 @@
 
 Consulte as fichas do autor antes de desenhar. O índice das onze pranchas e a descrição dos atributos ficam em [fichas](fichas/REFERENCIA-VISUAL.md). A cópia dos arquivos originais aguarda o ZIP.
 
-## Fila dos sprites da demo
+## Escopo escolhido pelo autor
+
+1. Bruxa — redesenhar a postura curvada e a cabeleira volumosa.
+2. Llewlás — redesenhar, corrigir a definição e a alternância das pernas na caminhada.
+3. Sacerdote — redesenhar pela ficha da Roda Sagrada.
+4. Niobhán — acrescentar apenas o cetro com ampulheta.
+5. A’Maídhe — melhorar apenas a definição, especialmente a leitura do monóculo.
+6. Pódhraic — melhorar apenas a definição do sprite.
+
+Bônus de cenário: melhorar a leitura da carruagem de brinquedo no jardim, preservando Ínys e os estados do boneco.
+
+Lúgham conserva o sprite atual. A balança de Halberd, presente de Midhra, é uma peça de Airgeád atrás do trono de Éhrein. Oscila até a decisão definitiva sobre a evacuação. Esta decisão do autor substitui a balança de mão da prancha na implementação da demo.
+
+## Medições anteriores à decisão de escopo
 
 Estimativa editorial na escala do jogo. Cada traço recebe 0 (ausente), 1 (parcial) ou 2 (legível). Divergência é a soma das perdas ponderadas. Os critérios específicos estão em [notas-ANTES.json](notas-ANTES.json). Alta a partir de 55%, média a partir de 25%. Abaixo do corte, preservar.
 
