@@ -1,5 +1,7 @@
 # Moinho da Mata Alta e Rei Oco
 
+[Ver a Clareira contínua e a revisão dos três personagens](./clareira/README.md)
+
 [Baixar a demo em pixel art](./demo-pixel-art.zip)
 
 ### Idhrí sobre uma pá da roda em movimento
