@@ -13,4 +13,4 @@ Os testes em Chromium cobriram o caminho físico até a sacola, os dois pagament
 
 A moradora de Iomadh agora respira em dois quadros. A crista e a gola sobem um pixel durante a inspiração, com os pés ancorados. [Ver o ciclo](moradora-idle.gif)
 
-[Estado da lista de afazeres e comparações da carruagem, do cetro e da sinalização](afazeres.md)
+[Estado da lista de afazeres e capturas do cetro](afazeres.md)

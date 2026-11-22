@@ -3,8 +3,9 @@
 | Item | Estado na demo |
 | --- | --- |
 | Cetro de Nióbhan | A ampulheta ganhou contorno e dois travessões legíveis. Nióbhan ergue o cetro no começo da audiência e volta ao repouso. Corpo e apoio dos pés mantêm a escala. |
-| Carruagem de Ínys | A peça do jardim ganhou silhueta mais simples, quatro rodas e o boneco visível sob o arco. Ocupa 34 × 30 px no mapa. As cinco cenas de inspeção do boneco usam as variantes de cabelo disponíveis. Puxar a carruagem e animar rodas, cordão e brincadeiras continuam em espera. |
-| Pilastras, checkpoints e placas | Quatro famílias para os reinos jogáveis. Pilastras e checkpoints usam recortes e materiais regionais. As placas retomam os dois modelos próprios de Myriadd, Gileád, Iomadh e Éhrein. Em um patamar compartilhado, os modelos pequeno e grande alternam e a placa mais próxima tem prioridade de leitura. Os testes nos quatro mapas confirmaram ativação, recuperação de vida e gravação do checkpoint. |
+| Carruagem de Ínys | A nova versão do jardim usa arte gerada e revista em cena, com capota marfim, rodas ameixa com estrelas douradas e o boneco da cena de inspeção. As cinco cenas de inspeção do boneco conservam as variantes de cabelo disponíveis. |
+| Pilastras e checkpoints | Novos sprites gerados para cada um dos quatro reinos. A diferença vem do desenho e do material. A ativação, recuperação de vida e gravação seguem pela rotina original. |
+| Placas | Os modelos pequeno e grande foram exportados dos masters originais a 2× para cada reino. Quando dividem um patamar, os modelos alternam e a placa mais próxima tem prioridade de leitura. |
 | Llewlás | Acompanhamento ao lado de Idhrí na clareira e 17 quadros conferidos no render do jogo. Subida e queda usam o quadro aéreo corrigido de 68 × 52 px. As folhas coincidem com as do ajuste anterior. A distância a Idhrí ficou em cerca de 24 px no teste de caminhada, parada e retorno. [Escala das poses](llewlas-escala-poses.png) |
 | Bruxa e Sacerdote | Os sprites com postura e silhueta revistas estão na demo. A moradora de Iomadh respira junto ao poço e o Sacerdote foi reposicionado para a subida do conselho. |
 | A’Maídhe e Pódhraic | O reexport 2× dos dois sprites está integrado. O gesto de ajustar o monóculo de A’Maídhe segue pendente. A leitura do monóculo deve continuar sendo avaliada na escala de jogo. |
@@ -16,5 +17,7 @@
 ## Capturas deste lote
 
 - [Nióbhan em audiência](cetro-na-audiencia.jpg) e [quadros do cetro](cetro-quadros.png)
-- [Carruagem no jardim, antes e depois](carruagem-comparativo.jpg)
+
+- [Revisão de arte e exportações](revisao-sinalizacao.md)
+- [Carruagem no jardim](carruagem-comparativo.jpg)
 - [Pilastras, checkpoints e placas em cena](sinalizacao-comparativo.jpg)
