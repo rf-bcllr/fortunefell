@@ -4,8 +4,8 @@
 
 | Item | Encontrado no Jogo 21 | Ajuste nesta revisão |
 | --- | --- | --- |
-| 1. Epílogo | Três cartas com a primeira ponte, o conselho e a evacuação, e o destino de Llewlás. | Conferidas 16 combinações em português e inglês. |
-| 2. Tesouro | Depósito direto com fichas e saldos atualizados durante menus. | Conferido depósito de 16 moedas usando +1, +5 e +10. |
+| 1. Epílogo | Três cartas com a primeira ponte, o conselho e a evacuação, e o destino de Llewlás. | Conferidas 16 combinações em português e inglês. O rodapé ganhou espaço próprio para os botões. Testado em três tamanhos de janela nos dois idiomas. |
+| 2. Tesouro | Depósito direto com fichas e saldos atualizados durante menus. | Conferido depósito de 16 moedas pelos botões +1, +5 e +10. Os saldos do cofre e da oficina se atualizam com o menu aberto e o saldo do Tesouro aparece na chancelaria. |
 | 3. Atalho de Gileád | Trinco revelado por Percepção abre a porta de contrapeso que ocupa o corredor. | O trinco libera a colisão da porta. Após descobrir a passagem pelos Arquivos, o retorno pela estante carrega a porta aberta. O percurso foi feito a pé pelos controles do jogo. |
 | 4. Objetivos | Objetivos de Pódhraic e de consulta no HUD. A fala e o bloqueio tinham variantes por entrada. | A primeira entrada e a tentativa de entrar no Santuário usam a mesma fala. O bloqueio cobre as entradas do Santuário antes do encontro. |
 | 5. Rumores de Pódhraic | Falas novas e ciclo do Sacerdote. A fala da moradora estava associada à figura do conselho. | O rumor do balde pertence à moradora junto ao poço. |
@@ -23,3 +23,9 @@
 As três fachadas foram editadas a partir das referências do jogo e reduzidas sem deformação, mantendo os emblemas e o centro das portas. A imagem da fachada ficou um pouco menor para caber no campo visível perto da entrada.
 
 ![As três fachadas renderizadas no jogo](fachadas-no-jogo.jpg)
+
+## Cofre e epílogo na build revisada
+
+![Epílogo com as três cartas acima das ações](epilogo-jogo21.jpg)
+
+![Saldos atualizados após o depósito com o menu aberto](tesouro-ao-vivo.jpg)
