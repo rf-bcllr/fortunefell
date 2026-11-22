@@ -8,10 +8,10 @@
 | 2. Tesouro | Depósito direto com fichas e saldos atualizados durante menus. | Conferido depósito de 16 moedas pelos botões +1, +5 e +10. Os saldos do cofre e da oficina se atualizam com o menu aberto e o saldo do Tesouro aparece na chancelaria. |
 | 3. Atalho de Gileád | Trinco revelado por Percepção abre a porta de contrapeso que ocupa o corredor. | O trinco libera a colisão da porta. Após descobrir a passagem pelos Arquivos, o retorno pela estante carrega a porta aberta. O percurso foi feito a pé pelos controles do jogo. |
 | 4. Objetivos | Objetivos de Pódhraic e de consulta no HUD. A fala e o bloqueio tinham variantes por entrada. | A primeira entrada e a tentativa de entrar no Santuário usam a mesma fala. O bloqueio cobre as entradas do Santuário antes do encontro. |
-| 5. Rumores de Pódhraic | Falas novas e ciclo do Sacerdote. A fala da moradora estava associada à figura do conselho. | O rumor do balde pertence à moradora junto ao poço. |
-| 6. Mercadora Aelvara | Comenta o cabelo de Idhrí depois do segundo anel. | Mantida a fala do Jogo 21. |
+| 5. Rumores de Pódhraic | Falas novas e ciclo do Sacerdote. A fala da moradora estava associada à figura do conselho. | O rumor do balde pertence à moradora junto ao poço. Os cinco rumores e a dica do Sacerdote são gravados ao terminar cada fala. |
+| 6. Mercadora Aelvara | Comenta o cabelo de Idhrí depois do segundo anel. | O save registra a fala assim que termina. |
 | 7. Besouro | A patrulha reconhece galhos de mão única. | A patrulha percorreu 346,5 px de galho, fez duas voltas nas bordas e manteve a altura durante 1.600 quadros testados. |
-| 8. Posições | Niobhán à frente do trono, Seyrín atrás e Sacerdote no centro do trecho em Iomadh. | Mantidas as posições do Jogo 21. |
+| 8. Posições | Niobhán à frente do trono, Seyrín atrás e Sacerdote no centro do trecho em Iomadh. | Niobhán e Seyrín foram conferidas no mapa, apoiadas na plataforma e voltadas para o salão. |
 | 9. Topos | As fachadas batiam no enquadramento. O terreno pré-renderizado também cortava pixels acima da origem do mapa. | Remates completos e enquadramento pela câmera local. As fachadas são desenhadas diretamente em cena. |
 | 10. Santuário | A arte tinha a resolução nativa e detalhes limitados. | Novo master baseado na fachada anterior, reduzido para a célula de 260 × 220 px. |
 | 11. Halberd | O pedido concede aprovação a Myriadd. | Conferido o reino no sistema de aprovação. |
@@ -29,3 +29,5 @@ As três fachadas foram editadas a partir das referências do jogo e reduzidas s
 ![Epílogo com as três cartas acima das ações](epilogo-jogo21.jpg)
 
 ![Saldos atualizados após o depósito com o menu aberto](tesouro-ao-vivo.jpg)
+
+As falas de Iomadh, o ciclo do Sacerdote e os dois rumores de Éhrein foram conferidos pela interação dos NPCs em português e inglês.
