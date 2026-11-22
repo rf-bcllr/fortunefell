@@ -6,11 +6,11 @@
 | --- | --- | --- |
 | 1. Epílogo | Três cartas com a primeira ponte, o conselho e a evacuação, e o destino de Llewlás. | Conferidas 16 combinações em português e inglês. |
 | 2. Tesouro | Depósito direto com fichas e saldos atualizados durante menus. | Conferido depósito de 16 moedas usando +1, +5 e +10. |
-| 3. Atalho de Gileád | Trinco revelado por Percepção abre a porta de contrapeso que ocupa o corredor. | Conferido que o trinco libera a colisão da porta. |
+| 3. Atalho de Gileád | Trinco revelado por Percepção abre a porta de contrapeso que ocupa o corredor. | O trinco libera a colisão da porta. Após descobrir a passagem pelos Arquivos, o retorno pela estante carrega a porta aberta. O percurso foi feito a pé pelos controles do jogo. |
 | 4. Objetivos | Objetivos de Pódhraic e de consulta no HUD. A fala e o bloqueio tinham variantes por entrada. | A primeira entrada e a tentativa de entrar no Santuário usam a mesma fala. O bloqueio cobre as entradas do Santuário antes do encontro. |
 | 5. Rumores de Pódhraic | Falas novas e ciclo do Sacerdote. A fala da moradora estava associada à figura do conselho. | O rumor do balde pertence à moradora junto ao poço. |
 | 6. Mercadora Aelvara | Comenta o cabelo de Idhrí depois do segundo anel. | Mantida a fala do Jogo 21. |
-| 7. Besouro | A patrulha reconhece galhos de mão única. | Mantida a correção da patrulha do Jogo 21. |
+| 7. Besouro | A patrulha reconhece galhos de mão única. | A patrulha percorreu 346,5 px de galho, fez duas voltas nas bordas e manteve a altura durante 1.600 quadros testados. |
 | 8. Posições | Niobhán à frente do trono, Seyrín atrás e Sacerdote no centro do trecho em Iomadh. | Mantidas as posições do Jogo 21. |
 | 9. Topos | As fachadas batiam no enquadramento. O terreno pré-renderizado também cortava pixels acima da origem do mapa. | Remates completos e enquadramento pela câmera local. As fachadas são desenhadas diretamente em cena. |
 | 10. Santuário | A arte tinha a resolução nativa e detalhes limitados. | Novo master baseado na fachada anterior, reduzido para a célula de 260 × 220 px. |
