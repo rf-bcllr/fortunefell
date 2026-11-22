@@ -2,7 +2,7 @@
 
 [Baixar a demo](../../demo-pixel-art.zip) · [Baixar os retratos](../../retratos.zip)
 
-A moradora da vila tem pele turquesa, crista azul, nadadeiras rosadas e capa curta. Ela usa o sprite de crista desenhado anteriormente. A conselheira tem cabelo roxo longo e brincos dourados. Seus dois retratos e seu sprite vieram da personagem que aparecia na vila na build anterior. A maga de Morgwang usa diadema.
+A moradora da vila tem pele turquesa, crista azul, nadadeiras rosadas e capa curta. As duas expressões usam o mesmo retrato de base reta enviado pelo autor. A conselheira tem cabelo roxo longo e brincos dourados. Seus dois retratos e seu sprite vieram da personagem que aparecia na vila na build anterior. A maga de Morgwang usa diadema.
 
 ![Comparação dos retratos e sprites](morghara.png)
 
