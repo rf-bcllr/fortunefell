@@ -64,6 +64,6 @@
 - A cabana agora é um interior compacto em corte, com piso, batente, lareira, móveis e teto alinhados à altura dos personagens. A Bruxa e o corvo continuam dentro e Llewlás espera do lado de fora.
 - Os mapas usam silhuetas de uma cor em primeiro plano. Elas incluem as copas da Mata Alta, a roda do Rio, as nuvens dos Terraços e composições próprias nos palácios, santuários e arredores.
 - Mhoirín usa o diadema de Mhóira e apoia a miniatura de uma roda numa mão. A base do memorial segue a mesma cantaria.
-- A primeira conversa sobre a balança ganhou uma ilustração em alta resolução, vista por trás de Idhrí e Lúgham. A balança fica no chão, no fundo do salão, um pouco acima da altura dos dois. A cutscene escolhe a cor do cabelo de Idhrí pela ordem dos anéis do Tempo e da Percepção. O traje de Lúgham segue a ficha de implementação e o retrato atual. A luz fria e a chuva dão o tom do salão, com tapete, manto e estandarte íntegros.
+- A primeira conversa sobre a balança ganhou uma ilustração em alta resolução, vista por trás de Idhrí e Lúgham. A balança fica no chão, no fundo do salão, um pouco acima da altura dos dois. O enquadramento é mais próximo e centraliza Idhrí, a balança e Lúgham. A cor do cabelo de Idhrí é a da ilustração. O traje de Lúgham segue a ficha de implementação e o retrato atual. A luz fria e a chuva dão o tom do salão, com tapete, manto e estandarte íntegros.
 
 [Capturas no jogo](cabana-sombras-e-memorial.jpg) · [Ilustração da balança](balanca-na-corte-de-ehrein.jpg)
