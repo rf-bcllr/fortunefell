@@ -48,7 +48,7 @@
 
 ## Cabana da Bruxa, memoriais e profundidade
 
-- Os quatro memoriais ficam a 48 ladrilhos um do outro pelo jardim. A estátua de Mhóira segue o perfil, o cabelo, o diadema e o arco do prólogo. Os outros memoriais compartilham a cantaria e a base. As células continuam a 2×.
+- Os quatro memoriais ficam distribuídos pelo jardim. A estátua de Mhóira segue o perfil, o cabelo, o diadema e o arco do prólogo. Os outros memoriais compartilham a cantaria e a base. As células continuam a 2×.
 - Os cinco tipos de luminárias têm seis quadros de chama por reino. As tochas ficam presas às paredes laterais e viradas para o salão. Candelabros ocupam os vãos internos. A lareira de Myriadd fica num vão próprio, separada da mesa da Chancelaria.
 - O Pescador de Éhrein indica a trilha. Dois espantalhos com ervas estão nas Charnecas e um na clareira. As flechas do Tempo desaceleram a chuva em torno de cada alvo, e o progresso fica salvo. Depois de proteger os três, Idhrí pode ouvir o conselho de evacuação da Bruxa, mesmo na rota da Oráculo.
 - A cabana tem mapa próprio. Há dois corvos amistosos do lado de fora e um voando dentro. Llewlás espera na clareira e volta a acompanhar Idhrí após a saída.
@@ -67,3 +67,6 @@
 - A primeira conversa sobre a balança ganhou uma ilustração em alta resolução, vista por trás de Idhrí e Lúgham. A balança fica no chão, no fundo do salão, um pouco acima da altura dos dois. O enquadramento é mais próximo e centraliza Idhrí, a balança e Lúgham. A cor do cabelo de Idhrí é a da ilustração. O traje de Lúgham segue a ficha de implementação e o retrato atual. A luz fria e a chuva dão o tom do salão, com tapete, manto e estandarte íntegros.
 
 [Capturas no jogo](cabana-sombras-e-memorial.jpg) · [Ilustração da balança](balanca-na-corte-de-ehrein.jpg)
+
+
+Midhra foi movido para a margem oeste da ponte leste. A arte dos memoriais, da ponte e das demais peças é a da prévia anterior. [Auditoria de resolução](auditoria-resolucao.md)
