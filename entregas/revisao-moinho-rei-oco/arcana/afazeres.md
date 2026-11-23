@@ -103,3 +103,8 @@ As peças do jardim foram redesenhadas a 2× e o terreno ganhou detalhe de meio 
 ## Rio, Terraços e retorno ao título
 
 A roda de primeiro plano acompanha a câmera continuamente. Os Terraços têm nuvens opacas nas duas bordas. O contador de coleção usa um anel e o retorno ao título limpa a interface da conversa e do Tesouro. [Registro da revisão](rio-nuvens-e-ui.md)
+
+
+## Revisão de conversas e primeiro plano
+
+A pausa e a saída foram revisadas no diálogo e nos serviços. Os menus de Llewlás, da guardiã, de Pódhraic e de Halberd separam a ação principal das perguntas. Halberd tem três assuntos de lore. As falas de Mhoirín e Midhra foram corrigidas. As silhuetas compartilham os tons opacos das copas da Mata Alta. [Registro da revisão](dialogos-e-primeiro-plano.md)
