@@ -86,3 +86,5 @@ Gileád e Iomadh têm baús de Mythril acessíveis após o Guardião, com 30 de 
 Os altares usam o piso de cada Santuário, recortado em degraus com a mesma altura das superfícies de pouso. [Altares em jogo](altares-de-mythril.jpg)
 
 A mesa da Chancelaria e os 18 quadros de Llewlás foram reexportados a 2×. [Origens e pendências](reexports-masters.md)
+
+Os degraus agora chegam até a parede dos três Santuários. Cada baú fica no centro do degrau mais alto, com os pés apoiados no piso.
