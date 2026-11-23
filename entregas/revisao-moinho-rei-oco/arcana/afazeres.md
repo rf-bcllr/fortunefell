@@ -73,3 +73,10 @@ Midhra foi movido para a margem oeste da ponte leste. A arte dos memoriais, da p
 
 
 A auditoria dos 23 mapas compara a densidade em jogo e registra as artes que continuam na escala lógica. O Mirante passou para o canvas de 800 × 450. As pilastras e uma casa de Éhrein preservam mais detalhe das fontes aprovadas. [Relatório por mapa](auditoria-resolucao-mapas.md)
+
+
+## Altares de Mythril e trilha da Bruxa
+
+Midhra fica na margem da ponte leste do jardim. O espantalho da trilha alta foi movido para o patamar logo abaixo, e o tesouro que dividia o patamar superior com ele foi removido. A aura violeta do Tempo persiste nos espantalhos protegidos.
+
+Gileád e Iomadh têm baús de Mythril acessíveis após o Guardião, com 30 de ouro cada. O baú de Éhrein fica na arena e se perde na queda, conforme a decisão do autor. Os altares ficam à direita, junto ao chão, com dois degraus. [Capturas em jogo](altares-de-mythril.jpg)
