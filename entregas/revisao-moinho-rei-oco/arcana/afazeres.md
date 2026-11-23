@@ -132,3 +132,10 @@ Idhrí, a Bruxa e a sentinela de Gileád têm revisão de resolução e contorno
 As fontes maiores do Sacerdote da Fortuna e do baú comum foram integradas. O contrapeso e a porta receberam acabamento em 2×, e os sprites já em 2× de A’Maídhe e Pódhraic passaram ao carregador comum. O próximo lote de arte começa pelos inimigos e fachadas ainda em 1×.
 
 [Auditoria do elenco e dos mecanismos](auditoria-elenco-e-mecanismos.md)
+
+
+## Redesenho do elenco e animação de repouso
+
+A’Maídhe, Llewlás, Halberd e Ínys têm novos sprites. O braço dobrado de Llewlás foi separado do peito nos golpes em que a ombreira ocultava a leitura. A Bruxa ganhou repouso mais visível e os NPCs e figurantes de mapa receberam um movimento quando estão parados. A auditoria registra as fontes e as verificações em jogo.
+
+[Auditoria de redesenho e repouso](auditoria-redesenho-e-idle.md)
