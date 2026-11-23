@@ -88,3 +88,8 @@ Os altares usam o piso de cada Santuário, recortado em degraus com a mesma altu
 A mesa da Chancelaria e os 18 quadros de Llewlás foram reexportados a 2×. [Origens e pendências](reexports-masters.md)
 
 Os degraus agora chegam até a parede dos três Santuários. Cada baú fica no centro do degrau mais alto, com os pés apoiados no piso.
+
+
+## Silhuetas de primeiro plano
+
+O primeiro plano usa silhuetas opacas de acordo com cada mapa. No Rio, a roda da borda esquerda passa à frente da água. A corte e o santuário de Gileád, o castelo de Éhrein e o moinho foram reexportados a 2× dos originais atuais. [Revisão em jogo](sombras-e-reexports.md)
