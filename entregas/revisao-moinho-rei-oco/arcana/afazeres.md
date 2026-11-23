@@ -3,7 +3,7 @@
 | Item | Estado na demo |
 | --- | --- |
 | Cetro de Nióbhan | A ampulheta ganhou contorno e dois travessões legíveis. Nióbhan ergue o cetro no começo da audiência e volta ao repouso. Corpo e apoio dos pés mantêm a escala. |
-| Carruagem de Ínys | A nova versão do jardim usa arte gerada e revista em cena, com capota marfim, rodas ameixa com estrelas douradas e o boneco da cena de inspeção. As cinco cenas de inspeção do boneco conservam as variantes de cabelo disponíveis. |
+| Carruagem de Ínys | A nova versão do jardim usa arte gerada e revista em cena, com bandeira vazia, estrela no topo, madeira bege, rodas ameixa e boneco da cena de inspeção. As cinco cenas de inspeção do boneco conservam as variantes de cabelo disponíveis. |
 | Pilastras e checkpoints | Novos sprites gerados para cada um dos quatro reinos. A diferença vem do desenho e do material. A ativação, recuperação de vida e gravação seguem pela rotina original. |
 | Placas | Os modelos pequeno e grande foram exportados dos masters originais a 2× para cada reino. Quando dividem um patamar, os modelos alternam e a placa mais próxima tem prioridade de leitura. |
 | Llewlás | Acompanhamento ao lado de Idhrí na clareira e 17 quadros conferidos no render do jogo. Subida e queda usam o quadro aéreo corrigido de 68 × 52 px. As folhas coincidem com as do ajuste anterior. A distância a Idhrí ficou em cerca de 24 px no teste de caminhada, parada e retorno. [Escala das poses](llewlas-escala-poses.png) |
