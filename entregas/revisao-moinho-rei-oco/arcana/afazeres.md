@@ -125,3 +125,10 @@ A Percepção tem mostradores de duração, e as plataformas sustentam Idhrí en
 Idhrí, a Bruxa e a sentinela de Gileád têm revisão de resolução e contorno nas poses em jogo. O primeiro plano foi auditado em 23 mapas e os perfis de arquitetura e vegetação baixa foram refinados com referência nas copas da Mata Alta. O terreno ao ar livre ganhou detalhe fino na superfície de pouso. As artes ainda a 1× seguem registradas na auditoria de resolução anterior.
 
 [Auditoria de primeiro plano](auditoria-primeiro-plano.md)
+
+
+## Elenco e objetos em 2×
+
+As fontes maiores do Sacerdote da Fortuna e do baú comum foram integradas. O contrapeso e a porta receberam acabamento em 2×, e os sprites já em 2× de A’Maídhe e Pódhraic passaram ao carregador comum. O próximo lote de arte começa pelos inimigos e fachadas ainda em 1×.
+
+[Auditoria do elenco e dos mecanismos](auditoria-elenco-e-mecanismos.md)
