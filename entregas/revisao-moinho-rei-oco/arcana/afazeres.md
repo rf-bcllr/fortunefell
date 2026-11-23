@@ -153,3 +153,10 @@ O lote inclui Llewlás redesenhado de corpo inteiro em 18 poses, A’Maídhe com
 Os braços e as mãos de Llewlás ficam descobertos em todas as poses. A ombreira tem juba, orelhas arredondadas e focinho curto. O branco entre a bota e o cajado da Bruxa foi removido das duas folhas.
 
 [Figurino e transparência](notas-figurino-e-transparencia.md)
+
+
+## Altura de Llewlás em repouso
+
+O repouso ganhou 2,5 unidades de altura e a guarda depois da estocada ganhou 6,5. A câmera, a largura da célula e a linha dos pés mantêm o mesmo encaixe. No Chromium, o repouso, a passada e a guarda mediram 44, 42,5 e 43,5 unidades incluindo a lança.
+
+[Comparação](llewlas-altura-repouso.png)
