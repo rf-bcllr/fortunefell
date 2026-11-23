@@ -80,3 +80,9 @@ A auditoria dos 23 mapas compara a densidade em jogo e registra as artes que con
 Midhra fica na margem da ponte leste do jardim. O espantalho da trilha alta foi movido para o patamar logo abaixo, e o tesouro que dividia o patamar superior com ele foi removido. A aura violeta do Tempo persiste nos espantalhos protegidos.
 
 Gileád e Iomadh têm baús de Mythril acessíveis após o Guardião, com 30 de ouro cada. O baú de Éhrein fica na arena e se perde na queda, conforme a decisão do autor. Os altares ficam à direita, junto ao chão, com dois degraus. [Capturas em jogo](altares-de-mythril.jpg)
+
+## Terreno dos altares e reexportações
+
+Os altares usam o piso de cada Santuário, recortado em degraus com a mesma altura das superfícies de pouso. [Altares em jogo](altares-de-mythril.jpg)
+
+A mesa da Chancelaria e os 18 quadros de Llewlás foram reexportados a 2×. [Origens e pendências](reexports-masters.md)
