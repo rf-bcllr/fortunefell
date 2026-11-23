@@ -146,3 +146,10 @@ A’Maídhe, Llewlás, Halberd e Ínys têm novos sprites. O braço dobrado de L
 O lote inclui Llewlás redesenhado de corpo inteiro em 18 poses, A’Maídhe com proporções adultas e a Bruxa com a cabeça ampliada. A comparação usa a mesma ampliação e a mesma linha de chão. Os sprites de Idhrí seguem idênticos.
 
 [Auditoria de proporções](auditoria-proporcoes-elenco.md)
+
+
+## Figurino de Llewlás e transparência da Bruxa
+
+Os braços e as mãos de Llewlás ficam descobertos em todas as poses. A ombreira tem juba, orelhas arredondadas e focinho curto. O branco entre a bota e o cajado da Bruxa foi removido das duas folhas.
+
+[Figurino e transparência](notas-figurino-e-transparencia.md)
