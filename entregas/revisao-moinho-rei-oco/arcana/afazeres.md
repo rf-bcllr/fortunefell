@@ -139,3 +139,10 @@ As fontes maiores do Sacerdote da Fortuna e do baú comum foram integradas. O co
 A’Maídhe, Llewlás, Halberd e Ínys têm novos sprites. O braço dobrado de Llewlás foi separado do peito nos golpes em que a ombreira ocultava a leitura. A Bruxa ganhou repouso mais visível e os NPCs e figurantes de mapa receberam um movimento quando estão parados. A auditoria registra as fontes e as verificações em jogo.
 
 [Auditoria de redesenho e repouso](auditoria-redesenho-e-idle.md)
+
+
+## Proporções pela régua de Idhrí
+
+O lote inclui Llewlás redesenhado de corpo inteiro em 18 poses, A’Maídhe com proporções adultas e a Bruxa com a cabeça ampliada. A comparação usa a mesma ampliação e a mesma linha de chão. Os sprites de Idhrí seguem idênticos.
+
+[Auditoria de proporções](auditoria-proporcoes-elenco.md)
