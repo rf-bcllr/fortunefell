@@ -44,3 +44,15 @@
 - A porta do Tesouro Real tem um fecho circular de bronze. A saída para o jardim de Myriadd ganhou um arco alto de cantaria com pilastras e duas folhas de madeira. As duas foram exportadas a 2×.
 
 [Portas e sentinela no jogo](portas-e-sentinela-em-jogo.jpg) · [Quadros de Llewlás](llewlas-todos-os-estados.png)
+
+
+## Cabana da Bruxa, memoriais e profundidade
+
+- Os quatro memoriais ficam a 48 ladrilhos um do outro pelo jardim. A estátua de Mhóira segue o perfil, o cabelo, o diadema e o arco do prólogo. Os outros memoriais compartilham a cantaria e a base. As células continuam a 2×.
+- Os cinco tipos de luminárias têm seis quadros de chama por reino. As tochas ficam presas às paredes laterais e viradas para o salão. Candelabros ocupam os vãos internos. A lareira de Myriadd fica num vão próprio, separada da mesa da Chancelaria.
+- O Pescador de Éhrein indica a trilha. Dois espantalhos com ervas estão nas Charnecas e um na clareira. As flechas do Tempo desaceleram a chuva em torno de cada alvo, e o progresso fica salvo. Depois de proteger os três, Idhrí pode ouvir o conselho de evacuação da Bruxa, mesmo na rota da Oráculo.
+- A cabana tem mapa próprio. Há dois corvos amistosos do lado de fora e um voando dentro. Llewlás espera na clareira e volta a acompanhar Idhrí após a saída.
+- Llewlás responde perguntas sobre a caçada, Éhrein e seu pai Lúgham. A primeira fala de Lúgham sobre a balança ganhou um close da balança em movimento.
+- Os exteriores ganharam primeiro plano por ambiente. Os Terraços têm camadas móveis de nuvens, a Mata Alta tem copas próximas, o Rio tem uma roda em primeiro plano, Gileád tem cantaria e névoa, e Éhrein tem vegetação baixa e bruma.
+
+[Capturas no jogo](cabana-memoriais-e-cenarios.jpg)
