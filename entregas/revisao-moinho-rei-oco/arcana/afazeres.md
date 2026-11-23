@@ -113,3 +113,8 @@ A pausa e a saída foram revisadas no diálogo e nos serviços. Os menus de Llew
 ## Baús de Mythril, roda do Rio e pedido da Bruxa
 
 Os baús de Mythril usam a animação de abertura dos baús comuns. A roda em primeiro plano está ancorada no mapa. Os espantalhos formam um pedido com ícone, contador e entrega à Bruxa. [Registro da revisão](baus-roda-e-espantalhos.md)
+
+
+## Percepção, primeiro plano e auditoria
+
+A Percepção tem mostradores de duração, e as plataformas sustentam Idhrí enquanto ele está apoiado nelas. As nuvens dos Terraços passam à frente do jogador, a roda do Rio ganhou escala e as exclamações sinalizam falas desbloqueadas por ações ou acontecimentos. A auditoria mediu a arte em jogo em 23 mapas. [Relatório](auditoria-padrao-espantalhos.md)
