@@ -108,3 +108,8 @@ A roda de primeiro plano acompanha a câmera continuamente. Os Terraços têm nu
 ## Revisão de conversas e primeiro plano
 
 A pausa e a saída foram revisadas no diálogo e nos serviços. Os menus de Llewlás, da guardiã, de Pódhraic e de Halberd separam a ação principal das perguntas. Halberd tem três assuntos de lore. As falas de Mhoirín e Midhra foram corrigidas. As silhuetas compartilham os tons opacos das copas da Mata Alta. [Registro da revisão](dialogos-e-primeiro-plano.md)
+
+
+## Baús de Mythril, roda do Rio e pedido da Bruxa
+
+Os baús de Mythril usam a animação de abertura dos baús comuns. A roda em primeiro plano está ancorada no mapa. Os espantalhos formam um pedido com ícone, contador e entrega à Bruxa. [Registro da revisão](baus-roda-e-espantalhos.md)
