@@ -36,8 +36,11 @@
 
 [Capturas no jogo](revisao-iluminacao-em-jogo.jpg) · [Animações de caça](llewlas-caca.gif)
 
-### Na fila
+### Escolta, sentinelas e portas do palácio
 
-- Redesenhar a porta do Tesouro Real.
-- Dar mais presença à saída do palácio de Myriadd.
-- Animar a caminhada e dar uma patrulha curta à sentinela de Gileád, mantendo os disparos de projéteis.
+- Depois da caçada, Llewlás só oferece o atalho para o Santuário de Éhrein quando Idhrí tem a chave de Lúgham e a conversa sobre evacuação foi concluída. Com o conselho da Bruxa ou da Oráculo em mãos, Llewlás indica o retorno à corte. Se Idhrí pedir tempo para decidir, ainda pode sair da corte por conta própria.
+- Llewlás usa 18 quadros numa única folha de 68 × 52 px por célula. O repouso, a subida do salto, a queda e o recuo usam a mesma escala da caminhada, corrida, estocada e arremesso.
+- As quatro sentinelas do Campo dos Monumentos e do Santuário de Gileád patrulham perto da posição inicial, viram nas bordas e param para disparar.
+- A porta do Tesouro Real tem um fecho circular de bronze. A saída para o jardim de Myriadd ganhou um arco alto de cantaria com pilastras e duas folhas de madeira. As duas foram exportadas a 2×.
+
+[Portas e sentinela no jogo](portas-e-sentinela-em-jogo.jpg) · [Quadros de Llewlás](llewlas-todos-os-estados.png)
