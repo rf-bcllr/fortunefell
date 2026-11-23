@@ -118,3 +118,10 @@ Os baús de Mythril usam a animação de abertura dos baús comuns. A roda em pr
 ## Percepção, primeiro plano e auditoria
 
 A Percepção tem mostradores de duração, e as plataformas sustentam Idhrí enquanto ele está apoiado nelas. As nuvens dos Terraços passam à frente do jogador, a roda do Rio ganhou escala e as exclamações sinalizam falas desbloqueadas por ações ou acontecimentos. A auditoria mediu a arte em jogo em 23 mapas. [Relatório](auditoria-padrao-espantalhos.md)
+
+
+## Personagens em 2× e silhuetas
+
+Idhrí, a Bruxa e a sentinela de Gileád têm revisão de resolução e contorno nas poses em jogo. O primeiro plano foi auditado em 23 mapas e os perfis de arquitetura e vegetação baixa foram refinados com referência nas copas da Mata Alta. O terreno ao ar livre ganhou detalhe fino na superfície de pouso. As artes ainda a 1× seguem registradas na auditoria de resolução anterior.
+
+[Auditoria de primeiro plano](auditoria-primeiro-plano.md)
