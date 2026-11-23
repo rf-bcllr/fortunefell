@@ -24,3 +24,20 @@
 
 - [Jardim, conversas, pedidos, saque no Tesouro Real e revisão de sprites](revisao-jardim-e-pedidos.md)
 - [Cobertura do pacote de ícones](auditoria-icones.md)
+
+
+## Revisão de iluminação e animação
+
+- Llewlás usa três quadros novos para a estocada e três para o arremesso, com células de 68 × 52 px.
+- Os quatro memoriais do jardim usam células de 84 × 156 px para uma área de 42 × 78 px em cena. O pedestal vazio continua com a mesma altura em relação ao chão.
+- A estante falsa do Arquivo tem duas poses. Fechada, o fecho central e a moldura destacam a passagem. Aberta, ela deixa o vão visível.
+- A superfície de trabalho da bigorna foi baixada. Halberd foi aproximado da bigorna e o quadro do golpe acompanha a altura da nova mesa.
+- Os salões e ruas usam tochas, candelabros, lustres, postes e lareiras de acordo com o reino. O material vai do latão e da pedra clara de Myriadd à pedra violeta de Gileád, à madeira com cobre de Iomadh e à pedra escura com ferragens de Éhrein. Os checkpoints ativos voltaram a emitir brilho.
+
+[Capturas no jogo](revisao-iluminacao-em-jogo.jpg) · [Animações de caça](llewlas-caca.gif)
+
+### Na fila
+
+- Redesenhar a porta do Tesouro Real.
+- Dar mais presença à saída do palácio de Myriadd.
+- Animar a caminhada e dar uma patrulha curta à sentinela de Gileád, mantendo os disparos de projéteis.
