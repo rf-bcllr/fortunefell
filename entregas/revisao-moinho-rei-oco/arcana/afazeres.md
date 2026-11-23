@@ -70,3 +70,6 @@
 
 
 Midhra foi movido para a margem oeste da ponte leste. A arte dos memoriais, da ponte e das demais peças é a da prévia anterior. [Auditoria de resolução](auditoria-resolucao.md)
+
+
+A auditoria dos 23 mapas compara a densidade em jogo e registra as artes que continuam na escala lógica. O Mirante passou para o canvas de 800 × 450. As pilastras e uma casa de Éhrein preservam mais detalhe das fontes aprovadas. [Relatório por mapa](auditoria-resolucao-mapas.md)
