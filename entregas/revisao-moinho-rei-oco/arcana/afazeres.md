@@ -98,3 +98,8 @@ O primeiro plano usa silhuetas opacas de acordo com cada mapa. No Rio, a roda da
 ## Recriação do terreno e do jardim
 
 As peças do jardim foram redesenhadas a 2× e o terreno ganhou detalhe de meio pixel em 22 mapas. O passeio sobre as pontes foi verificado em jogo. [Revisão em jogo](terreno-e-jardim-2x.md)
+
+
+## Rio, Terraços e retorno ao título
+
+A roda de primeiro plano acompanha a câmera continuamente. Os Terraços têm nuvens opacas nas duas bordas. O contador de coleção usa um anel e o retorno ao título limpa a interface da conversa e do Tesouro. [Registro da revisão](rio-nuvens-e-ui.md)
