@@ -93,3 +93,8 @@ Os degraus agora chegam até a parede dos três Santuários. Cada baú fica no c
 ## Silhuetas de primeiro plano
 
 O primeiro plano usa silhuetas opacas de acordo com cada mapa. No Rio, a roda da borda esquerda passa à frente da água. A corte e o santuário de Gileád, o castelo de Éhrein e o moinho foram reexportados a 2× dos originais atuais. [Revisão em jogo](sombras-e-reexports.md)
+
+
+## Recriação do terreno e do jardim
+
+As peças do jardim foram redesenhadas a 2× e o terreno ganhou detalhe de meio pixel em 22 mapas. O passeio sobre as pontes foi verificado em jogo. [Revisão em jogo](terreno-e-jardim-2x.md)
