@@ -1,0 +1,531 @@
+{
+  "baseline": "R7 accessible; newer post65 package still unavailable here",
+  "naming_authority": "User supplied official titles; do not invent remaining titles",
+  "id_aliases": {
+    "gilead_boss": "boss_gilead",
+    "iomadh_boss": "boss_iomadh",
+    "ehrein_boss": "boss_ehrein"
+  },
+  "official_titles_count": 17,
+  "named_runtime_cues": 20,
+  "tracks": [
+    {
+      "id": "title",
+      "official_title": "Fortune Fell",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Tela inicial",
+      "verified_maps": [],
+      "current_bpm": 56,
+      "current_mode": "aeolian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "piano",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "myriadd",
+      "official_title": null,
+      "title_status": "not named by author",
+      "usage_status": "reserve/no activation found in R7",
+      "verified_context": null,
+      "verified_maps": [],
+      "current_bpm": 62,
+      "current_mode": "dorian",
+      "current_instruments": {
+        "pad": "strings",
+        "lead": "flute",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "gilead",
+      "official_title": "The Once and Future Queens (Capital)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Capital, corte e Arquivo Real de Gileád",
+      "verified_maps": [
+        "gh",
+        "gc",
+        "ga"
+      ],
+      "current_bpm": 54,
+      "current_mode": "aeolian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "piano",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "iomadh",
+      "official_title": "Eyes of Iomadh (Plaza)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Praça/cidade e corte de Iomadh",
+      "verified_maps": [
+        "ih",
+        "ic"
+      ],
+      "current_bpm": 68,
+      "current_mode": "dorian",
+      "current_instruments": {
+        "pad": "strings",
+        "lead": "flute",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "ehrein",
+      "official_title": "Amidst Rain and Ruin (Town)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Cidade e corte de Éhrein",
+      "verified_maps": [
+        "eh",
+        "ec"
+      ],
+      "current_bpm": 56,
+      "current_mode": "aeolian",
+      "current_instruments": {
+        "pad": "strings",
+        "lead": "flute",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "court",
+      "official_title": "In the Court of the White King",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Audiência inicial de Idhrí",
+      "verified_maps": [],
+      "current_bpm": 60,
+      "current_mode": "dorian",
+      "current_instruments": {
+        "pad": "strings",
+        "lead": "piano",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "history",
+      "official_title": "Myrdhórin",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Prólogo narrado; retomada no encerramento da demo",
+      "verified_maps": [],
+      "current_bpm": 52,
+      "current_mode": "aeolian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "piano",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "tension",
+      "official_title": "Shadow Over the Rainbow",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Notícia da ponte destruída; descoberta no Mirante",
+      "verified_maps": [],
+      "current_bpm": 66,
+      "current_mode": "harm",
+      "current_instruments": {
+        "pad": "strings",
+        "lead": null,
+        "harp": 0,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "shadow",
+      "official_title": "Shadow Over the Rainbow",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Aparição da sombra e destruição da ponte",
+      "verified_maps": [],
+      "current_bpm": 48,
+      "current_mode": "phrygian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "bell",
+        "harp": 0,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "boss",
+      "official_title": null,
+      "title_status": "not named by author",
+      "usage_status": "reserve/no activation found in R7",
+      "verified_context": null,
+      "verified_maps": [],
+      "current_bpm": 104,
+      "current_mode": "harm",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "strings",
+        "harp": 0,
+        "bass": 2,
+        "drum": "timp"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "ring",
+      "official_title": null,
+      "title_status": "not named by author",
+      "usage_status": "active in R7",
+      "verified_context": "Ressonância dos anéis de Tempo e Percepção",
+      "verified_maps": [],
+      "current_bpm": 58,
+      "current_mode": "dorian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "piano",
+        "harp": 1,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "bridge",
+      "official_title": null,
+      "title_status": "not named by author",
+      "usage_status": "active in R7",
+      "verified_context": "Travessias narrativas pelas Pontes de Arco-Íris",
+      "verified_maps": [],
+      "current_bpm": 76,
+      "current_mode": "mixo",
+      "current_instruments": {
+        "pad": "strings",
+        "lead": "flute",
+        "harp": 1,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "fall",
+      "official_title": "Shadow Over the Rainbow",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Queda de Éhrein",
+      "verified_maps": [],
+      "current_bpm": 50,
+      "current_mode": "aeolian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "piano",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "myriadd_palace",
+      "official_title": "In the Court of the White King",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Palácio, jardins, cofre e oficina de Myriadd",
+      "verified_maps": [
+        "castle",
+        "vault",
+        "workshop",
+        "garden"
+      ],
+      "current_bpm": 58,
+      "current_mode": "ionian",
+      "current_instruments": {
+        "pad": "strings",
+        "lead": "piano",
+        "harp": 1,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "myriadd_out",
+      "official_title": "Through the Cloud Terraces",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Exterior de Myriadd, Mirante e Cloud Terraces",
+      "verified_maps": [
+        "out",
+        "mir",
+        "terr"
+      ],
+      "current_bpm": 72,
+      "current_mode": "mixo",
+      "current_instruments": {
+        "pad": "strings",
+        "lead": "flute",
+        "harp": 2,
+        "bass": 1,
+        "drum": "frame"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "myriadd_wild",
+      "official_title": null,
+      "title_status": "not named by author",
+      "usage_status": "reserve/no activation found in R7",
+      "verified_context": null,
+      "verified_maps": [],
+      "current_bpm": 56,
+      "current_mode": "aeolian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "flute",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "myriadd_shrine",
+      "official_title": null,
+      "title_status": "not named by author",
+      "usage_status": "reserve/no activation found in R7",
+      "verified_context": null,
+      "verified_maps": [],
+      "current_bpm": 68,
+      "current_mode": "phrygian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "strings",
+        "harp": 1,
+        "bass": 2,
+        "drum": "timp"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "boss_myriadd",
+      "official_title": null,
+      "title_status": "not named by author",
+      "usage_status": "reserve/no activation found in R7",
+      "verified_context": null,
+      "verified_maps": [],
+      "current_bpm": 138,
+      "current_mode": "harm",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "brass",
+        "harp": 1,
+        "bass": 2,
+        "drum": "march"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "gilead_wild",
+      "official_title": "The Once and Future Queens (Fields)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Campos/caminho exterior de Gileád",
+      "verified_maps": [
+        "gm"
+      ],
+      "current_bpm": 49,
+      "current_mode": "aeolian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "flute",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "gilead_shrine",
+      "official_title": "The Once and Future Queens (Shrine)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Santuário de Gileád",
+      "verified_maps": [
+        "gd"
+      ],
+      "current_bpm": 60,
+      "current_mode": "phrygian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "strings",
+        "harp": 1,
+        "bass": 2,
+        "drum": "timp"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "boss_gilead",
+      "official_title": "The Once and Future Queens (Battle)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Guardião de Gileád",
+      "verified_maps": [],
+      "current_bpm": 138,
+      "current_mode": "harm",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "brass",
+        "harp": 1,
+        "bass": 2,
+        "drum": "march"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "iomadh_wild",
+      "official_title": "Eyes of Iomadh (Wilds)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Mata de Iomadh",
+      "verified_maps": [
+        "im"
+      ],
+      "current_bpm": 61,
+      "current_mode": "aeolian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "flute",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "iomadh_shrine",
+      "official_title": "Eyes of Iomadh (Shrine)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Santuário de Iomadh",
+      "verified_maps": [
+        "id"
+      ],
+      "current_bpm": 74,
+      "current_mode": "dorian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "strings",
+        "harp": 1,
+        "bass": 2,
+        "drum": "timp"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "boss_iomadh",
+      "official_title": "Eyes of Iomadh (Battle)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Guardião de Iomadh",
+      "verified_maps": [],
+      "current_bpm": 138,
+      "current_mode": "harm",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "brass",
+        "harp": 1,
+        "bass": 2,
+        "drum": "march"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "ehrein_wild",
+      "official_title": "Amidst Rain and Ruin (Moors)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Charnecas e clareira da Bruxa",
+      "verified_maps": [
+        "em",
+        "witchclearing"
+      ],
+      "current_bpm": 50,
+      "current_mode": "aeolian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "flute",
+        "harp": 2,
+        "bass": 1,
+        "drum": null
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "ehrein_shrine",
+      "official_title": "Amidst Rain and Ruin (Shrine)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Santuário de Éhrein",
+      "verified_maps": [
+        "ed"
+      ],
+      "current_bpm": 62,
+      "current_mode": "phrygian",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "strings",
+        "harp": 1,
+        "bass": 2,
+        "drum": "timp"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    },
+    {
+      "id": "boss_ehrein",
+      "official_title": "Amidst Rain and Ruin (Battle)",
+      "title_status": "confirmed by author",
+      "usage_status": "active in R7",
+      "verified_context": "Guardião de Éhrein",
+      "verified_maps": [],
+      "current_bpm": 138,
+      "current_mode": "harm",
+      "current_instruments": {
+        "pad": "choir",
+        "lead": "brass",
+        "harp": 1,
+        "bass": 2,
+        "drum": "march"
+      },
+      "arrangement_status": "direction only; no new recording or in-game replacement"
+    }
+  ]
+}

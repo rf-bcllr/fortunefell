@@ -23,6 +23,7 @@ class PortalTest(unittest.TestCase):
         (self.root / 'data' / name).write_text(json.dumps(value))
 
     def test_no_fake_demo_and_html_escaped(self):
+        self.write('releases.json', [])
         tasks = json.loads((self.root / 'data/tasks.json').read_text())
         tasks[0]['title'] = '<img src=x onerror=alert(1)>'
         self.write('tasks.json', tasks)
