@@ -15303,6 +15303,7 @@ function dressMyriaddGround(ctx,map){
   ctx.restore();
   paintMyriaddLedges(ctx,map);
   roundMyriaddLedges(ctx,map);
+  if(map.id==='garden') paintPalaceThreshold(ctx);
 
 }
 // Bend the painted grass and its outline together around exposed rock corners.
@@ -15332,6 +15333,27 @@ function roundMyriaddLedges(ctx,map){
     }
   }
 }
+function paintPalaceThreshold(ctx){
+  const stone=Art.get('myriadd_garden_stone');
+  if(!stone)return;
+  const floor=20*TS;
+  for(let col=106;col<115;col++){
+    const x=col*TS;
+    ctx.save();
+    if(col===106 || col===114){
+      ctx.beginPath();
+      for(let y=-5;y<41;y++){
+        const course=Math.max(0,Math.floor((y+2)/8));
+        const inset=2+Math.min(7,course)+Math.floor(hash2(col,course+19)*4);
+        ctx.rect(x+(col===106?inset:0),floor+y,TS-inset,1);
+      }
+      ctx.clip();
+    }
+    ctx.drawImage(stone,col%6*16,0,16,48,x,floor-7,TS,48);
+    ctx.restore();
+  }
+}
+
 function drawPalacePaving(ctx,map,camera){
   if(map.id==='garden')drawMyriaddMosaic(ctx,110*TS+8-camera.x,20*TS-camera.y);
 }
@@ -15340,8 +15362,8 @@ function drawMyriaddMosaic(ctx, x, floor) {
   ctx.save();
   ctx.translate(x, floor - 3);
   ctx.scale(1, .24);
-  ctx.fillStyle = '#fff5dd';
-  ctx.strokeStyle = '#ae7935';
+  ctx.fillStyle = 'rgba(238,222,198,.89)';
+  ctx.strokeStyle = '#ba9769';
   ctx.lineWidth = 2.7;
   ctx.beginPath();
   ctx.ellipse(0, 0, 44, 25, 0, 0, Math.PI * 2);
