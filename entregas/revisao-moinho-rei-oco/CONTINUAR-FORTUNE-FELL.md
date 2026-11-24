@@ -40,7 +40,7 @@ Abra `jogo.html` dentro de `demo-pixel-art.zip`. A prévia continua a versão `6
 | 4 | Mesa vazia de Pódhraic | Antes do encontro, Idhrí comenta que Pódhraic saiu para acompanhar as eleições do Conselho em Iomadh. A interação some quando ele retorna. |
 | 5 | Objetivo de encontrar Pódhraic | O objetivo é liberado depois da fala na entrada da Mata Alta. O save guarda o momento em que a fala termina. |
 | 6 | Sacola do moinho | A fachada inteira usa a exportação limpa original de 292 × 251. O item separado desaparece quando atingido. Mantidos 15 por flecha e 30 com E. |
-| 7 | Plataformas invisíveis do moinho | 8 apoios alinhados pelas beiradas, pela inclinação do telhado e pelo peitoril da janela. A Percepção mostra os apoios. A marcação original do autor não foi localizada. As coordenadas novas ficam em `ledges` no script principal. |
+| 7 | Plataformas invisíveis do moinho | Quatro superfícies invisíveis seguem as marcas do autor. A Percepção mostra os apoios. A sacola abre à mão sobre o apoio da janela. |
 | 8 | Guardiões, Rei Oco e terreno | Os assets já desenhados do Lote 01 entraram nos três Guardiões e no Rei Oco. As partes e rodas usam 2×, e o Rei Oco usa 3× em 12 células. Quatro mapas receberam um piloto de borda de terreno em 2×. A reconstrução modular restante continua no briefing. |
 | 9 | Régua de contorno, profundidade e proporção | Revisão localizada nas peças integradas, na montagem da ponte e no rosto de A’Maídhe. A auditoria visual em movimento do elenco inteiro e das silhuetas de todos os mapas continua em aberto. |
 
@@ -56,3 +56,15 @@ O outro ZIP, `pacote-redesenho.zip`, contém o briefing para enviar ao ChatGPT, 
 - A casa de Gileád voltou à exportação com abertura do toldo vazada e pedra lavanda. Portas de salão e passagens estilizadas calculam a altura da arte pelo último pixel do batente, junto à soleira.
 - O moinho usa a fachada integral limpa. A sacola fica numa camada separada e entrega 15 pepitas quando atingida.
 - O Conselheiro Real usa repouso, respiração, piscar e fala na mesma pose original. A revisão de A’Maídhe amplia a leitura do focinho e do monóculo na base atual. A de Pódhraic trabalha a estrela da face, gola e broche da Roda.
+
+
+## Arena e corte de Gileád
+
+- Cada trecho contínuo da arena da Guardiã desenha uma plataforma de pedra lavanda, com um topo inteiro e dois suportes. A geometria de jogo conserva as coordenadas de pouso e a passagem por baixo. Testados 27 pousos e 27 descidas pelas nove plataformas.
+- A cronista fica na corte de Niobhán. O Guardião das Crônicas passou para Myriadd.
+- O portão de Gileád no Mirante usa duas figuras distintas, a soldada e a oficial veterana.
+
+
+## Apoios marcados no moinho
+
+Quatro apoios invisíveis em cima das marcas do autor. A varanda baixa, o ressalto junto à janela menor, o apoio junto à sacola e a viga alta têm superfície de pouso. A abertura à mão fica disponível com Idhrí apoiado na marca da janela. A flecha ainda rasga a sacola à distância. A viga alta usa uma altura dentro do alcance do pulo a partir da janela.
