@@ -15102,7 +15102,7 @@ function myriaddFalls(map){
 }
 function locateFalls(map) {
   if (map.id === 'terr') return map.deco.filter(d => d.kind === 'cloudplat').map((d,i) => ({
-    x: d.x*TS + (i%2 ? 82 : 42), y: d.y*TS - 2, width: 13+i%2*4, bottom: map.h*TS+16
+    x: d.x*TS + (i%2 ? 82 : 42), y: d.y*TS + 10, width: 13+i%2*4, bottom: map.h*TS+16
   }));
   if (map.id === 'out') return [[16,18],[81,84],[135,138]].map(([a,b]) => ({
     x: (a+b)*TS/2-7, y: -100, width: 14, bottom: map.h*TS-6
@@ -15210,13 +15210,18 @@ function drawMyriaddSpillways(ctx, map, camera) {
   for (const f of myriaddFalls(map)) {
     const x = f.x-camera.x, y = f.y-camera.y, height = f.bottom-f.y;
     if(x+f.width+10<0 || x-10>W) continue;
-    ctx.save();
     if(map.id==='terr'){
-      // The atlas includes spray above its lip. Hide it inside the opaque cloud core.
-      ctx.beginPath();ctx.rect(x-32,y+4,f.width+64,height+80);ctx.clip();
-    }
-    drawMyriaddWaterfall(ctx,x,y,f.width,height,tick);
-    ctx.restore();
+      const atlas=waterfallAtlas, art=Art.get('myriadd_waterfall');
+      if(!art || y>H || y+height+40<0)continue;
+      const frame=Math.floor(tick/2)%atlas.frames;
+      // Start with falling strands inside the cloud, discarding the crest in the source image.
+      const start=atlas.lip[1]+12, remaining=atlas.sheetHeight-12;
+      const u=(frame%atlas.columns)*atlas.w, v=Math.floor(frame/atlas.columns)*atlas.h;
+      const scale=f.width/atlas.sheetWidth;
+      ctx.drawImage(art,u,v+start,atlas.w,atlas.h-start,
+        Math.round(x+f.width/2-atlas.lip[0]*scale),Math.round(y),
+        Math.round(atlas.w*scale),Math.round((atlas.h-start)*height/remaining));
+    }else drawMyriaddWaterfall(ctx,x,y,f.width,height,tick);
   }
 }
 
