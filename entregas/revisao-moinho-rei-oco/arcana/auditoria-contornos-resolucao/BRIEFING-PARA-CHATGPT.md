@@ -1,6 +1,6 @@
 # Fortune Fell — redesenho de assets
 
-Use minha arte atual de `01-arte-atual`, as tomadas em `02-em-jogo` e as réguas em `03-reguas`. Quero recuperar nitidez e leitura mantendo o desenho já aprovado. Os espantalhos dão a régua de contorno e detalhe para objetos. O repouso de Idhrí dá a régua de proporção, contorno e escala para personagens. Faça lotes separados, com uma peça de prova de cada família em escala real. O CSV `inventario-redesenho.csv` lista cada peça com tamanho e localização em jogo. O inventário completo registra também os 20 originais maiores já localizados, destinados à reexportação.
+Use minha arte atual de `01-arte-atual`, as tomadas em `02-em-jogo` e as réguas em `03-reguas`. Quero recuperar nitidez e leitura mantendo o desenho já aprovado. Os espantalhos dão a régua de contorno e detalhe para objetos. O repouso de Idhrí dá a régua de proporção, contorno e escala para personagens. Retome pelo Lote 2, com uma peça de prova de cada família em escala real. O CSV `inventario-redesenho.csv` lista cada peça com tamanho e localização em jogo. O inventário completo registra também os 20 originais maiores já localizados, destinados à reexportação.
 
 ## Formato e revisão
 
@@ -9,7 +9,9 @@ Use minha arte atual de `01-arte-atual`, as tomadas em `02-em-jogo` e as réguas
 - O alfa dos materiais opacos deve ser sólido. Preserve vazios como o vão de portas e as argolas das correntes. Confira os roxos e os recortes internos sobre fundo claro e escuro. Faça o contorno por contraste dos volumes, com os espantalhos e Idhrí como referência.
 - O motor usa o PNG para arte e sua própria malha para física. Os pés de personagens, a borda de pouso e a abertura das portas precisam coincidir com o desenho atual. As linhas `·canvas` e `@piso-base` do CSV descrevem composições do motor. Use-as para conferir o conjunto depois de desenhar as peças-fonte.
 
-## Lote 1 · Guardiões e Rei Oco
+## Lote 1 · Guardiões e Rei Oco — já integrado
+
+O diretório `05-integrados-nesta-versao` traz as exportações usadas no jogo. As especificações abaixo documentam a integração e servem para verificar encostes e estados. Use estes PNGs ao prosseguir. A arte atual dos Guardiões foi exportada em 2×. O Rei Oco tem 12 células de 768 × 288. Não é necessário regenerar o Lote 1 para continuar os Lotes 2 e 3.
 
 | Família | Exportação | O que preservar |
 | --- | --- | --- |
@@ -41,9 +43,9 @@ A pasta `01-arte-atual/terreno-por-mapa` contém os 22 pisos compostos da prévi
 - **Cabana externa fechada** · `witch_hut_closed` conserva entrada, telhado e escala doméstica. Confira a base em `witchclearing.jpg`.
 - **Planta camuflada** · `enemy_plant` de 36 × 40 vai a 72 × 80. Preserve pé de raiz, volume e transição para os quadros já aprovados da planta exposta.
 
-## A’Maídhe · correção de personagem solicitada após a auditoria
+## A’Maídhe · integrada nesta prévia
 
-Use a ficha ilustrada da líder de Iomadh que enviei na conversa como fonte do design. Veja o sprite atual em `03-reguas/amaidhe-sprite-atual.png` e sua escala em `02-em-jogo/amaidhe.png`. Quero redesenhar a cabeça junto com pescoço e gola para que a junção pareça parte da pose. Preserve a altura aprovada do corpo. Use Idhrí e o conselheiro Fiadhra como régua de volume proporcional em escala real. Desenhe focinho canino definido, orelhas longas, pelo escuro, olhos expressivos e monóculo dourado com corrente. Preserve os motivos de galho e olho que já pertencem à roupa do Conselho de Iomadh. Confira frente, perfil e posição em jogo. Entregue as poses compatíveis com a folha atual e variantes de respiração e piscar com pés no mesmo lugar. A leitura do rosto precisa permanecer estável entre repouso, piscar, respiração e fala.
+`05-integrados-nesta-versao/amaidhe_nova_2x.png` é a folha nova. Ordem das quatro células de 80 × 96: repouso, respiração, piscar, fala. A ficha ilustrada da líder de Iomadh continua como referência para quaisquer ajustes posteriores. Confira o focinho e o apoio dos pés com o sprite de Idhrí em escala real.
 
 ## Lote de reexportação · 20 originais confirmados
 

@@ -1,20 +1,20 @@
 # Fortune Fell — entrega para continuar a demo
 
-Abra `jogo.html` dentro de `demo-pixel-art.zip`. A prévia parte da versão `23cc73c`, inclui o hotfix dos pêndulos e preserva o formato de save da demo. Entre pelos capítulos de avaliação para testar mapas específicos. Faça uma cópia do save do navegador antes de trocar de arquivo ou origem.
+Abra `jogo.html` dentro de `demo-pixel-art.zip`. A prévia continua a versão `6a903e2`, inclui o hotfix dos pêndulos e preserva o formato de save da demo. Entre pelos capítulos de avaliação para testar mapas específicos. Faça uma cópia do save do navegador antes de trocar de arquivo ou origem.
 
 ## Pedidos integrados nesta prévia
 
 | Nº | Pedido | Implementação e pontos de conferência |
 | --- | --- | --- |
-| 1 | Separar o cavaleiro que avisa da ponte do conselheiro real | O mensageiro usa o figurino militar de Myriadd em 2× e seu retrato correspondente. O conselheiro perto do trono usa o cortesão e o retrato civil. |
+| 1 | Separar o cavaleiro que avisa da ponte do conselheiro real | O mensageiro usa o figurino militar de Myriadd em 2× e seu retrato correspondente. O Conselheiro Real perto do trono voltou a usar seu sprite e retrato originais de cabelo e barba brancos. |
 | 2 | Primeira decisão já repercute em Myriadd | A audiência aplica +6 ao perdoar, +2 ao adiar ou −3 ao manter o tributo com mantimentos. Aplica uma vez, inclusive quando um save anterior já tem a decisão. |
 | 3 | Banners grandes do palácio | As tapeçarias de Myriadd mantêm a estrela e o recorte e foram refinadas em 2×. A fonte usada é a pintura aprovada em definição menor. |
-| 4 | Chaves da Guardiã e referência a 20 anos | O molho de chaves aparece no repouso, no piscar e na respiração. As falas usam vinte anos. |
+| 4 | Guardiã do Cofre | O molho acrescentado na prévia anterior foi removido dos quadros de repouso, piscar e respirar. As falas usam vinte anos. |
 | 5 | Nuvens do primeiro plano sem acompanhar verticalmente Idhrí | As âncoras verticais ficam no mundo e são projetadas pela câmera. O primeiro plano continua na frente do jogador. |
 | 6 | Algodão-nuvem substitui o trigo | Texto em português e inglês e plantas com brotos e folhas em quatro quadros nos Terraços. |
 | 7 | Retrato ruivo do menino | Usei a arte preparada anteriormente e reenviada pelo autor. Recorte transparente em 256 × 256. O sprite em jogo permanece o existente. |
 | 8 | Transparência do estandarte de Gileád | Os furos pequenos dentro do tecido foram repostos. Os vazios externos das ferragens ficaram abertos. |
-| 9 | Elenco feminino em Gileád | A cortesã passou à corte de Gileád, o cronista passou a Myriadd e o mago do Mirante passou a auxiliar a Guardiã. A maga regional ocupa o lugar do mago de Gileád no Mirante. O sacerdote passou da capital de Gileád ao jardim de Myriadd. |
+| 9 | Elenco feminino em Gileád | A cortesã passou à corte de Gileád, o cronista passou a Myriadd e o auxiliar do cofre foi removido. Uma soldado de Gileád ocupa o posto do mago no Mirante. O sacerdote passou da capital de Gileád ao jardim de Myriadd. |
 | 10 | Livros interativos pelos Arquivos | Três pontos de leitura com E, aviso da aprendiz e bestiário sobre tangibilidade, recuo temporário e linha de visão do Eco. |
 | 11 | Checkpoints afastados de placas e portões | Revisão de apoio e espaço lateral; deslocamento nas plataformas existentes quando há área livre. Começar a conferência pelo retorno do Santuário de Gileád. |
 | 12 | Contorno dos checkpoints | Reforço localizado na borda dos oito estados mantendo a luz e as cores dos reinos. |
@@ -30,20 +30,22 @@ Abra `jogo.html` dentro de `demo-pixel-art.zip`. A prévia parte da versão `23c
 | Extra | Foles e terceiro raio de Percepção | A melhoria mantém três áreas reveladas e custa 40 pepitas. O pedido dos três couros aparece quando todas as melhorias chegam ao máximo. Depois da entrega, Halberd informa que fechou temporariamente a oficina. Saves que já tinham uma entrega antiga ainda podem completar as compras. |
 | Extra | Reexportar originais maiores | Vinte originais integrados em 2×. A auditoria contém os pares de origem e de jogo. |
 
-## Pedidos registrados para a próxima passada
+## Continuação da revisão
 
-1. Fixar as tochas de parede sobrepondo levemente sua base à pedra e acertar a orientação de cada lado.
-2. Fazer Idhrí passar por trás dos guarda-corpos da ponte do Jardim de Myriadd.
-3. Refazer a cabeça e a junção com pescoço e gola de A’Maídhe a partir da ficha. Conferir o repouso com Idhrí e o conselheiro Fiadhra. A folha atual e a tomada em jogo acompanham o briefing.
-4. Fazer Idhrí comentar, diante da mesa vazia, que Pódhraic foi acompanhar as eleições em Iomadh.
-5. Só ativar o objetivo de encontrar Pódhraic depois da fala de Idhrí na entrada da Mata Alta.
-6. Fazer o saco de tesouro do moinho desaparecer ao ser atingido por uma flecha.
-7. Conferir as plataformas invisíveis do moinho com as posições marcadas pelo autor.
-8. Reconstruir os terrenos e redesenhar as peças assinaladas na auditoria. Começar por Guardiões e Rei Oco. Usar os PNGs em escala e as instruções do pacote de arte.
-9. Revisar a arte em movimento com Idhrí e os espantalhos como réguas. Conferir as juntas, silhuetas de primeiro plano e proporções do elenco. Fazer ajustes localizados onde o contorno ainda perde leitura.
+| Nº | Pedido | Entrega e conferência |
+| --- | --- | --- |
+| 1 | Tochas presas à parede | A base tomou o limite de cada parede como referência nos seis interiores. O sprite passa à frente da pedra e é espelhado no lado oposto. |
+| 2 | Guardas-corpos da ponte do jardim | O piso e os arcos ficam no cenário. A faixa dos guarda-corpos da ponte é desenhada à frente de Idhrí. |
+| 3 | A’Maídhe | Novo sprite de corpo inteiro em 2× com cabeça e gola desenhadas juntas. A folha tem repouso, respiração, piscar e fala e mantém a altura e o ponto de apoio. |
+| 4 | Mesa vazia de Pódhraic | Antes do encontro, Idhrí comenta que Pódhraic saiu para acompanhar as eleições do Conselho em Iomadh. A interação some quando ele retorna. |
+| 5 | Objetivo de encontrar Pódhraic | O objetivo é liberado depois da fala na entrada da Mata Alta. O save guarda o momento em que a fala termina. |
+| 6 | Sacola do moinho | A fachada usa o recorte aprovado da janela sem a sacola. O item separado desaparece quando atingido. Mantidos 15 por flecha e 30 com E. |
+| 7 | Plataformas invisíveis do moinho | 8 apoios alinhados pelas beiradas, pela inclinação do telhado e pelo peitoril da janela. A Percepção mostra os apoios. A marcação original do autor não foi localizada. As coordenadas novas ficam em `ledges` no script principal. |
+| 8 | Guardiões, Rei Oco e terreno | Os assets já desenhados do Lote 01 entraram nos três Guardiões e no Rei Oco. As partes e rodas usam 2×, e o Rei Oco usa 3× em 12 células. Quatro mapas receberam um piloto de borda de terreno em 2×. A reconstrução modular restante continua no briefing. |
+| 9 | Régua de contorno, profundidade e proporção | Revisão localizada nas peças integradas, na montagem da ponte e no rosto de A’Maídhe. A auditoria visual em movimento do elenco inteiro e das silhuetas de todos os mapas continua em aberto. |
 
 ## Como retomar a implementação
 
-A demo é HTML autocontido com os assets embutidos. O ZIP conserva os arquivos auxiliares e inclui os PNGs novos na pasta `assets/revisao-gilead/`. Para editar a lógica, localize o script que contém o objeto `G` e `const Snd`. Verifique a sintaxe com `node --check` no JavaScript desse script e use os capítulos de avaliação para conferir as mudanças. Preserve saves e escala lógica dos mapas ao trocar os arquivos de arte.
+A demo é HTML autocontido com os assets embutidos. O ZIP conserva os arquivos auxiliares e inclui os PNGs novos nas pastas `assets/revisao-gilead/` e `assets/continuacao/`. Para editar a lógica, localize o script que contém o objeto `G` e `const Snd`. Para os Guardiões, os PNGs `*_lote1.png` são associados pela função de preload e por `masterLookup`, preservando o destino lógico. As 12 células adaptadas do Rei Oco são lidas por `kingFrames`. Verifique a sintaxe com `node --check` no JavaScript desse script e use os capítulos de avaliação para conferir as mudanças. Preserve saves e escala lógica dos mapas ao trocar os arquivos de arte.
 
 O outro ZIP, `pacote-redesenho.zip`, contém o briefing para enviar ao ChatGPT, o inventário de redesenho, as referências atuais, os pisos, as capturas em jogo e os 20 pares de reexportação. O ícone da Roda da Fortuna é de Caro Asercion, Game-icons.net, CC BY 3.0. [Licença e fonte](https://game-icons.net/1x1/caro-asercion/tarot-10-wheel-of-fortune.html)
