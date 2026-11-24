@@ -1,0 +1,30 @@
+{
+  "atlases": {
+    "pixelfx_ehrein_bolt": {
+      "w": 320,
+      "h": 180,
+      "count": 43,
+      "columns": 5,
+      "fps": 30
+    },
+    "pixelfx_canopy_leaves": {
+      "w": 128,
+      "h": 96,
+      "count": 150,
+      "columns": 11,
+      "fps": 15
+    }
+  },
+  "weatherMaps": [
+    "eh",
+    "em",
+    "im"
+  ],
+  "interiors": [
+    "ec",
+    "castle"
+  ],
+  "mapAnchoring": true,
+  "reducedMotion": false,
+  "sha256": "e867abd4a1faec7e37700b36c4310779df7f82f45089a8aa721eae59a3900007"
+}

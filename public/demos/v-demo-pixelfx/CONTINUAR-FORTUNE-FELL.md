@@ -79,3 +79,12 @@ As novas folhas em 2× do Conselheiro Real, de A’Maídhe e de Pódhraic estão
 O HTML já inclui as folhas animadas de chama, ondulação e areia rosa. A pasta `assets/pixelfx` guarda os módulos de origem, os PNGs, os pivôs e a licença. Use PixelFX com `--sheet --bg none --fps 20` ao reexportar. A chama usa o braseiro, pavio ou acesso à lareira como ponto de apoio. As ondulações ficam no recorte da superfície do Rio. Nos Terraços, bancos de nuvens fluem sob as passagens suspensas e os raminhos permanecem ancorados nos canteiros.
 
 O núcleo da Guardiã de Gileád usa o centro da área visível do corpo para desenho, acerto e emissão das duas espirais de areia rosa. Cada grão acompanha a trajetória do projétil e congela com ele quando atingido pelo Tempo.
+
+
+## Clima regional com PixelFX
+
+Éhrein ao ar livre usa `fortune-lightning`, uma adaptação de `weather/storm`. A descarga ramificada passa atrás das serras e dos edifícios. A chuva e os respingos do jogo continuam ativos. A descarga respeita a preferência de movimento reduzido do sistema.
+
+As duas árvores da rota alta da Mata Alta usam `fortune-canopy`, uma adaptação de `weather/falling-leaves`. Os emissores estão nas decorações `bigtree` marcadas com `highwoodsLeafSource`, no mapa `im`.
+
+Os módulos adaptados de PixelFX podem ser colocados em `src/fx/weather` no checkout mencionado no aviso dentro do ZIP. Reexporte com `--sheet --bg none --zoom 1` a 30 FPS para o raio e 15 FPS para as folhas. Os JSONs registram a grade de cada PNG.
