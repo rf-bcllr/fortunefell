@@ -227,3 +227,12 @@ Os oito modelos foram conferidos em jogo com as mesmas dimensões e pontos de ap
 
 - [Bases revisadas](bases-dos-estandartes.png)
 - [Prancha dos estandartes](estandartes.png)
+
+
+## Transparência e repouso dos NPCs
+
+O recorte remove o fundo magenta pela faixa de intensidade e cor do próprio fundo. Assim, tons roxos escuros e médios dos tecidos e bordados permanecem opacos. As folhas dos NPCs e dos estandartes foram reexportadas a partir das artes-fonte.
+
+Os 65 visuais de NPC, usados em 86 presenças, voltaram a piscar e respirar em repouso. Os quadros alteram a região dos olhos e do tórax e mantêm a silhueta e o apoio. Os ritmos variam por personagem e posição no mapa. Quadros de diálogo, leitura e forja mantêm sua prioridade. Llewlás recuperou o movimento em repouso e guarda.
+
+- [Comparação de transparência](transparencia-arte.png)
