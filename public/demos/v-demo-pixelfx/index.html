@@ -15210,7 +15210,13 @@ function drawMyriaddSpillways(ctx, map, camera) {
   for (const f of myriaddFalls(map)) {
     const x = f.x-camera.x, y = f.y-camera.y, height = f.bottom-f.y;
     if(x+f.width+10<0 || x-10>W) continue;
+    ctx.save();
+    if(map.id==='terr'){
+      // The atlas includes spray above its lip. Hide it inside the opaque cloud core.
+      ctx.beginPath();ctx.rect(x-32,y+4,f.width+64,height+80);ctx.clip();
+    }
     drawMyriaddWaterfall(ctx,x,y,f.width,height,tick);
+    ctx.restore();
   }
 }
 
