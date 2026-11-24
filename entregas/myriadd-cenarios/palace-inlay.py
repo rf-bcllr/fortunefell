@@ -1,13 +1,29 @@
-"""Extract the complete illustrated threshold at twice the game's logical resolution."""
-from PIL import Image,ImageDraw
+"""Pixel-art inlay cut into a single course of warm limestone at the palace door."""
 from pathlib import Path
-root=Path(__file__).parent
-im=Image.open(root/'threshold-source.png').convert('RGB')
-s=im.width/520
-outline=[(114,101),(163,101),(172,95),(207,90),(237,88),(296,88),(332,91),(354,95),(370,101),(422,101),(422,123),(416,130),(420,144),(416,149),(417,179),(396,180),(389,176),(380,182),(358,181),(348,188),(341,182),(312,180),(303,174),(282,177),(272,172),(250,177),(226,177),(217,171),(201,178),(175,178),(163,182),(145,179),(136,187),(123,182),(119,165),(116,147)]
-mask=Image.new('L',im.size)
-ImageDraw.Draw(mask).polygon([(round(x*s),round(y*s)) for x,y in outline],fill=255)
-im.putalpha(mask)
-tile=im.crop(mask.getbbox()).resize((288,94),Image.Resampling.BOX)
-tile.putalpha(tile.getchannel('A').point(lambda v:255 if v>=128 else 0))
-tile.save(root/'assets/myriadd/myriadd_palace_inlay.png')
+from math import sin,cos,pi
+from PIL import Image,ImageDraw
+im=Image.new('RGBA',(178,27))
+d=ImageDraw.Draw(im)
+rim='#c2a178'
+cream='#f0dfc5'
+shadow='#d6c1ab'
+d.ellipse((0,0,177,26),fill=rim)
+d.ellipse((3,1,174,24),fill=cream)
+# Two staggered rows of slabs, matching the width of the stones in the apron.
+def joint(x,top,bottom):
+    for y in range(top,bottom+1):
+        xx=x+(y-top)//6
+        if ((xx-89)/84)**2+((y-13)/11)**2<1:
+            d.point((xx,y),fill=shadow)
+for x in (20,68,116,164):joint(x,3,12)
+for x in (42,90,138):joint(x,14,24)
+d.line((11,13,166,13),fill='#e7d3ba')
+for i in range(8):
+    a=i*pi/4
+    def pt(angle,r):
+        return round(89+cos(angle)*r),round(13+sin(angle)*r*.18)
+    peak=pt(a,63 if i%2==0 else 36)
+    d.polygon([(89,13),pt(a-pi/8,13),peak],fill='#c49260')
+    d.polygon([(89,13),peak,pt(a+pi/8,13)],fill='#d6a575')
+assert set(im.getchannel('A').getdata())=={0,255}
+im.save(Path(__file__).parent/'assets/myriadd/myriadd_palace_inlay.png')
