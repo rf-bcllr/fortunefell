@@ -15290,6 +15290,35 @@ function dressMyriaddGround(ctx,map){
     }
   }
   ctx.restore();
+  roundMyriaddLedges(ctx,map);
+
+}
+// Bend the painted grass and its outline together around exposed rock corners.
+function roundMyriaddLedges(ctx,map){
+  const solid=(x,y)=>x>=0&&x<map.w&&y>=0&&y<map.h&&map.t[y*map.w+x]===T_SOLID;
+  const patch=mkc(18,24), ink=patch.getContext('2d');
+  for(let row=0;row<map.h;row++)for(let col=0;col<map.w;col++){
+    if(!solid(col,row))continue;
+    for(const side of [-1,1]){
+      if(solid(col+side,row))continue;
+      const edge=(side<0?col:col+1)*TS;
+      for(const vertical of [-1,1]){
+        if(solid(col,row+vertical)||solid(col+side,row+vertical))continue;
+        const level=(vertical<0?row:row+1)*TS;
+        const x=edge-(side<0?5:13),y=level-(vertical<0?7:17);
+        ink.clearRect(0,0,18,24);
+        ink.drawImage(ctx.canvas,x,y,18,24,0,0,18,24);
+        ctx.clearRect(x,y,18,24);
+        for(let k=0;k<18;k++){
+          const inward=side<0?k-5:12-k;
+          const t=clamp((9-inward)/13,0,1);
+          const bend=Math.round((vertical<0?6:10)*(1-Math.sqrt(1-t*t)));
+          const h=24-bend;
+          ctx.drawImage(patch,k,vertical<0?0:bend,1,h,x+k,y+(vertical<0?bend:0),1,h);
+        }
+      }
+    }
+  }
 }
 function drawPalacePaving(ctx,map,camera){
   if(map.id==='garden')drawMyriaddMosaic(ctx,110*TS+8-camera.x,20*TS-camera.y);
