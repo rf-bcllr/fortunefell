@@ -1,0 +1,27 @@
+{
+  "center": [
+    1720,
+    403
+  ],
+  "bodyBounds": {
+    "x": 11,
+    "y": 104,
+    "w": 148,
+    "h": 186
+  },
+  "verified": [
+    "castle",
+    "terr",
+    "highwoods_river",
+    "gd"
+  ],
+  "phases": 2,
+  "effectCalls": {
+    "flame": 22,
+    "ripples": 32,
+    "sand": 6,
+    "cotton": 4,
+    "banks": 2
+  },
+  "sha256": "2783d63bc2f3c558cdf5b31977330c6330dab1660036a0c3c62bf4cf5fc0f729"
+}

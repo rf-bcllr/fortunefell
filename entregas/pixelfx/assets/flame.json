@@ -1,0 +1,10 @@
+{
+  "frameWidth": 40,
+  "frameHeight": 43,
+  "frames": 40,
+  "fps": 20,
+  "pivot": [
+    20,
+    40
+  ]
+}

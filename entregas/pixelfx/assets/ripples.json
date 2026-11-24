@@ -1,0 +1,10 @@
+{
+  "frameWidth": 94,
+  "frameHeight": 32,
+  "frames": 40,
+  "fps": 20,
+  "pivot": [
+    47,
+    16
+  ]
+}
