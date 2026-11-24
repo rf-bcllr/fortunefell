@@ -173,7 +173,7 @@
           "garden"
         ]
       ],
-      "waterCalls": 1
+      "waterCalls": 5
     },
     "terr": {
       "collisionHash": "bc67f5b",
@@ -266,7 +266,7 @@
           "out"
         ]
       ],
-      "waterCalls": 4
+      "waterCalls": 6
     }
   },
   "walked": [
@@ -292,5 +292,5 @@
       144
     ]
   },
-  "sha256": "fbebf872a5373b9d54c3527fe94376108bcf6ae30275c5255cccd6df59ee20c4"
+  "sha256": "4637248c753f4a53123c4df72ebbef0ad9002a3a8d45562a005b58c4be8357b2"
 }

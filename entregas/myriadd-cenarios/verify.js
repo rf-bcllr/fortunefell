@@ -36,7 +36,7 @@
    if(!waterCalls.some(call=>call.kind==='surface'&&channels.every(bridge=>call.w===bridge.w*TS)))throw Error('Canal does not span bridge');
    if(hasGardenPaving(30)||!hasGardenPaving(110))throw Error('Garden paving crosses planted beds');
   }else for(const f of myriaddFalls(m)){
-   if(id==='terr'&&!m.deco.some(d=>d.kind==='cloudplat'&&f.x>=d.x*TS&&f.x<d.x*TS+128&&f.y===d.y*TS+12))throw Error('Detached waterfall');
+   if(id==='terr'&&!m.deco.some(d=>d.kind==='cloudplat'&&f.x>=d.x*TS&&f.x<d.x*TS+128&&f.y===d.y*TS-2))throw Error('Detached waterfall');
    if(id==='out'&&(f.y>=0||runs.findLast(r=>r[0]*TS<=f.x)[1]!==m.h))throw Error('Fall misses chasm');
    G.cam.x=f.x-180;G.cam.y=Math.max(0,f.y-30);render();
    captures[id+'-cascade']=document.getElementById('game').toDataURL().split(',')[1];
@@ -46,6 +46,20 @@
   }
   stats[id].waterCalls=waterCalls.length;
  }
+ loadMap('out');G.lock=false;G.dead=false;
+ const p=G.player;
+ Object.assign(p,{x:15*TS,y:16*TS,vx:0,vy:0,onGround:true});
+ I.keys.ArrowRight=true;I.pressedSet.jump=true;
+ let splash=false;
+ for(let i=0;i<35;i++){
+   G.tick++;tickWorld();I.flush();
+   if(!p.onGround && p.inCascade && G.fx.some(f=>f.col==='#ddfaff')){
+     splash=true;G.cam.x=p.x-180;G.cam.y=p.y-110;render();
+     captures['out-salto-agua']=document.getElementById('game').toDataURL().split(',')[1];break;
+   }
+ }
+ I.keys.ArrowRight=false;
+ if(!splash)throw Error('No water impact during playable jump');
  loadMap('garden','west');G.lock=false;
  const bridges=G.map.deco.filter(d=>d.kind==='pond_bridge');
  if(G.ents.filter(e=>e.type==='gardenMemorial').length!==4)throw Error('Missing memorial');
