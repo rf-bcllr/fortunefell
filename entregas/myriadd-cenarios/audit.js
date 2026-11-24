@@ -5,8 +5,8 @@ drawMyriaddWaterfall=function(ctx,x,y,w,h,tick){
   return drawFallBeforeAudit(ctx,x,y,w,h,tick);
 };
 const drawSurfaceBeforeAudit=drawMyriaddCanalSurface;
-drawMyriaddCanalSurface=function(ctx,x,y,w,tick){
-  if(x+w>=0&&x<400&&y>0&&y<225)waterCalls.push({kind:'surface',tick,x,y});
-  return drawSurfaceBeforeAudit(ctx,x,y,w,tick);
+drawMyriaddCanalSurface=function(ctx,x,y,w,tick,depth){
+  if(x+w>=0&&x<400&&y>0&&y<225)waterCalls.push({kind:'surface',tick,x,y,w,depth});
+  return drawSurfaceBeforeAudit(ctx,x,y,w,tick,depth);
 };
-window.audit={Art,G,Menu,Snd,loadMap,render,TS,LEVELS,T_SOLID,I,tickWorld,drawMyriaddPanorama,myriaddViews,cypressStyle,waterCalls,waterfallAtlas};
+window.audit={Art,G,Menu,Snd,loadMap,render,TS,LEVELS,T_SOLID,I,tickWorld,drawMyriaddPanorama,myriaddViews,cypressStyle,waterCalls,waterfallAtlas,myriaddFalls,hasGardenPaving};

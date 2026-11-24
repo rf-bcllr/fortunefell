@@ -8,3 +8,5 @@
 Para rodar a verificação, copie `public/demos/v-demo-pixelfx/index.html` para esta pasta com o nome `jogo.html`, instale Playwright para Python e execute `python verify.py`. O roteiro usa Chromium em `/usr/bin/chromium` e serve a versão instrumentada em localhost.
 
 A queda d'água vem de `water/waterfall` do PixelFX (MIT), adaptada em `assets/fortune-waterfall.js`. Para reexportar, copie o módulo para `src/fx/water/` no checkout indicado no aviso do ZIP e renderize com `node tools/render.mjs water/fortune-waterfall --sheet --bg none --fps 30 --zoom 1 --out /tmp/myriadd-fx`. Rode `python export-waterfall.py /tmp/myriadd-fx/water/fortune-waterfall/fortune-waterfall.png assets` para gerar a grade final com o fim da água desvanecido em névoa.
+
+A folha `cloud-source.png` contém os dois planos de nuvens. Rode `python export-clouds.py cloud-source.png assets` para refazer os recortes com transparência.
