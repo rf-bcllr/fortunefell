@@ -208,3 +208,22 @@ A base de Nemet usa Mythril e traz uma folha. A base de Airgeád traz uma bigorn
 
 - [Bases revisadas](bases-dos-estandartes.png)
 - [Prancha dos estandartes](estandartes.png)
+
+
+## Materiais e heráldica dos oito pedestais
+
+| Reino | Material e motivo |
+| --- | --- |
+| Myriadd | Mármore claro e ouro com a estrela da corte |
+| Gileád | Pedra lavanda e ampulheta dourada, no pedestal recuperado do primeiro estandarte de Fiódhor |
+| Iomadh | Madeira do Conselho com o olho em bronze |
+| Éhrein | Cantaria cinza com a torre |
+| Airgeád | Ferro de forja e cobre com a bigorna |
+| Nemet | Mythril com folha, da revisão anterior |
+| Fiódhor | Madeira de raiz e pedra com três marcas de garras |
+| Morgwang | Pedra azul-esverdeada e uma onda inspirada no lago interior |
+
+Os oito modelos foram conferidos em jogo com as mesmas dimensões e pontos de apoio.
+
+- [Bases revisadas](bases-dos-estandartes.png)
+- [Prancha dos estandartes](estandartes.png)
