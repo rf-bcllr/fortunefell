@@ -200,3 +200,11 @@ Onze tipos de inimigos comuns receberam quadros em maior resolução. O Eco part
 - [Estandartes](estandartes.png)
 
 A revisão de cenário começou pelos estandartes. Os próximos props e terrenos seguem o padrão de resolução e contorno dos espantalhos.
+
+
+## Heráldica nos pedestais
+
+A base de Nemet usa Mythril e traz uma folha. A base de Airgeád traz uma bigorna, a de Fiódhor tem um medalhão liso, a de Gileád traz uma ampulheta e a de Morgwang traz uma onda. A torre de Éhrein e o olho de Iomadh permanecem nos estandartes de seus reinos. Os oito pedestais foram conferidos em jogo.
+
+- [Bases revisadas](bases-dos-estandartes.png)
+- [Prancha dos estandartes](estandartes.png)
