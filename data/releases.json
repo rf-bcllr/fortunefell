@@ -13,5 +13,13 @@
     "commit": "33a0a815dfb4cbc54dfbed47e512d8da0cfda10a",
     "summary": "Quatro apoios invisíveis no moinho, plataformas contínuas na arena da Guardiã e elenco corrigido em Gileád. Sprites regenerados do Conselheiro Real, de A’Maídhe e de Pódhraic.",
     "checks": "Rota do moinho testada da roda à viga. 30 moedas com E e 15 com flecha. 27 pousos e 27 descidas testados na arena. Os quatro estados dos três NPCs foram verificados em jogo."
+  },
+  {
+    "version": "v-demo-pixelfx",
+    "entry": "demos/v-demo-pixelfx/index.html",
+    "archive": "demo-pixel-art.zip",
+    "commit": "9f0599c5277709f68ca81b449d2b606cbab42222",
+    "summary": "Chamas animadas, ondulações no Rio da Mata Alta, bancos de nuvens nos Terraços e areia rosa emitida pelo núcleo central da Guardiã de Gileád.",
+    "checks": "Quatro mapas verificados no Chromium, incluindo as duas fases da Guardiã e o congelamento dos projéteis. Integridade do ZIP conferida."
   }
 ]
