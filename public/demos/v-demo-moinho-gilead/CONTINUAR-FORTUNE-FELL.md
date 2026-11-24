@@ -6,7 +6,7 @@ Abra `jogo.html` dentro de `demo-pixel-art.zip`. A prévia continua a versão `6
 
 | Nº | Pedido | Implementação e pontos de conferência |
 | --- | --- | --- |
-| 1 | Separar o cavaleiro que avisa da ponte do conselheiro real | O mensageiro usa o figurino militar de Myriadd em 2× e seu retrato correspondente. O Conselheiro Real perto do trono usa o retrato original e uma folha 2× desenhada sobre os quadros originais de cabelo e barba brancos. |
+| 1 | Separar o cavaleiro que avisa da ponte do conselheiro real | O mensageiro usa o figurino militar de Myriadd em 2× e seu retrato correspondente. O Conselheiro Real perto do trono usa o retrato original e a nova folha em 2×. |
 | 2 | Primeira decisão já repercute em Myriadd | A audiência aplica +6 ao perdoar, +2 ao adiar ou −3 ao manter o tributo com mantimentos. Aplica uma vez, inclusive quando um save anterior já tem a decisão. |
 | 3 | Banners grandes do palácio | As tapeçarias de Myriadd mantêm a estrela e o recorte e foram refinadas em 2×. A fonte usada é a pintura aprovada em definição menor. |
 | 4 | Guardiã do Cofre | O molho acrescentado na prévia anterior foi removido dos quadros de repouso, piscar e respirar. As falas usam vinte anos. |
@@ -68,3 +68,7 @@ O outro ZIP, `pacote-redesenho.zip`, contém o briefing para enviar ao ChatGPT, 
 ## Apoios marcados no moinho
 
 Quatro apoios invisíveis em cima das marcas do autor. A varanda baixa, o ressalto junto à janela menor, o apoio junto à sacola e a viga alta têm superfície de pouso. A abertura à mão fica disponível com Idhrí apoiado na marca da janela. A flecha ainda rasga a sacola à distância. A viga alta usa uma altura dentro do alcance do pulo a partir da janela.
+
+## Sprites regenerados em jogo
+
+As novas folhas em 2× do Conselheiro Real, de A’Maídhe e de Pódhraic estão integradas. Cada folha tem repouso, respiração, piscar e fala. Pódhraic usa a versão com a meia-máscara de marfim e a cabeça ajustada à escala dos NPCs humanos.

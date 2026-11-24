@@ -10,8 +10,8 @@
     "version": "v-demo-moinho-gilead",
     "entry": "demos/v-demo-moinho-gilead/index.html",
     "archive": "demo-pixel-art.zip",
-    "commit": "32047529afa7be82485b9e972356398a3f387ff1",
-    "summary": "Quatro apoios invisíveis no moinho, plataformas contínuas na arena da Guardiã e elenco corrigido em Gileád.",
-    "checks": "Rota do moinho testada da roda à viga. 30 moedas com E e 15 com flecha. 27 pousos e 27 descidas testados na arena."
+    "commit": "33a0a815dfb4cbc54dfbed47e512d8da0cfda10a",
+    "summary": "Quatro apoios invisíveis no moinho, plataformas contínuas na arena da Guardiã e elenco corrigido em Gileád. Sprites regenerados do Conselheiro Real, de A’Maídhe e de Pódhraic.",
+    "checks": "Rota do moinho testada da roda à viga. 30 moedas com E e 15 com flecha. 27 pousos e 27 descidas testados na arena. Os quatro estados dos três NPCs foram verificados em jogo."
   }
 ]
