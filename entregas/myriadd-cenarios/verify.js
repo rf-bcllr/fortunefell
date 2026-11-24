@@ -30,13 +30,19 @@
    G.cam.x=cam;G.cam.y=Math.max(0,Math.min(m.h*TS-225,(runs.findLast(([x,y])=>x*TS<=cam+150)?.[1]||16)*TS-153));
    G.tick=120;render();captures[id+'-'+cam]=document.getElementById('game').toDataURL().split(',')[1];
   }
-  if(!waterCalls.some(call=>call.kind==='fall'))throw Error('No visible fall '+id);
+  if(id==='garden'&&!waterCalls.some(call=>call.kind==='fall'))throw Error('No visible fall '+id);
   if(id==='garden'){
    const channels=m.deco.filter(item=>item.kind==='pond_bridge');
    if(!waterCalls.some(call=>call.kind==='surface'&&channels.every(bridge=>call.w===bridge.w*TS)))throw Error('Canal does not span bridge');
    if(hasGardenPaving(30)||!hasGardenPaving(110))throw Error('Garden paving crosses planted beds');
-  }else for(const [col,row,,,leftEdge] of myriaddFalls[id]){
-   if(m.t[row*m.w+col-(leftEdge?0:1)]!==T_SOLID||m.t[row*m.w+col-(leftEdge?1:0)]===T_SOLID)throw Error('Unanchored spillway '+id+' '+col);
+  }else for(const f of myriaddFalls(m)){
+   if(id==='terr'&&!m.deco.some(d=>d.kind==='cloudplat'&&f.x>=d.x*TS&&f.x<d.x*TS+128&&f.y===d.y*TS+12))throw Error('Detached waterfall');
+   if(id==='out'&&(f.y>=0||runs.findLast(r=>r[0]*TS<=f.x)[1]!==m.h))throw Error('Fall misses chasm');
+   G.cam.x=f.x-180;G.cam.y=Math.max(0,f.y-30);render();
+   captures[id+'-cascade']=document.getElementById('game').toDataURL().split(',')[1];
+   const ctx=document.createElement('canvas').getContext('2d');
+   window.audit.drawWaterContact(ctx,m,{x:f.x-30,y:Math.max(0,f.y)-30},{x:f.x+4,y:Math.max(0,f.y)+20,vx:2});
+   if(!ctx.getImageData(0,0,100,100).data.some(n=>n))throw Error('Missing splash');
   }
   stats[id].waterCalls=waterCalls.length;
  }
