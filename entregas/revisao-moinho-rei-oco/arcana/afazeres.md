@@ -187,3 +187,16 @@ Próximos lotes, na ordem pedida. Os 86 NPCs partem de seus retratos e da escala
 A rede cobre a parte frontal da saia. O rosto usa apenas sombreamento natural, e o gancho do cajado chega à altura do cabelo. O gesto de fala usa uma mão no cajado e a outra aberta. Os três quadros foram conferidos na cabana.
 
 [Comparação das três poses](bruxa-comparacao.png)
+
+
+## NPCs, criaturas e estandartes a 2×
+
+As 86 presenças no mapa usam 65 visuais. Dez já estavam no lote de personagens principais. Os 55 restantes partiram dos retratos e dos figurinos originais, calibrados com Idhrí. A moradora e a conselheira de Iomadh, assim como a soldada e o mago de Morgwang, seguem as referências aquáticas dos Morghara.
+
+Onze tipos de inimigos comuns receberam quadros em maior resolução. O Eco parte da folha vista na demo, com duas poses materiais e duas espectrais. Foram conferidos também o uso da Percepção no Eco, o disparo e os quatro passos da Sentinela e os 12 quadros do cavaleiro oco. Os estandartes dos oito reinos têm versões de parede e de pedestal a 2×, com os mesmos emblemas.
+
+- [Capturas da Bruxa, dos Morghara e do Eco](novos-sprites-em-jogo.jpg)
+- [Outras capturas dos NPCs](npc-em-jogo.jpg)
+- [Estandartes](estandartes.png)
+
+A revisão de cenário começou pelos estandartes. Os próximos props e terrenos seguem o padrão de resolução e contorno dos espantalhos.

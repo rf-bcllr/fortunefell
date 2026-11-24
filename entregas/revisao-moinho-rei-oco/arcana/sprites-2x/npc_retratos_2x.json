@@ -1,0 +1,222 @@
+{
+  "cook": [
+    0,
+    0
+  ],
+  "smith": [
+    80,
+    0
+  ],
+  "army_myriadd_soldier_m": [
+    160,
+    0
+  ],
+  "petitioner": [
+    240,
+    0
+  ],
+  "petitioner2": [
+    320,
+    0
+  ],
+  "courtierA": [
+    400,
+    0
+  ],
+  "courtierB": [
+    480,
+    0
+  ],
+  "chronicler": [
+    560,
+    0
+  ],
+  "commander": [
+    0,
+    96
+  ],
+  "vaultkeeper_new": [
+    80,
+    96
+  ],
+  "army_myriadd_soldier_f": [
+    160,
+    96
+  ],
+  "bridgeKeeper": [
+    240,
+    96
+  ],
+  "army_myriadd_mage_f": [
+    320,
+    96
+  ],
+  "gardenerP": [
+    400,
+    96
+  ],
+  "courtierP": [
+    480,
+    96
+  ],
+  "childP": [
+    560,
+    96
+  ],
+  "army_myriadd_mage_m": [
+    0,
+    192
+  ],
+  "army_nemet_soldier_f": [
+    80,
+    192
+  ],
+  "army_nemet_mage_m": [
+    160,
+    192
+  ],
+  "army_fiodhor_soldier_m": [
+    240,
+    192
+  ],
+  "army_fiodhor_mage_f": [
+    320,
+    192
+  ],
+  "army_gilead_soldier_f": [
+    400,
+    192
+  ],
+  "army_gilead_mage_m": [
+    480,
+    192
+  ],
+  "army_ehrein_soldier_m": [
+    560,
+    192
+  ],
+  "army_ehrein_mage_f": [
+    0,
+    288
+  ],
+  "army_iomadh_soldier_f": [
+    80,
+    288
+  ],
+  "army_iomadh_mage_m": [
+    160,
+    288
+  ],
+  "army_airgead_soldier_m": [
+    240,
+    288
+  ],
+  "army_airgead_mage_f": [
+    320,
+    288
+  ],
+  "army_morgwang_soldier_f": [
+    400,
+    288
+  ],
+  "army_morgwang_mage_m": [
+    480,
+    288
+  ],
+  "citizenG1": [
+    560,
+    288
+  ],
+  "gilead_officer_veteran": [
+    0,
+    384
+  ],
+  "gilead_citizenG2": [
+    80,
+    384
+  ],
+  "keeper": [
+    160,
+    384
+  ],
+  "archivist": [
+    240,
+    384
+  ],
+  "gilead_apprentice": [
+    320,
+    384
+  ],
+  "childI": [
+    400,
+    384
+  ],
+  "explorer": [
+    480,
+    384
+  ],
+  "merchA": [
+    560,
+    384
+  ],
+  "merchB": [
+    0,
+    480
+  ],
+  "dwellerA": [
+    80,
+    480
+  ],
+  "dwellerB_village": [
+    160,
+    480
+  ],
+  "army_iomadh_soldier_m": [
+    240,
+    480
+  ],
+  "councilA": [
+    320,
+    480
+  ],
+  "councilB": [
+    400,
+    480
+  ],
+  "councilC": [
+    480,
+    480
+  ],
+  "dwellerB": [
+    560,
+    480
+  ],
+  "sailor": [
+    0,
+    576
+  ],
+  "fisher": [
+    80,
+    576
+  ],
+  "healer": [
+    160,
+    576
+  ],
+  "messenger": [
+    240,
+    576
+  ],
+  "marshal": [
+    320,
+    576
+  ],
+  "farmer": [
+    400,
+    576
+  ],
+  "child_terrace": [
+    480,
+    576
+  ]
+}
