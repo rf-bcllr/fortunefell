@@ -1,0 +1,292 @@
+{
+  "stats": {
+    "garden": {
+      "collisionHash": "2d912fd",
+      "w": 220,
+      "h": 30,
+      "runs": [
+        [
+          0,
+          20
+        ]
+      ],
+      "decor": [
+        {
+          "kind": "pond_bridge",
+          "x": 14,
+          "y": 20,
+          "w": 12,
+          "deckY": 24
+        },
+        {
+          "kind": "pond_bridge",
+          "x": 190,
+          "y": 20,
+          "w": 12,
+          "deckY": 24
+        },
+        {
+          "kind": "pavilion_myriadd",
+          "x": 46,
+          "y": 20
+        },
+        {
+          "kind": "pavilion_myriadd",
+          "x": 176,
+          "y": 20
+        },
+        {
+          "kind": "fountain_myriadd",
+          "x": 64,
+          "y": 20
+        },
+        {
+          "kind": "fountain_myriadd",
+          "x": 156,
+          "y": 20
+        }
+      ],
+      "doors": [
+        [
+          null,
+          null,
+          "out"
+        ],
+        [
+          null,
+          null,
+          "castle"
+        ],
+        [
+          null,
+          null,
+          "out"
+        ]
+      ]
+    },
+    "out": {
+      "collisionHash": "bedaf393",
+      "w": 183,
+      "h": 26,
+      "runs": [
+        [
+          0,
+          26
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          16,
+          26
+        ],
+        [
+          18,
+          16
+        ],
+        [
+          29,
+          26
+        ],
+        [
+          32,
+          16
+        ],
+        [
+          37,
+          14
+        ],
+        [
+          41,
+          11
+        ],
+        [
+          47,
+          14
+        ],
+        [
+          81,
+          26
+        ],
+        [
+          84,
+          14
+        ],
+        [
+          93,
+          26
+        ],
+        [
+          97,
+          14
+        ],
+        [
+          104,
+          11
+        ],
+        [
+          108,
+          8
+        ],
+        [
+          128,
+          10
+        ],
+        [
+          135,
+          26
+        ],
+        [
+          138,
+          10
+        ],
+        [
+          142,
+          7
+        ],
+        [
+          147,
+          5
+        ],
+        [
+          182,
+          26
+        ]
+      ],
+      "decor": [],
+      "doors": [
+        [
+          null,
+          null,
+          "garden"
+        ],
+        [
+          null,
+          null,
+          "terr"
+        ],
+        [
+          null,
+          null,
+          "garden"
+        ]
+      ]
+    },
+    "terr": {
+      "collisionHash": "bc67f5b",
+      "w": 81,
+      "h": 30,
+      "runs": [
+        [
+          0,
+          24
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          23,
+          19
+        ],
+        [
+          33,
+          30
+        ],
+        [
+          45,
+          16
+        ],
+        [
+          55,
+          30
+        ],
+        [
+          68,
+          11
+        ],
+        [
+          80,
+          30
+        ]
+      ],
+      "decor": [
+        {
+          "kind": "crop",
+          "x": 6,
+          "y": 24
+        },
+        {
+          "kind": "crop",
+          "x": 12,
+          "y": 21
+        },
+        {
+          "kind": "crop",
+          "x": 17,
+          "y": 21
+        },
+        {
+          "kind": "crop",
+          "x": 30,
+          "y": 19
+        },
+        {
+          "kind": "crop",
+          "x": 47,
+          "y": 16
+        },
+        {
+          "kind": "crop",
+          "x": 73,
+          "y": 11
+        },
+        {
+          "kind": "cloudplat",
+          "x": 33,
+          "y": 16
+        },
+        {
+          "kind": "cloudplat",
+          "x": 57,
+          "y": 13
+        }
+      ],
+      "doors": [
+        [
+          null,
+          null,
+          "out"
+        ]
+      ]
+    }
+  },
+  "walked": [
+    14,
+    190
+  ],
+  "art": {
+    "royal_myriadd_grand": [
+      1283,
+      1226
+    ],
+    "bridge_myriadd_2x": [
+      384,
+      74
+    ],
+    "garden_bridge_railing": [
+      384,
+      39
+    ],
+    "fountain_myriadd_2x": [
+      162,
+      144
+    ]
+  },
+  "sha256": "ab30ee72f9e4183ba522f3b9153bbbab28c5a567edf45a2158fae3a6535c6dd2"
+}

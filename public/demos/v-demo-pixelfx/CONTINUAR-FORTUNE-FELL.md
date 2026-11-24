@@ -88,3 +88,10 @@ O núcleo da Guardiã de Gileád usa o centro da área visível do corpo para de
 As duas árvores da rota alta da Mata Alta usam `fortune-canopy`, uma adaptação de `weather/falling-leaves`. Os emissores estão nas decorações `bigtree` marcadas com `highwoodsLeafSource`, no mapa `im`.
 
 Os módulos adaptados de PixelFX podem ser colocados em `src/fx/weather` no checkout mencionado no aviso dentro do ZIP. Reexporte com `--sheet --bg none --zoom 1` a 30 FPS para o raio e 15 FPS para as folhas. Os JSONs registram a grade de cada PNG.
+
+
+## Panorama de Myriadd
+
+Os mapas `garden`, `terr` e `out` agora têm panoramas próprios em `assets/myriadd`. A câmera usa os limites de cada mapa para percorrer uma janela do panorama. A arte se concentra em ilhas, arcadas e terraços de pedra clara acima das nuvens. Os desenhos foram exportados em WebP sem perdas e embutidos na demo.
+
+O piso do Jardim tem pedra marfim, filetes dourados e uma estrela no mosaico junto à entrada do palácio. Os canais passam sob as duas pontes. Seus guarda-corpos são desenhados depois de Idhrí. As quatro efígies mantêm as interações da demo anterior, incluindo o pedestal vazio. Nos Terraços e nos arredores, as cascatas saem das bordas das plataformas em coordenadas de mapa. A água é parte do cenário. Controles, colisões e rotas usam as mesmas grades da demo anterior.
