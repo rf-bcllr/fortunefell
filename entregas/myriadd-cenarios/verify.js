@@ -10,6 +10,7 @@
   loadMap(id);G.lock=false;
   const m=G.map;
   waterCalls.length=0;
+  if(!Art.get('myriadd_ledge_'+id))throw Error('Missing playable floor '+id);
   if(!Art.get(myriaddViews[id]))throw Error('Missing panorama '+id);
   const tree=m.deco.find(d=>d.kind==='tree'&&m.t[d.y*m.w+Math.floor(d.x)]===T_SOLID);
   if(!tree || !cypressStyle(m,tree))throw Error('Missing cypress '+id);
