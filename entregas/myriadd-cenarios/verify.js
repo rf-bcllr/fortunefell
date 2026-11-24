@@ -12,6 +12,11 @@
   waterCalls.length=0;
   if(!Art.get('myriadd_ledge_'+id))throw Error('Missing playable floor '+id);
   if(!Art.get(myriaddViews[id]))throw Error('Missing panorama '+id);
+  const planted=m.deco.filter(d=>d.cypressVariant!==undefined);
+  if(new Set(planted.map(d=>d.cypressVariant)).size!==3||planted.some(d=>m.t[d.y*m.w+d.x]!==T_SOLID))throw Error('Planting support or variation '+id);
+  const grove=planted[Math.floor(planted.length/2)];
+  G.cam.x=Math.max(0,grove.x*TS-180);G.cam.y=Math.max(0,grove.y*TS-150);
+  render();captures[id+'-plantio']=document.getElementById('game').toDataURL().split(',')[1];
   const tree=m.deco.find(d=>d.kind==='tree'&&m.t[d.y*m.w+Math.floor(d.x)]===T_SOLID);
   if(!tree || !cypressStyle(m,tree))throw Error('Missing cypress '+id);
   const treeCam=Math.max(0,tree.x*TS-175);
@@ -26,7 +31,7 @@
    if(runs.at(-1)?.[1]===row)continue;
    runs.push([tx,row]);
   }
-  stats[id]={collisionHash:(hash>>>0).toString(16),w:m.w,h:m.h,runs,decor:m.deco.filter(d=>['pond_bridge','cloudplat','crop','pavilion_myriadd','fountain_myriadd'].includes(d.kind)),doors:m.ents.filter(e=>e.type==='door').map(e=>[e.x,e.y,e.to])};
+  stats[id]={newCypresses:planted.length,collisionHash:(hash>>>0).toString(16),w:m.w,h:m.h,runs,decor:m.deco.filter(d=>['pond_bridge','cloudplat','crop','pavilion_myriadd','fountain_myriadd'].includes(d.kind)),doors:m.ents.filter(e=>e.type==='door').map(e=>[e.x,e.y,e.to])};
   for(const cam of cams){
    G.cam.x=cam;G.cam.y=Math.max(0,Math.min(m.h*TS-225,(runs.findLast(([x,y])=>x*TS<=cam+150)?.[1]||16)*TS-153));
    G.tick=120;render();captures[id+'-'+cam]=document.getElementById('game').toDataURL().split(',')[1];

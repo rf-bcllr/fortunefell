@@ -1,6 +1,7 @@
 {
   "stats": {
     "garden": {
+      "newCypresses": 11,
       "collisionHash": "2d912fd",
       "w": 220,
       "h": 30,
@@ -66,6 +67,7 @@
       "waterCalls": 5
     },
     "out": {
+      "newCypresses": 12,
       "collisionHash": "bedaf393",
       "w": 183,
       "h": 26,
@@ -176,6 +178,7 @@
       "waterCalls": 5
     },
     "terr": {
+      "newCypresses": 6,
       "collisionHash": "bc67f5b",
       "w": 81,
       "h": 30,
@@ -292,5 +295,5 @@
       144
     ]
   },
-  "sha256": "13f92c190c22f3401da9a07fad68f7077d696784ac69c00252dcd25a923474a2"
+  "sha256": "240decb15945082ac69dd588568c7399bcd00b6bcaca365dc20960d8771cc3d5"
 }
