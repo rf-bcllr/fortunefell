@@ -1,12 +1,20 @@
 () => {
  window.freeze=true;
- const {G,Menu,Snd,loadMap,render,LEVELS,TS,T_SOLID,Art,I,tickWorld,myriaddViews}=window.audit;
+ const {G,Menu,Snd,loadMap,render,LEVELS,TS,T_SOLID,Art,I,tickWorld,myriaddViews,cypressStyle,waterfallAtlas,waterCalls}=window.audit;
  Menu.close();Snd.setOn(false);G.state='play';G.fade=G.fadeTo=0;
  const stats={},captures={};
+ const fx=Art.get('myriadd_waterfall');
+ if(!fx||fx.width!==waterfallAtlas.w*waterfallAtlas.columns||waterfallAtlas.frames!==60)throw Error('Waterfall atlas');
  for(const [id,cams] of [['garden',[0,1140,1570,2840]],['out',[0,540,1100,2280]],['terr',[0,290,480,830]]]){
   loadMap(id);G.lock=false;
   const m=G.map;
+  waterCalls.length=0;
   if(!Art.get(myriaddViews[id]))throw Error('Missing panorama '+id);
+  const tree=m.deco.find(d=>d.kind==='tree'&&m.t[d.y*m.w+Math.floor(d.x)]===T_SOLID);
+  if(!tree || !cypressStyle(m,tree))throw Error('Missing cypress '+id);
+  const treeCam=Math.max(0,tree.x*TS-175);
+  G.cam.x=treeCam;G.cam.y=tree.y*TS-146;
+  render();captures[id+'-cipreste']=document.getElementById('game').toDataURL().split(',')[1];
   let hash=2166136261;
   for(const tile of m.t)hash=Math.imul(hash^tile,16777619);
   const runs=[];
@@ -21,6 +29,9 @@
    G.cam.x=cam;G.cam.y=Math.max(0,Math.min(m.h*TS-225,(runs.findLast(([x,y])=>x*TS<=cam+150)?.[1]||16)*TS-153));
    G.tick=120;render();captures[id+'-'+cam]=document.getElementById('game').toDataURL().split(',')[1];
   }
+  if(!waterCalls.some(call=>call.kind==='fall'))throw Error('No visible fall '+id);
+  if(id==='garden'&&!waterCalls.some(call=>call.kind==='surface'))throw Error('No canal reflection');
+  stats[id].waterCalls=waterCalls.length;
  }
  loadMap('garden','west');G.lock=false;
  const bridges=G.map.deco.filter(d=>d.kind==='pond_bridge');
@@ -42,6 +53,8 @@
   if(G.player.x<(bridge.x+bridge.w)*TS)throw Error('Bridge crossing failed '+bridge.x);
   walked.push(bridge.x);
  }
+ const forest=LEVELS.im;
+ if(cypressStyle(forest,forest.deco.find(d=>d.kind==='tree')))throw Error('Iomadh sprite overridden');
  const imgs=['royal_myriadd_grand','bridge_myriadd_2x','garden_bridge_railing','fountain_myriadd_2x'];
- return {stats,walked,art:Object.fromEntries(imgs.map(n=>[n,[Art.get(n)?.width,Art.get(n)?.height]])),captures};
+ return {stats,walked,waterfallFrames:waterfallAtlas.frames,art:Object.fromEntries(imgs.map(n=>[n,[Art.get(n)?.width,Art.get(n)?.height]])),captures};
 }

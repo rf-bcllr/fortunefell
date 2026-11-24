@@ -62,7 +62,8 @@
           null,
           "out"
         ]
-      ]
+      ],
+      "waterCalls": 5
     },
     "out": {
       "collisionHash": "bedaf393",
@@ -171,7 +172,8 @@
           null,
           "garden"
         ]
-      ]
+      ],
+      "waterCalls": 2
     },
     "terr": {
       "collisionHash": "bc67f5b",
@@ -263,13 +265,15 @@
           null,
           "out"
         ]
-      ]
+      ],
+      "waterCalls": 5
     }
   },
   "walked": [
     14,
     190
   ],
+  "waterfallFrames": 60,
   "art": {
     "royal_myriadd_grand": [
       1283,
@@ -288,5 +292,5 @@
       144
     ]
   },
-  "sha256": "ab30ee72f9e4183ba522f3b9153bbbab28c5a567edf45a2158fae3a6535c6dd2"
+  "sha256": "99c98d09de6bbfe401baecc1c43555ce6824d3e8ac2c4ef761057fb4898e764f"
 }
