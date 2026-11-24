@@ -9,7 +9,7 @@ O autor enviou as onze pranchas no chat. As imagens ficaram acessíveis para con
 | Sacerdote da Fortuna | `sacerdote-da-fortuna` | Tranças brancas, auréola da Roda Sagrada, manto bordô e marfim, turíbulo |
 | Llúpin | `llupin` | Cabelos castanhos, broche de lua, livro vermelho, óculos de prata para ler |
 | Llewlás | `llewlas` | Cabelo loiro preso, ombreira de leão, braços e mãos à mostra, braçadeiras douradas, azul de Éhrein, corno de caça |
-| A Velha Bruxa das Charnecas | `bruxa-das-charnecas` | Cabelo claro volumoso, cajado torto, talismãs, manto verde-oliva e malva |
+| A Velha Bruxa das Charnecas | `bruxa-das-charnecas` | Cabelo claro volumoso, rede de pesca sobre a saia, rosto sem pintura, cajado torto à altura do cabelo, talismãs, manto verde-oliva e malva |
 | Pódhraic | `podhraic` | Mechas claras, estrela na face, gola de leque, marfim e violeta, tecido de losangos |
 | Lúgham | `lugham` | Coroa dourada sóbria, cabelo castanho, bigode e barba grisalha, manto azul com gola de pele |
 | A’Maídhe | `amaidhe` | Focinho alongado, pelo escuro, monóculo dourado, manto âmbar, olho de Iomadh |

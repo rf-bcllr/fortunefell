@@ -180,3 +180,10 @@ As silhuetas do primeiro plano usam o mesmo preenchimento opaco da moldura do jo
 - [Quadros de Llewlás](llewlas-poses.png)
 
 Próximos lotes, na ordem pedida. Os 86 NPCs partem de seus retratos e da escala de Idhrí. Em seguida vêm as criaturas. A revisão de props e terreno usa os espantalhos da Bruxa como régua de contorno, resolução e detalhe e começa pelos banners dos reinos.
+
+
+## Bruxa das Charnecas
+
+A rede cobre a parte frontal da saia. O rosto usa apenas sombreamento natural, e o gancho do cajado chega à altura do cabelo. O gesto de fala usa uma mão no cajado e a outra aberta. Os três quadros foram conferidos na cabana.
+
+[Comparação das três poses](bruxa-comparacao.png)
