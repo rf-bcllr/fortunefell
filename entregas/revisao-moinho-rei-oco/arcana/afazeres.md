@@ -236,3 +236,15 @@ O recorte remove o fundo magenta pela faixa de intensidade e cor do próprio fun
 Os 65 visuais de NPC, usados em 86 presenças, voltaram a piscar e respirar em repouso. Os quadros alteram a região dos olhos e do tórax e mantêm a silhueta e o apoio. Os ritmos variam por personagem e posição no mapa. Quadros de diálogo, leitura e forja mantêm sua prioridade. Llewlás recuperou o movimento em repouso e guarda.
 
 - [Comparação de transparência](transparencia-arte.png)
+
+
+## Proporções do rosto, contornos e voo
+
+A’Maídhe conserva a altura. O rosto foi ampliado com Idhrí e o conselheiro Fiadhra como referência de escala, com olhos e monoculo mais legíveis. Pódhraic recupera o rosto angular, a estrela da face, o broche da Roda da Fortuna e o xadrez em losangos.
+
+O contorno das folhas mais finas recebeu reforço na segunda faixa de pixels, seguindo a leitura de Idhrí e dos espantalhos. A transparência e o apoio dos sprites foram conferidos junto dos quadros de repouso.
+
+Os corvos comuns e de Éhrein têm duas batidas de asa com as patas visíveis e dobradas junto ao corpo. O bico mantém o mesmo ponto entre as poses. Os corvos da Bruxa desenham a folha em 2× e têm um quadro próprio para o pouso.
+
+- [Comparação do elenco](regua-do-elenco.png)
+- [Quadros dos corvos](corvos-em-voo.png)
