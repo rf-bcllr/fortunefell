@@ -15410,6 +15410,14 @@ function drawTerraceCloudCurrent(ctx,map,camera){
   const profile=[[0,24],[11,21],[23,19],[33,16],[45,16],[57,13],[68,11],[81,11]];
   const tick=quietWeather.matches?0:G.tick;
   ctx.save();
+  ctx.beginPath();
+  for(let col=Math.max(0,Math.floor(camera.x/TS));col<Math.min(map.w,Math.ceil((camera.x+W)/TS));col++){
+    let row=0;
+    while(row<map.h && map.t[row*map.w+col]!==T_SOLID)row++;
+    const top=row===map.h?0:Math.round(row*TS+10-camera.y);
+    if(top<H) ctx.rect(col*TS-camera.x,top,TS,H-top);
+  }
+  ctx.clip();
   for(let layer=0;layer<2;layer++){
     const stride=105+layer*16, width=stride+64;
     for(let i=Math.floor((camera.x-width)/stride);i*stride<camera.x+W+10;i++){
