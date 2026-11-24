@@ -15337,9 +15337,26 @@ function drawPalacePaving(ctx,map,camera){
 }
 
 function drawMyriaddMosaic(ctx, x, floor) {
-  const inlay=Art.get('myriadd_palace_inlay');
-  if(!inlay || x < -60 || x > W+60)return;
-  ctx.drawImage(inlay,Math.round(x-28),Math.round(floor-28),56,16);
+  ctx.save();
+  ctx.translate(x, floor - 3);
+  ctx.scale(1, .24);
+  ctx.fillStyle = '#fff5dd';
+  ctx.strokeStyle = '#ae7935';
+  ctx.lineWidth = 2.7;
+  ctx.beginPath();
+  ctx.ellipse(0, 0, 44, 25, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.stroke();
+  ctx.fillStyle = '#c48e3f';
+  ctx.beginPath();
+  for (let i = 0; i < 16; i++) {
+    const a = Math.PI * i / 8, radius = i % 2 ? .22 : i % 4 ? .57 : 1;
+    const px = Math.cos(a) * radius * 34, py = Math.sin(a) * radius * 23;
+    if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+  }
+  ctx.closePath();
+  ctx.fill();
+  ctx.restore();
 }
 
 const myriaddCypressArt = [
