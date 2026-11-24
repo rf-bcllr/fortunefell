@@ -167,3 +167,16 @@ O repouso ganhou 2,5 unidades de altura e a guarda depois da estocada ganhou 6,5
 O repouso e a guarda após a estocada usam o mesmo desenho e a mesma respiração. A postura ganhou duas unidades de largura, centradas sobre o mesmo apoio. A altura medida no Chromium em repouso e em guarda é de 44 unidades com a lança.
 
 [Comparação](llewlas-repouso-e-guarda.png)
+
+
+## Elenco principal e silhuetas
+
+Os onze personagens com prancha passam a usar desenhos a 2×. Idhrí continua sendo a régua. Os desenhos de repouso, leitura e conversa são quadros próprios. Llewlás tem 18 quadros para repouso, guarda, caminhada, corrida, salto, estocada e arremesso. O repouso e a guarda reutilizam o mesmo desenho.
+
+As silhuetas do primeiro plano usam o mesmo preenchimento opaco da moldura do jogo. A roda do Rio mantém seu eixo no mapa, e as nuvens passam à frente de Idhrí.
+
+- [Índice das pranchas canônicas](referencia-canonica-de-personagens.md)
+- [Régua do elenco](regua-do-elenco.png)
+- [Quadros de Llewlás](llewlas-poses.png)
+
+Próximos lotes, na ordem pedida. Os 86 NPCs partem de seus retratos e da escala de Idhrí. Em seguida vêm as criaturas. A revisão de props e terreno usa os espantalhos da Bruxa como régua de contorno, resolução e detalhe e começa pelos banners dos reinos.

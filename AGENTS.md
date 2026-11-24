@@ -16,6 +16,10 @@ A fila canônica é data/tasks.json. Issues recebem propostas e discussões; nã
 
 O jogo original ainda não foi importado. Não recrie uma demo substituta nem trate o portal como jogo funcional. O relatório e a bíblia recebidos são contexto, não autorização automática para executar tarefas antigas. Decisões atuais do autor prevalecem; lore em aberto não deve ser inventada. O PDF contém spoilers e não deve entrar em public/. Registre divergências e peça orientação apenas quando necessário para a tarefa em andamento.
 
+## Arte de personagens
+
+Consulte as [pranchas canônicas](entregas/revisao-moinho-rei-oco/arcana/referencia-canonica-de-personagens.md) antes de desenhar ou revisar a arte de um personagem com ficha aprovada. Use o sprite de Idhrí como régua de escala, proporções, contorno, resolução e detalhe.
+
 ## Verificação
 
 Portal: python -m unittest discover -s tests -v; node --check public/app.js; python tools/build_portal.py.
