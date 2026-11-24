@@ -42,6 +42,11 @@ def validate(root):
         assert entry.parts[:2] == ('demos', release['version']) and entry.suffix == '.html'
         target = root / 'public' / str(entry)
         assert target.is_file() and not target.is_symlink(), 'HTML da demo ausente'
+        if 'archive' in release:
+            archive = release['archive']
+            assert re.fullmatch(r'[a-zA-Z0-9][a-zA-Z0-9._-]*\.zip', archive), 'Nome do ZIP inválido'
+            pack = target.with_name(archive)
+            assert pack.is_file() and not pack.is_symlink(), 'ZIP da demo ausente'
         assert release['commit'] and release['checks'], 'Versão exige commit de origem e verificações'
     for path in (root / 'public').rglob('*'):
         assert not path.is_symlink(), 'Links simbólicos não são permitidos no conteúdo público'
@@ -70,6 +75,9 @@ def build(root=ROOT, output=None, commit='local'):
     for r in releases:
         version_cards.append(f'<article class="release"><h3>{esc(r["version"])}</h3><p>{esc(r["summary"])}</p><p>Origem: <code>{esc(r["commit"])}</code></p><p>Verificações: {esc(r["checks"])}</p><a href="{esc(r["entry"])}">Testar {esc(r["version"])}</a></article>')
     demo = f'<a class="button" href="{esc(releases[-1]["entry"])}">Jogar {esc(releases[-1]["version"])}</a>' if releases else '<div class="notice"><strong>Demo aguardando importação</strong><p>Os assets deste pacote ainda precisam ser integrados à demo. A versão externa continua no endereço original.</p><a class="button button-secondary" href="https://fortune-fell-recuperado.fragrantgear2.chatgpt.site/">Abrir demo original ↗</a></div>'
+    if releases and (archive := releases[-1].get('archive')):
+        url = PurePosixPath(releases[-1]['entry']).with_name(archive)
+        demo += f' <a class="button button-secondary" href="{esc(url)}" download>Baixar ZIP da demo ↓</a>'
     replacements = {'COMMIT': esc(commit), 'TASKS': ''.join(cards), 'DEMO': demo, 'RELEASES': ''.join(version_cards) or '<p>Nenhuma versão importada neste portal.</p>'}
     replacements.update(COMPLETE_URL=esc(complete['url']), COMPLETE_SIZE=esc(complete['size']), DOWNLOADS=''.join(download_cards), SOURCES=sources, TASK_DONE=str(sum(t['status'] == 'done' for t in tasks)), TASK_OPEN=str(sum(t['status'] != 'done' for t in tasks)))
     page = re.sub(r'\{\{([A-Z_]+)\}\}', lambda m: replacements[m[1]], template)

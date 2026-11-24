@@ -5,5 +5,13 @@
     "commit": "32bad344980fafff1c22f287732b6af9acea1e89",
     "summary": "Revisão visual dos Arquivos aprovada pelo autor; módulo central alinhado, mesa tratada e uma única plataforma invisível.",
     "checks": "Sintaxe JS; 8 saltos reais, 8 saves e 12 tentativas sem Percepção PASS. Revisão visual por capturas. Sem run completa; deploy público ainda não verificado."
+  },
+  {
+    "version": "v-demo-moinho-gilead",
+    "entry": "demos/v-demo-moinho-gilead/index.html",
+    "archive": "demo-pixel-art.zip",
+    "commit": "32047529afa7be82485b9e972356398a3f387ff1",
+    "summary": "Quatro apoios invisíveis no moinho, plataformas contínuas na arena da Guardiã e elenco corrigido em Gileád.",
+    "checks": "Rota do moinho testada da roda à viga. 30 moedas com E e 15 com flecha. 27 pousos e 27 descidas testados na arena."
   }
 ]
